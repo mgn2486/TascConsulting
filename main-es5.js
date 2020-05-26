@@ -1,10 +1,110 @@
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"], {
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/Admin-customer/customer-profile/customer-profile/customer-profile.component.html":
+  /*!****************************************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/Admin-customer/customer-profile/customer-profile/customer-profile.component.html ***!
+    \****************************************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppAdminCustomerCustomerProfileCustomerProfileCustomerProfileComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<p>customer-profile works!</p>\n";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/Admin-customer/layout/customer-admin-layout/customer-footer/customer-footer.component.html":
+  /*!**************************************************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/Admin-customer/layout/customer-admin-layout/customer-footer/customer-footer.component.html ***!
+    \**************************************************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppAdminCustomerLayoutCustomerAdminLayoutCustomerFooterCustomerFooterComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<p>customer-footer works!</p>\n";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/Admin-customer/layout/customer-admin-layout/customer-header/customer-header.component.html":
+  /*!**************************************************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/Admin-customer/layout/customer-admin-layout/customer-header/customer-header.component.html ***!
+    \**************************************************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppAdminCustomerLayoutCustomerAdminLayoutCustomerHeaderCustomerHeaderComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<div class=\"container\">\n    <mat-toolbar class=\"toolbar-container\" color=\"primary\">\n        <div class=\"row\">\n            <div class=\"col-lg\">\n                Current User -  <span style=\" font-size: 0.8em;\">Welcome: {{firstName}} {{lastName}} {{initials}}</span>\n            </div>\n        </div>\n    </mat-toolbar>\n</div>";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/Admin-customer/layout/customer-admin-layout/customer-main-layout/customer-main-layout.component.html":
+  /*!************************************************************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/Admin-customer/layout/customer-admin-layout/customer-main-layout/customer-main-layout.component.html ***!
+    \************************************************************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppAdminCustomerLayoutCustomerAdminLayoutCustomerMainLayoutCustomerMainLayoutComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<div class=\"container\">\n    <div class=\"row col-lg\">\n        <app-customer-header  [firstName] = \"firstName\"  [lastName] = \"lastName\"  [initials] = \"initials\"></app-customer-header>\n    </div>\n</div>\n<mat-sidenav-container>\n  <mat-sidenav mode=\"push\" [(opened)]=\"opened\">\n  <mat-nav-list>\n     <app-customer-sidebar></app-customer-sidebar>\n  </mat-nav-list>\n  </mat-sidenav>\n  <mat-sidenav-content>\n  <mat-toolbar color=\"primary\">\n      <span class=\"MyMenuIcon\">\n          <button (click)=\"opened=!opened\">\n          <mat-icon matPrefix >reorder</mat-icon>\n          Menu\n          </button>\n      </span>\n      <span style=\"margin-left: 20px;\">Tasc Training Member</span> \n      <span class=\"MylogoutIcon\">\n          <button mat-icon-button><mat-icon matPrefix (click)=\"onLogout()\" >power_settings_new</mat-icon></button>\n      </span>\n  </mat-toolbar>\n  <router-outlet></router-outlet>\n  </mat-sidenav-content>\n  <div class=\"row\" style=\"margin: 5px;\">\n  <div class=\"col-lg-12\">\n      <app-customer-footer></app-customer-footer>\n  </div>\n  </div>\n</mat-sidenav-container>";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/Admin-customer/layout/customer-admin-layout/customer-sidebar/customer-sidebar.component.html":
+  /*!****************************************************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/Admin-customer/layout/customer-admin-layout/customer-sidebar/customer-sidebar.component.html ***!
+    \****************************************************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppAdminCustomerLayoutCustomerAdminLayoutCustomerSidebarCustomerSidebarComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<div class=\"d-flex flex-column\" style=\"background: lightsteelblue; margin-left: 5px;\">\n  <div class=\"p-1 align-self-center my-flex-item\"><h4>Menu</h4></div>\n  <div class=\"p-1 linkTitle\"><i class=\"fa fa-home\"></i><a routerLink=\"/admin/doctors\"> Profile</a></div> \n  <div class=\"p-1 linkTitle\"><i class=\"fa fa-film\"></i><a routerLink=\"/women-gallery\">  Appointments</a></div>\n  <div class=\"p-1 linkTitle\"><i class=\"fa fa-users\"></i><a routerLink=\"/users\">Send Mail</a></div>\n  <div class=\"p-1 linkTitle\"><i class=\"fa fa-cogs\"></i><a routerLink=\"/account-settings\"> Account Settings</a></div>\n  <br>\n  <div class=\"p-2 align-self-center my-flex-item\"><span class=\"btn btn-primary\"><i class=\"fa fa-angle-double-left\"></i> <i class=\"fa fa-angle-double-left\"></i></span></div>\n</div>";
+    /***/
+  },
+
   /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/aboutus/aboutus.component.html":
   /*!**************************************************************************************!*\
@@ -21,47 +121,107 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"container\">\r\n    <div class=row>\r\n      <div class=\"col-xs-12 col-lg-12\">\r\n        <h2>About Us</h2>\r\n        <hr>\r\n      </div>\r\n    </div>\r\n    <div class=row>\r\n      <div class=\"col-xs-12\">\r\n        <p>\r\n          Tasc Business Consulting and training is a 100% black owned company. We specialize in training, business consulting, \r\n          and research. We offer training to government departments, municipalities, private institutions and NGOs. Our courses \r\n          and services assist our clients to enable and empower employees to become competitive differentiators for their company. \r\n          Backed with our energetic, dynamic and exemplarily team we have the ability to successfully give you the best service to \r\n          suite your needs.\r\n        </p>\r\n      </div>\r\n    </div>\r\n    <div class=row>\r\n        <div class=\"col-xs-12 col-lg-4\">\r\n          <img src=\"assets/images/aboutus/about_1.jpg\" width=\"100%\" class=\"img-responsive img-thumbnail\" />\r\n        </div>\r\n        <div class=\"col-xs-12 col-lg-8\">\r\n          <p> We are recognized for our reliability and our years of experience within the industry has given us the \r\n              knowledge that is needed to ensure that jobs  are run professionally, to schedule and are cost effective. This gives our \r\n              clients comfort, confidence and less stress when engaging in our services. Our highly skilled facilitators are backed by \r\n              a professional administration team which further enhances our overall services. We take pride in our team that possesses \r\n              a judicious blend of knowledge in training, business consulting and research. We strive for quality and excellence-to be \r\n              above the rest. \r\n          </p>\r\n        </div>\r\n    </div>\r\n    <div class=\"row\">\r\n      <div class=\"col-xs-12\">\r\n          <h3>OUR MISSION</h3>\r\n          <p>\r\n            Our mission as an organization is to provide hands-on and pertinent business consulting and training that positively impact \r\n            the society and equip employees with relevant skills for their personal development which will translate to high productivity \r\n            in the organization.\r\n          </p>\r\n          <h3>OUR VISION</h3>\r\n          <p>\r\n            Our vision is to excel in what we do and be above the rest in offering our clients with exceptional training and consulting \r\n            ervices. We aim to be one of the biggest global firm for training and business consulting in South Africa and beyond our borders.\r\n          </p>\r\n      </div>\r\n    </div>\r\n    <div class=\"row\">\r\n        <div class=\"col-xs-12\">\r\n          <h3>CORE VALUES</h3>\r\n        </div>\r\n    </div> \r\n    <div class=\"row\">\r\n      <div class=\"col-lg-6\">\r\n          <p>\r\n            At Tasc business consulting and training we see things differently. We see our strengths in the quality of our people and our \r\n            genuine relationships with clients, partners and communities. We see our success linked to our ability to deliver certainty \r\n            through consistent performance. We see our future shaped by all that has made us successful in the past.\r\n          </p>\r\n      </div>\r\n      <div class=\"col-lg-6\">\r\n          <img src=\"assets/images/aboutus/about_2.jpg\" width=\"100%\" class=\"img-responsive img-thumbnail\" />\r\n      </div>\r\n    </div>\r\n        \r\n    <div class=\"row\">\r\n      <div class=\"col-xs-12\">\r\n          <h4>OUR BELIEF IS DRIVEN BY EMBEDDED VALUES</h4>\r\n          <div class=\"col-xs-12\">\r\n            <p>\r\n                &nbsp;TASC is focused on providing a conducive environment for both our employees and clients that is driven & supported by the following core values;\r\n            </p>\r\n          </div>\r\n  \r\n          <div class=\"col-xs-12\">\r\n          <h4><small>INTEGRITY</small></h4>\r\n          <p>Its in all that we do</p>\r\n          </div>\r\n  \r\n          <div class=\"col-xs-12\">\r\n          <h4><small>FAIRNESS</small></h4>\r\n          <p>And concern for our employees</p>\r\n          </div>\r\n  \r\n          <div class=\"col-xs-12\">\r\n          <h4><small>CORPORATE CITIZENSHIP</small></h4> \r\n          <p>To the communities within which we operate</p>\t\r\n          </div>\r\n  \r\n          <div class=\"col-xs-12\">\r\n          <h4><small>EXCELLENCE</small> </h4>\r\n          <p>To our products, services and initiatives</p>\r\n          </div>\r\n  \r\n          <div class=\"col-xs-12\">\r\n          <h4><small>TRANSPARENCY</small></h4>\r\n          <p>To our employees and clients</p>\r\n          </div>\r\n  \r\n          <div class=\"col-xs-12\">\r\n          <h4><small>SHARING</small></h4>\r\n          <p>Our success</p>\r\n          </div>            \r\n      </div>\r\n    </div>\r\n  \r\n    <div class=\"row\">\r\n      <div class=\"col-xs-12 col-lg-12\">\r\n          <img src=\"assets/images/aboutus/base_2.jpg\" width=\"100%\" class=\"img-responsive img-thumbnail\"/>\r\n      </div>\r\n    </div>\r\n        \r\n  </div>\r\n";
+    __webpack_exports__["default"] = "<div class=\"container\">\r\n    <div class=row>\r\n      <div class=\"col-xs-12 col-lg-12\">\r\n        <h2>About Us</h2>\r\n        <hr>\r\n      </div>\r\n    </div>\r\n    <div class=row>\r\n      <div class=\"col-xs-12\">\r\n        <p>\r\n          Tasc Business Consulting and training is a 100% black owned company. We specialize in training, business consulting, and research. \r\n          We offer training to government departments, municipalities, private institutions and NGOs.\r\n           <br><br>\r\n           We offer flexibility to our clients by offering both in-house and offsite training. We have build a network facilitators in all the \r\n           provinces in South Africa and beyond the borders for your convenience and accessibility. Our flexibility and desire to meet client \r\n           needs means we can provide courses anytime, anywhere and for any number. We strive for quality and excellence through offering practical \r\n           trainings.\r\n        </p>\r\n      </div>\r\n    </div>\r\n    <div class=row>\r\n        <div class=\"col-xs-12 col-lg-4\">\r\n          <img src=\"assets/images/aboutus/about_1.jpg\" width=\"100%\" class=\"img-responsive img-thumbnail\" />\r\n        </div>\r\n        <div class=\"col-xs-12 col-lg-8\">\r\n          <p> We are recognized for our reliability and our years of experience within the industry has given us the \r\n              knowledge that is needed to ensure that jobs  are run professionally, to schedule and are cost effective. This gives our \r\n              clients comfort, confidence and less stress when engaging in our services. Our highly skilled facilitators are backed by \r\n              a professional administration team which further enhances our overall services. We take pride in our team that possesses \r\n              a judicious blend of knowledge in training, business consulting and research. We strive for quality and excellence-to be \r\n              above the rest. \r\n          </p>\r\n        </div>\r\n    </div>\r\n    <div class=\"row\">\r\n      <div class=\"col-xs-12\">\r\n          <h3>OUR MISSION</h3>\r\n          <p>\r\n            Our mission as an organization is to provide hands-on and pertinent business consulting and training that positively impact \r\n            the society and equip employees with relevant skills for their personal development which will translate to high productivity \r\n            in the organization.\r\n          </p>\r\n          <h3>OUR VISION</h3>\r\n          <p>\r\n            Our vision is to excel in what we do and be above the rest in offering our clients with exceptional training and consulting \r\n            ervices. We aim to be one of the biggest global firm for training and business consulting in South Africa and beyond our borders.\r\n          </p>\r\n      </div>\r\n    </div>\r\n    <div class=\"row\">\r\n        <div class=\"col-xs-12\">\r\n          <h3>CORE VALUES</h3>\r\n        </div>\r\n    </div> \r\n    <div class=\"row\">\r\n      <div class=\"col-lg-6\">\r\n          <p>\r\n            At Tasc business consulting and training we see things differently. We see our strengths in the quality of our people and our \r\n            genuine relationships with clients, partners and communities. We see our success linked to our ability to deliver certainty \r\n            through consistent performance. We see our future shaped by all that has made us successful in the past.\r\n          </p>\r\n      </div>\r\n      <div class=\"col-lg-6\">\r\n          <img src=\"assets/images/aboutus/about_2.jpg\" width=\"100%\" class=\"img-responsive img-thumbnail\" />\r\n      </div>\r\n    </div>\r\n        \r\n    <div class=\"row\">\r\n      <div class=\"col-xs-12\">\r\n          <h4>OUR BELIEF IS DRIVEN BY EMBEDDED VALUES</h4>\r\n          <div class=\"col-xs-12\">\r\n            <p>\r\n                &nbsp;TASC is focused on providing a conducive environment for both our employees and clients that is driven & supported by the following core values;\r\n            </p>\r\n          </div>\r\n  \r\n          <div class=\"col-xs-12\">\r\n          <h4><small>INTEGRITY</small></h4>\r\n          <p>Its in all that we do</p>\r\n          </div>\r\n  \r\n          <div class=\"col-xs-12\">\r\n          <h4><small>FAIRNESS</small></h4>\r\n          <p>And concern for our employees</p>\r\n          </div>\r\n  \r\n          <div class=\"col-xs-12\">\r\n          <h4><small>CORPORATE CITIZENSHIP</small></h4> \r\n          <p>To the communities within which we operate</p>\t\r\n          </div>\r\n  \r\n          <div class=\"col-xs-12\">\r\n          <h4><small>EXCELLENCE</small> </h4>\r\n          <p>To our products, services and initiatives</p>\r\n          </div>\r\n  \r\n          <div class=\"col-xs-12\">\r\n          <h4><small>TRANSPARENCY</small></h4>\r\n          <p>To our employees and clients</p>\r\n          </div>\r\n  \r\n          <div class=\"col-xs-12\">\r\n          <h4><small>SHARING</small></h4>\r\n          <p>Our success</p>\r\n          </div>            \r\n      </div>\r\n    </div>\r\n  \r\n    <div class=\"row\">\r\n      <div class=\"col-xs-12 col-lg-12\">\r\n          <img src=\"assets/images/aboutus/base_2.jpg\" width=\"100%\" class=\"img-responsive img-thumbnail\"/>\r\n      </div>\r\n    </div>\r\n        \r\n  </div>\r\n";
     /***/
   },
 
   /***/
-  "./node_modules/raw-loader/dist/cjs.js!./src/app/admin/administration/admin/admin.component.html":
-  /*!*******************************************************************************************************!*\
-    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/admin/administration/admin/admin.component.html ***!
-    \*******************************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/admin/admin-home/admin-home/admin-home.component.html":
+  /*!*************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/admin/admin-home/admin-home/admin-home.component.html ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: default */
 
   /***/
-  function node_modulesRawLoaderDistCjsJsSrcAppAdminAdministrationAdminAdminComponentHtml(module, __webpack_exports__, __webpack_require__) {
+  function node_modulesRawLoaderDistCjsJsSrcAppAdminAdminHomeAdminHomeAdminHomeComponentHtml(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<p>admin works!</p>\n";
+    __webpack_exports__["default"] = "<p>admin-home works!</p>\n";
     /***/
   },
 
   /***/
-  "./node_modules/raw-loader/dist/cjs.js!./src/app/admin/layout/main-layout/main-layout.component.html":
-  /*!***********************************************************************************************************!*\
-    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/admin/layout/main-layout/main-layout.component.html ***!
-    \***********************************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/admin/layout/admin-footer/admin-footer.component.html":
+  /*!*************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/admin/layout/admin-footer/admin-footer.component.html ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: default */
 
   /***/
-  function node_modulesRawLoaderDistCjsJsSrcAppAdminLayoutMainLayoutMainLayoutComponentHtml(module, __webpack_exports__, __webpack_require__) {
+  function node_modulesRawLoaderDistCjsJsSrcAppAdminLayoutAdminFooterAdminFooterComponentHtml(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<mat-sidenav-container>\r\n\r\n    <mat-sidenav mode=\"push\" [(opened)]=\"opened\">\r\n        <span>Menu</span>\r\n        <mat-nav-list>\r\n            <a mat-list-item routerLink=\"/home\" (click)=\"onSidenavClose()\">\r\n              <mat-icon>home</mat-icon> <span class=\"nav-caption\">Home</span>\r\n            </a>\r\n            <a mat-list-item routerLink=\"/aboutus\" (click)=\"onSidenavClose()\">\r\n              <mat-icon>unfold_more</mat-icon><span class=\"nav-caption\">Update System</span>\r\n            </a>\r\n            <a mat-list-item routerLink=\"/courses\" (click)=\"onSidenavClose()\">\r\n              <mat-icon>add_photo_alternate</mat-icon><span class=\"nav-caption\">Our Courses</span>\r\n            </a>\r\n            <a mat-list-item routerLink=\"/gallery\" (click)=\"onSidenavClose()\">\r\n              <mat-icon>add_photo_alternate</mat-icon><span class=\"nav-caption\">Gallery</span>\r\n            </a>\r\n            <a mat-list-item routerLink=\"/tascusers\" (click)=\"onSidenavClose()\">\r\n              <mat-icon>group</mat-icon><span class=\"nav-caption\">Members</span>\r\n            </a>\r\n            <a mat-list-item routerLink=\"/team\" (click)=\"onSidenavClose()\">\r\n              <mat-icon>add_photo_alternate</mat-icon><span class=\"nav-caption\">Team</span>\r\n            </a>\r\n            <a mat-list-item routerLink=\"/contactus\" (click)=\"onSidenavClose()\">\r\n              <mat-icon>local_post_office</mat-icon><span class=\"nav-caption\">Send Messages</span>\r\n            </a>\r\n            <mat-list-item [matMenuTriggerFor]=\"menu\">\r\n              <mat-icon>unfold_more</mat-icon>\r\n              <a matline>Actions</a>\r\n            </mat-list-item>\r\n            <mat-menu #menu=\"matMenu\">\r\n              <button mat-menu-item (click)=\"onSidenavClose()\">Close</button>\r\n              <button mat-menu-item (click)=\"onSidenavClose()\">Add contact</button>\r\n            </mat-menu>\r\n          </mat-nav-list>\r\n    </mat-sidenav>\r\n\r\n    <mat-sidenav-content>\r\n        <mat-toolbar color=\"primary\">\r\n            <span class=\"MyMenuIcon\">\r\n                <mat-icon matPrefix (click)=\"opened=!opened\" >reorder</mat-icon>\r\n            </span>\r\n            <span style=\"margin-left: 20px;\">TASC Administrations <br>\r\n            <span style=\"color: white; font-size: 0.8em;\">Welcome: {{firstName}} {{lastName}} {{initials}}</span></span> \r\n            <span class=\"fill-space\"></span>\r\n            <span class=\"MylogoutIcon\">\r\n                <button mat-icon-button><mat-icon matPrefix (click)=\"onLogout()\" >power_settings_new</mat-icon></button>\r\n            </span>\r\n            <!-- <div class=\"card m-5\" style=\"width:18rem\" *ngIf=\"userDetails\">\r\n                <ul class=\"list-group\">\r\n                    <li class=\"list-group-item\"><strong>Username : </strong>{{userDetails.userName}}</li>\r\n                    <li class=\"list-group-item\"><strong>FullName : </strong>{{userDetails.fullName}}</li>\r\n                    <li class=\"list-group-item\"><strong>Email : </strong>{{userDetails.email}}</li>\r\n                </ul>\r\n            </div> -->\r\n        </mat-toolbar>\r\n        \r\n\r\n        <router-outlet></router-outlet>\r\n\r\n    </mat-sidenav-content>\r\n</mat-sidenav-container>\r\n";
+    __webpack_exports__["default"] = "<p>admin-footer works!</p>\n";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/admin/layout/admin-header/admin-header.component.html":
+  /*!*************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/admin/layout/admin-header/admin-header.component.html ***!
+    \*************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppAdminLayoutAdminHeaderAdminHeaderComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<mat-toolbar color=\"primary\">\n    <div class=\"row\">\n        <div class=\"col-lg\">\n            User Profile <br>\n            <span style=\" font-size: 0.8em;\">Welcome: {{firstName}} {{lastName}} {{initials}}</span>\n        </div>\n    </div>\n</mat-toolbar>";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/admin/layout/admin-mainlayout/admin-mainlayout.component.html":
+  /*!*********************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/admin/layout/admin-mainlayout/admin-mainlayout.component.html ***!
+    \*********************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppAdminLayoutAdminMainlayoutAdminMainlayoutComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<div class=\"container\">\n    <div class=\"row col-lg\">\n      <app-admin-header  [firstName] = \"firstName\"  [lastName] = \"lastName\"  [initials] = \"initials\"></app-admin-header>\n    </div>\n  </div>\n  <mat-sidenav-container>\n      <mat-sidenav mode=\"push\" [(opened)]=\"opened\">\n        <mat-nav-list>\n          <app-admin-sidebar></app-admin-sidebar>\n        </mat-nav-list>\n      </mat-sidenav>\n  \n      <mat-sidenav-content>\n        <mat-toolbar color=\"primary\">\n            <span class=\"MyMenuIcon\">\n              <button (click)=\"opened=!opened\">\n                <mat-icon matPrefix >reorder</mat-icon>\n                Menu\n              </button>\n            </span>\n            <span style=\"margin-left: 20px;\">Abour-Medical Administration</span> \n            <span class=\"MylogoutIcon\">\n                <button mat-icon-button><mat-icon matPrefix (click)=\"onLogout()\" >power_settings_new</mat-icon></button>\n            </span>\n        </mat-toolbar>\n        <router-outlet></router-outlet>\n      </mat-sidenav-content>\n  \n      <div class=\"row\" style=\"margin: 5px;\">\n        <div class=\"col-lg-12\">\n          <app-admin-footer></app-admin-footer>\n        </div>\n      </div>  \n  \n  </mat-sidenav-container>\n\n    \n  ";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/admin/layout/admin-sidebar/admin-sidebar.component.html":
+  /*!***************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/admin/layout/admin-sidebar/admin-sidebar.component.html ***!
+    \***************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppAdminLayoutAdminSidebarAdminSidebarComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<p>admin-sidebar works!</p>\n";
     /***/
   },
 
@@ -121,7 +281,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"container\">\r\n  <h4>CONTACT US</h4>\r\n  <p>Please use any of the following options</p>\r\n<hr>\r\n\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col-12 col-md-8\">\r\n      <mat-card style=\"margin-bottom: 15px;\"  color=\"primary\">\r\n          <mat-card-header  color=\"primary\">\r\n             <mat-card-title> <h4 class=\"site-text\">Send Us a Message</h4></mat-card-title>\r\n             <hr>\r\n         </mat-card-header>\r\n         <!-- <img mat-card-image src=\"assets/images/home/home_2.jpg\" alt=\"Photo of a Shiba Inu\"> -->\r\n         <mat-card-content>\r\n          <form [formGroup]=\"ContactForm\" autocomplete=\"off\" class=\"col-12 white\" (ngSubmit)=\"OnSubmit(ContactForm)\" (blur)=\"logValidationErrors()\">\r\n                <div class=\"input-field-class\">\r\n        \r\n                  <div class=\"row\">\r\n                    <mat-form-field  class=\"col-12\">\r\n                      <mat-label>Full Name</mat-label>\r\n                      <input matInput placeholder=\"Full Name\" #fullName ngModel formControlName=\"fullName\" (blur)=\"logValidationErrors()\">\r\n                      <mat-icon matPrefix>person_outline</mat-icon>\r\n                      <mat-error *ngIf=\"formErrors.fullName\"><b>{{formErrors.fullName}}</b></mat-error>\r\n                    </mat-form-field>\r\n                  </div>\r\n        \r\n                  <div class=\"row\">\r\n                    <mat-form-field  class=\"col\">\r\n                      <mat-label>Email Address</mat-label>    \r\n                      <input matInput placeholder=\"Email Address\" #emailAddress ngModel formControlName=\"emailAddress\" (blur)=\"logValidationErrors()\">\r\n                      <mat-icon matPrefix>mail</mat-icon>\r\n                      <mat-error *ngIf=\"formErrors.emailAddress\"><b>{{formErrors.emailAddress}}</b></mat-error>\r\n                    </mat-form-field>\r\n                  </div>\r\n        \r\n                  <div class=\"row\">\r\n                    <mat-form-field class=\"col\">\r\n                      <mat-label>Subject</mat-label>      \r\n                      <input matInput (keyup)=\"applyFilter($event.target.value)\"  placeholder=\"Subject\" #subject ngModel formControlName=\"subject\" (blur)=\"logValidationErrors()\">\r\n                      <mat-icon matPrefix>mail</mat-icon>\r\n                      <mat-error *ngIf=\"formErrors.subject\"><b>{{formErrors.subject}}</b></mat-error>\r\n                    </mat-form-field>\r\n                  </div>\r\n        \r\n                  <div class=\"row\">\r\n                      <mat-form-field class=\"col stretch-height\" >\r\n                          <mat-label>Message</mat-label>\r\n                          <textarea matInput rows=\"10\" (keyup)=\"applyFilter($event.target.value)\"  placeholder=\"Message\" formControlName=\"message\" (blur)=\"logValidationErrors()\"></textarea>\r\n                          <mat-error *ngIf=\"formErrors.message\"><b>{{formErrors.message}}</b></mat-error>\r\n                        </mat-form-field>\r\n                  </div>\r\n        \r\n                  <div class=\"row s12\">\r\n                    <button color=\"primary\" [disabled]=\"!ContactForm.valid\" mat-raised-button>Sign - UP</button>\r\n                  </div>\r\n                </div>\r\n             </form>\r\n         </mat-card-content>\r\n        </mat-card> \r\n    </div>\r\n    <div class=\"col-12 col-md-4\">\r\n      <h4>Call Us</h4>\r\n    <hr>\r\n    <p>\r\n      <b>Landline : </b> +27 (0)15 590 1114 <br>\r\n      <b>Mobile : </b>+27 (0)78 109 5318  <br>\r\n      <b>Email  : </b> info@mormocare.org <br>       \r\n  \r\n      <br>\r\n      tau@tascconsulting.co.za\r\n      <br>\r\n      info@tascconsulting.co.za\r\n      <br>       \r\n    </p>\r\n    <br>\r\n    <h4>Physical Address : </h4>\r\n    <hr>\r\n    <p>\r\n      Number 7 Reitbok Street<br> Tzaneen,<br> Limpopo,<br>0850       \r\n    </p>\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.582805678776!2d30.171721314983014!3d-23.833429984548438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec402108db36aa5%3A0xd0a42c5ab0a4b133!2s7+Rietbok+St%2C+Tzaneen%2C+0850!5e0!3m2!1sen!2sza!4v1550538395016\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:1 px solid grey\" allowfullscreen></iframe>\r\n    </div>\r\n  </div>\r\n</div>\r\n</div>\r\n\r\n\r\n\r\n\r\n  <!-- <div class=\"col-lg-8 col-md-8 col-sm-12 col-xs-12\">\r\n    <h4>Send Us a Message</h4>\r\n    <hr>      \r\n    <form [formGroup]=\"ContactForm\" novalidate>\r\n      \r\n        <div class=\"form-group\">\r\n            <label>Full Name:</label>\r\n            <input class=\"form-control\" formControlName=\"FullName\" type=\"text\">\r\n        </div>        \r\n        <div *ngIf=\"ContactForm.controls['FullName'].invalid && (ContactForm.controls['FullName'].dirty || ContactForm.controls['FullName'].touched)\" class=\"alert alert-danger\">\r\n           <div *ngIf=\"ContactForm.controls['FullName'].errors.required\">\r\n              Your full name is required.\r\n           </div>\r\n        </div>\r\n\r\n        <div class=\"form-group\">\r\n            <label>Your Email:</label>\r\n            <input class=\"form-control\" formControlName=\"EmailFrom\" type=\"text\">\r\n        </div>        \r\n        <div *ngIf=\"ContactForm.controls['EmailFrom'].invalid && (ContactForm.controls['EmailFrom'].dirty || ContactForm.controls['EmailFrom'].touched)\" class=\"alert alert-danger\">\r\n           <div *ngIf=\"ContactForm.controls['EmailFrom'].errors.required\">\r\n              Your email is required.\r\n           </div>\r\n        </div>\r\n\r\n        <div class=\"form-group\">\r\n            <label>Subject To:</label>\r\n            <input class=\"form-control\" formControlName=\"Subject\" type=\"text\">\r\n        </div>\r\n        <div *ngIf=\"ContactForm.controls['Subject'].invalid && (ContactForm.controls['Subject'].dirty || ContactForm.controls['Subject'].touched)\" class=\"alert alert-danger\">\r\n            <div *ngIf=\"ContactForm.controls['Subject'].errors.required\">\r\n              Subject is required.\r\n            </div>\r\n        </div>\r\n  \r\n        <div class=\"form-group\">\r\n            <label>Message :</label>\r\n            <textarea class=\"form-control\" formControlName=\"Message\" type=\"textarea\" rows=\"10\"></textarea>\r\n        </div>\r\n        <div *ngIf=\"ContactForm.controls['Message'].invalid && (ContactForm.controls['Message'].dirty || ContactForm.controls['Message'].touched)\" class=\"alert alert-danger\">\r\n            <div *ngIf=\"ContactForm.controls['Message'].errors.required\">\r\n              Message is required.\r\n            </div>\r\n        </div>\r\n  \r\n        <button type=\"submit\"\r\n            [disabled]=\"ContactForm.pristine || ContactForm.invalid\" class=\"btn btn-success\" (click)= 'SendMail()'>\r\n            Send Mail\r\n        </button>\r\n        <div class=\"form-group message\">\r\n            <p style=\" text-align: center; font-weight: bold;\" [style.color]=\"hasErrors ? 'red': 'green'\">\r\n              {{ responseSent }}\r\n            </p>\r\n        </div>\r\n         <div *ngIf=\"isLoading\" class=\"relative\">\r\n            <app-spinner></app-spinner>\r\n        </div>          \r\n    </form>\r\n    <br />\r\n    \r\n     <p>Form value: {{ emailUsForm.value | json }}</p>\r\n    <p>Form status: {{ emailUsForm.status | json }}</p>\r\n\r\n  </div>\r\n\r\n  <div class=\"col-lg-4 col-md-4 col-sm-12 col-xs-12\">\r\n    <h4>Call Us</h4>\r\n    <hr>\r\n    <p>\r\n      <b>Landline : </b> +27 (0) 31 261 1907 <br> <b>Or     : </b> +27 (0) 31 829 9130 <br>\r\n      <b>Mobile : </b>+27 (0) 78 253 9442  <br>\r\n      <b>Or     : </b>+27 (0) 65 822 3164  <br><br>\r\n      <b>Email  : </b>tau@tascconsulting.co.za / info@tascconsulting.co.za  <br>       \r\n    </p>\r\n    <br>\r\n    <h4>Physical Address : </h4>\r\n    <hr>\r\n    <p>\r\n      1 Helston Road,<br> Westridge,<br> Berea,<br>Durban, <br> 4091      \r\n    </p>\r\n  </div>\r\n  \r\n</div>\r\n\r\n<div class=\"row\">\r\n  <h4>Find Us</h4>\r\n  <hr>\r\n  <br>\r\n  <div class=\"col-lg-12 col-md-12 col-sm-12 col-xs-12\">\r\n    <p>\r\n      <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3460.154426062503!2d30.979720315110836!3d-29.859819981949762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7aa035588fdc3%3A0xbbf19900bf754834!2s1+Helston+Rd%2C+Westridge%2C+Berea%2C+4091!5e0!3m2!1sen!2sza!4v1544405290074\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:1 px solid grey\" allowfullscreen></iframe>\r\n  </p>\r\n  </div>\r\n  \r\n\r\n</div> -->\r\n\r\n";
+    __webpack_exports__["default"] = "<div class=\"container\">\r\n  <h4>CONTACT US</h4>\r\n  <p>Please use any of the following options</p>\r\n<hr>\r\n\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col-12 col-md-8\">\r\n      <mat-card style=\"margin-bottom: 15px;\"  color=\"primary\">\r\n          <mat-card-header  color=\"primary\">\r\n             <mat-card-title> <h4 class=\"site-text\">Send Us a Message</h4></mat-card-title>\r\n             <hr>\r\n         </mat-card-header>\r\n         <!-- <img mat-card-image src=\"assets/images/home/home_2.jpg\" alt=\"Photo of a Shiba Inu\"> -->\r\n         <mat-card-content>\r\n          <form [formGroup]=\"ContactForm\" autocomplete=\"off\" class=\"col-12 white\" (ngSubmit)=\"OnSubmit(ContactForm)\" (blur)=\"logValidationErrors()\">\r\n                <div class=\"input-field-class\">\r\n        \r\n                  <div class=\"row\">\r\n                    <mat-form-field  class=\"col-12\">\r\n                      <mat-label>Full Name</mat-label>\r\n                      <input matInput placeholder=\"Full Name\" #fullName ngModel formControlName=\"fullName\" (blur)=\"logValidationErrors()\">\r\n                      <mat-icon matPrefix>person_outline</mat-icon>\r\n                      <mat-error *ngIf=\"formErrors.fullName\"><b>{{formErrors.fullName}}</b></mat-error>\r\n                    </mat-form-field>\r\n                  </div>\r\n        \r\n                  <div class=\"row\">\r\n                    <mat-form-field  class=\"col\">\r\n                      <mat-label>Email Address</mat-label>    \r\n                      <input matInput placeholder=\"Email Address\" #emailAddress ngModel formControlName=\"emailAddress\" (blur)=\"logValidationErrors()\">\r\n                      <mat-icon matPrefix>mail</mat-icon>\r\n                      <mat-error *ngIf=\"formErrors.emailAddress\"><b>{{formErrors.emailAddress}}</b></mat-error>\r\n                    </mat-form-field>\r\n                  </div>\r\n        \r\n                  <div class=\"row\">\r\n                    <mat-form-field class=\"col\">\r\n                      <mat-label>Subject</mat-label>      \r\n                      <input matInput (keyup)=\"applyFilter($event.target.value)\"  placeholder=\"Subject\" #subject ngModel formControlName=\"subject\" (blur)=\"logValidationErrors()\">\r\n                      <mat-icon matPrefix>mail</mat-icon>\r\n                      <mat-error *ngIf=\"formErrors.subject\"><b>{{formErrors.subject}}</b></mat-error>\r\n                    </mat-form-field>\r\n                  </div>\r\n        \r\n                  <div class=\"row\">\r\n                      <mat-form-field class=\"col stretch-height\" >\r\n                          <mat-label>Message</mat-label>\r\n                          <textarea matInput rows=\"10\" (keyup)=\"applyFilter($event.target.value)\"  placeholder=\"Message\" formControlName=\"message\" (blur)=\"logValidationErrors()\"></textarea>\r\n                          <mat-error *ngIf=\"formErrors.message\"><b>{{formErrors.message}}</b></mat-error>\r\n                        </mat-form-field>\r\n                  </div>\r\n        \r\n                  <div class=\"row s12\">\r\n                    <button color=\"primary\" [disabled]=\"!ContactForm.valid\" mat-raised-button>Sign - UP</button>\r\n                  </div>\r\n                </div>\r\n             </form>\r\n         </mat-card-content>\r\n        </mat-card> \r\n    </div>\r\n    <div class=\"col-12 col-md-4\">\r\n      <h4>Call Us</h4>\r\n    <hr>\r\n    <p>\r\n      <b>Landline : </b> +27 (0)31 261 1907 <br>\r\n      <b>Mobile : </b>+27 (0)78 253 9442  <br>\r\n      <b>Email  : </b> info@tascconsulting.co.za <br>       \r\n  \r\n      <br>\r\n      tau@tascconsulting.co.za\r\n      <br>\r\n      info@tascconsulting.co.za\r\n      <br>       \r\n    </p>\r\n    <br>\r\n    <h4>Physical Address : </h4>\r\n    <hr>\r\n    <p> \r\n      1 Helston Road <br>Manor Gardens <br>Durban,<br> 4001     \r\n    </p>\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n        <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3460.154426062503!2d30.979720315110836!3d-29.859819981949762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7aa035588fdc3%3A0xbbf19900bf754834!2s1+Helston+Rd%2C+Westridge%2C+Berea%2C+4091!5e0!3m2!1sen!2sza!4v1544405290074\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:1 px solid grey\" allowfullscreen></iframe>\r\n    </div>\r\n  </div>\r\n</div>\r\n</div>\r\n\r\n\r\n\r\n\r\n  <!-- <div class=\"col-lg-8 col-md-8 col-sm-12 col-xs-12\">\r\n    <h4>Send Us a Message</h4>\r\n    <hr>      \r\n    <form [formGroup]=\"ContactForm\" novalidate>\r\n      \r\n        <div class=\"form-group\">\r\n            <label>Full Name:</label>\r\n            <input class=\"form-control\" formControlName=\"FullName\" type=\"text\">\r\n        </div>        \r\n        <div *ngIf=\"ContactForm.controls['FullName'].invalid && (ContactForm.controls['FullName'].dirty || ContactForm.controls['FullName'].touched)\" class=\"alert alert-danger\">\r\n           <div *ngIf=\"ContactForm.controls['FullName'].errors.required\">\r\n              Your full name is required.\r\n           </div>\r\n        </div>\r\n\r\n        <div class=\"form-group\">\r\n            <label>Your Email:</label>\r\n            <input class=\"form-control\" formControlName=\"EmailFrom\" type=\"text\">\r\n        </div>        \r\n        <div *ngIf=\"ContactForm.controls['EmailFrom'].invalid && (ContactForm.controls['EmailFrom'].dirty || ContactForm.controls['EmailFrom'].touched)\" class=\"alert alert-danger\">\r\n           <div *ngIf=\"ContactForm.controls['EmailFrom'].errors.required\">\r\n              Your email is required.\r\n           </div>\r\n        </div>\r\n\r\n        <div class=\"form-group\">\r\n            <label>Subject To:</label>\r\n            <input class=\"form-control\" formControlName=\"Subject\" type=\"text\">\r\n        </div>\r\n        <div *ngIf=\"ContactForm.controls['Subject'].invalid && (ContactForm.controls['Subject'].dirty || ContactForm.controls['Subject'].touched)\" class=\"alert alert-danger\">\r\n            <div *ngIf=\"ContactForm.controls['Subject'].errors.required\">\r\n              Subject is required.\r\n            </div>\r\n        </div>\r\n  \r\n        <div class=\"form-group\">\r\n            <label>Message :</label>\r\n            <textarea class=\"form-control\" formControlName=\"Message\" type=\"textarea\" rows=\"10\"></textarea>\r\n        </div>\r\n        <div *ngIf=\"ContactForm.controls['Message'].invalid && (ContactForm.controls['Message'].dirty || ContactForm.controls['Message'].touched)\" class=\"alert alert-danger\">\r\n            <div *ngIf=\"ContactForm.controls['Message'].errors.required\">\r\n              Message is required.\r\n            </div>\r\n        </div>\r\n  \r\n        <button type=\"submit\"\r\n            [disabled]=\"ContactForm.pristine || ContactForm.invalid\" class=\"btn btn-success\" (click)= 'SendMail()'>\r\n            Send Mail\r\n        </button>\r\n        <div class=\"form-group message\">\r\n            <p style=\" text-align: center; font-weight: bold;\" [style.color]=\"hasErrors ? 'red': 'green'\">\r\n              {{ responseSent }}\r\n            </p>\r\n        </div>\r\n         <div *ngIf=\"isLoading\" class=\"relative\">\r\n            <app-spinner></app-spinner>\r\n        </div>          \r\n    </form>\r\n    <br />\r\n    \r\n     <p>Form value: {{ emailUsForm.value | json }}</p>\r\n    <p>Form status: {{ emailUsForm.status | json }}</p>\r\n\r\n  </div>\r\n\r\n  <div class=\"col-lg-4 col-md-4 col-sm-12 col-xs-12\">\r\n    <h4>Call Us</h4>\r\n    <hr>\r\n    <p>\r\n      <b>Landline : </b> +27 (0) 31 261 1907 <br> <b>Or     : </b> +27 (0) 31 829 9130 <br>\r\n      <b>Mobile : </b>+27 (0) 78 253 9442  <br>\r\n      <b>Or     : </b>+27 (0) 65 822 3164  <br><br>\r\n      <b>Email  : </b>tau@tascconsulting.co.za / info@tascconsulting.co.za  <br>       \r\n    </p>\r\n    <br>\r\n    <h4>Physical Address : </h4>\r\n    <hr>\r\n    <p>\r\n      1 Helston Road,<br> Westridge,<br> Berea,<br>Durban, <br> 4091      \r\n    </p>\r\n  </div>\r\n  \r\n</div>\r\n\r\n<div class=\"row\">\r\n  <h4>Find Us</h4>\r\n  <hr>\r\n  <br>\r\n  <div class=\"col-lg-12 col-md-12 col-sm-12 col-xs-12\">\r\n    <p>\r\n      <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3460.154426062503!2d30.979720315110836!3d-29.859819981949762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7aa035588fdc3%3A0xbbf19900bf754834!2s1+Helston+Rd%2C+Westridge%2C+Berea%2C+4091!5e0!3m2!1sen!2sza!4v1544405290074\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:1 px solid grey\" allowfullscreen></iframe>\r\n  </p>\r\n  </div>\r\n  \r\n\r\n</div> -->\r\n\r\n";
     /***/
   },
 
@@ -146,6 +306,26 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/forbiden/forbiden.component.html":
+  /*!****************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/forbiden/forbiden.component.html ***!
+    \****************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppForbidenForbidenComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<div class=\"row\">\n    <mat-card>\n        <mat-card-header>\n            <mat-card-title>403 - ACCESS DENIED</mat-card-title>\n        </mat-card-header>\n        <img mat-card-image src=\"assets/images/403.png\" alt=\"Access Denied\">\n        <mat-card-content>\n            <p>You don't have the permission to access this resource.</p>\n        </mat-card-content>\n        <mat-card-actions>\n            <button mat-button>Close</button>\n        </mat-card-actions>\n    </mat-card>\n</div>\n\n\n  ";
+    /***/
+  },
+
+  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html":
   /*!********************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html ***!
@@ -161,7 +341,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<section fxLayout=\"column\" fxFlexAlign=\"stretch\">\r\n <div fxFlexAlign=\"center\">\r\n   <h3>Welcome to the TASC - Consulting</h3>\r\n </div>\r\n <app-banner></app-banner>\r\n <div class=\"row\">\r\n        <div class=\"col-sm\">\r\n            <mat-card>\r\n                <mat-card-header>\r\n                    <div mat-card-avatar class=\"example-header-image\"></div>\r\n                    <mat-card-title>Programmes</mat-card-title>\r\n                </mat-card-header>\r\n                <img mat-card-image src=\"assets/images/home/home_2.jpg\" alt=\"Photo of a Shiba Inu\">\r\n                <mat-card-content>\r\n                    <p>\r\n                    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.\r\n                    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally\r\n                    bred for hunting.\r\n                    </p>\r\n                </mat-card-content>\r\n                <mat-card-actions>\r\n                    <button mat-button>LIKE</button>\r\n                    <button mat-button>SHARE</button>\r\n                </mat-card-actions>\r\n            </mat-card>\r\n        </div>\r\n\r\n        <div class=\"col-sm\" class=\"col-md\">\r\n            <mat-card>\r\n                <mat-card-header >\r\n                    <div mat-card-avatar class=\"example-header-image\"></div>\r\n                    <mat-card-title>Courses</mat-card-title>\r\n                </mat-card-header>\r\n                <img mat-card-image src=\"assets/images/home/home_3.jpg\" alt=\"Photo of a Shiba Inu\">\r\n                <mat-card-content>\r\n                    <p>\r\n                    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.\r\n                    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally\r\n                    bred for hunting.\r\n                    </p>\r\n                </mat-card-content>\r\n                <mat-card-actions>\r\n                    <button mat-button>LIKE</button>\r\n                    <button mat-button>SHARE</button>\r\n                </mat-card-actions>\r\n            </mat-card>\r\n        </div>\r\n        <div class=\"col-sm\">\r\n            <mat-card>\r\n                <mat-card-header>\r\n                    <mat-card-title>Business Consulting</mat-card-title>\r\n                </mat-card-header>\r\n                <img mat-card-image src=\"assets/images/home/home_1.jpg\" alt=\"Photo of a Shiba Inu\">\r\n                <mat-card-content>\r\n                    <p>\r\n                    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.\r\n                    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally\r\n                    bred for hunting.\r\n                    </p>\r\n                </mat-card-content>\r\n                <mat-card-actions>\r\n                    <button mat-button>LIKE</button>\r\n                    <button mat-button>SHARE</button>\r\n                </mat-card-actions>\r\n            </mat-card>\r\n        </div>\r\n     </div>\r\n<br><br><div class=\"row\">\r\n    \r\n    <div class=\"col-md\">  \r\n    <mat-tab-group mat-stretch-tabs (selectedTabChange)=\"executeSelectedChange($event)\">\r\n        <mat-tab bg-color=\"primary\" label=\"Tasc Consulting courses\"> \r\n            <p>We offer various training courses that can guide you into building a success business structure</p> \r\n        </mat-tab>\r\n        <mat-tab label=\"On site Training\">\r\n            <p>Our trainers will come to your premises and set up training rooms</p>\r\n        </mat-tab>\r\n        <mat-tab label=\"Training Materials\">\r\n            <ol>\r\n                <li>Computers</li>\r\n                <li>Study Guide</li>\r\n                <li>Notes Provided</li>\r\n            </ol>\r\n        </mat-tab>\r\n    </mat-tab-group>  \r\n</div>\r\n</div>\r\n</section>\r\n";
+    __webpack_exports__["default"] = "<section fxLayout=\"column\" fxFlexAlign=\"stretch\">\r\n <div fxFlexAlign=\"center\">\r\n   <h3>Welcome to TASC - Consulting</h3>\r\n </div>\r\n <app-banner></app-banner>\r\n <div class=\"row\">\r\n        <div class=\"col-sm\">\r\n            <mat-card>\r\n                <mat-card-header>\r\n                    <div mat-card-avatar class=\"example-header-image\"></div>\r\n                    <mat-card-title>Programmes</mat-card-title>\r\n                </mat-card-header>\r\n                <img mat-card-image src=\"assets/images/home/home_2.jpg\" alt=\"Photo of a Shiba Inu\">\r\n                <mat-card-content>\r\n                    <p>\r\n                        TASC training programmes assist our clients to enable and empower employees to become competitive differentiators \r\n                        for their company. WE positively impact the society and equip employees with relevant skills for their personal \r\n                        development which will translate to high productivity in the organization\r\n                    </p>\r\n                </mat-card-content>\r\n                <mat-card-actions>\r\n                    <button mat-button>LIKE</button>\r\n                    <button mat-button>SHARE</button>\r\n                </mat-card-actions>\r\n            </mat-card>\r\n        </div>\r\n\r\n        <div class=\"col-sm\" class=\"col-md\">\r\n            <mat-card>\r\n                <mat-card-header >\r\n                    <div mat-card-avatar class=\"example-header-image\"></div>\r\n                    <mat-card-title>Courses</mat-card-title>\r\n                </mat-card-header>\r\n                <img mat-card-image src=\"assets/images/home/home_3.jpg\" alt=\"Photo of a Shiba Inu\">\r\n                <mat-card-content>\r\n                    <p>\r\n                    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.\r\n                    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally\r\n                    bred for hunting.\r\n                    </p>\r\n                </mat-card-content>\r\n                <mat-card-actions>\r\n                    <button mat-button>LIKE</button>\r\n                    <button mat-button>SHARE</button>\r\n                </mat-card-actions>\r\n            </mat-card>\r\n        </div>\r\n        <div class=\"col-sm\">\r\n            <mat-card>\r\n                <mat-card-header>\r\n                    <mat-card-title>Business Consulting</mat-card-title>\r\n                </mat-card-header>\r\n                <img mat-card-image src=\"assets/images/home/home_1.jpg\" alt=\"Photo of a Shiba Inu\">\r\n                <mat-card-content>\r\n                    <p>\r\n                        Our strategic offerings are simple, integrated and complete in every aspect, catering for a fast \r\n                        changing dynamic workplace. Our main consulting services are but not limited to;\r\n                        \r\n\r\n                    </p>\r\n                    <b>\r\n                        <ul>\r\n                            <li>Performance management system</li>\r\n                            <li>BEE verification</li>\r\n                            <li>Material Development </li>\r\n                        </ul>\r\n                    </b>\r\n                </mat-card-content>\r\n                <mat-card-actions>\r\n                    <button mat-button>LIKE</button>\r\n                    <button mat-button>SHARE</button>\r\n                </mat-card-actions>\r\n            </mat-card>\r\n        </div>\r\n     </div>\r\n<br><br><div class=\"row\">\r\n    \r\n    <div class=\"col-md\">  \r\n    <mat-tab-group mat-stretch-tabs (selectedTabChange)=\"executeSelectedChange($event)\">\r\n        <mat-tab bg-color=\"primary\" label=\"Tasc Consulting courses\"> \r\n            <p>We offer various training courses that can guide you into building a success business structure</p> \r\n        </mat-tab>\r\n        <mat-tab label=\"On site Training\">\r\n            <p>Our trainers will come to your premises and set up training rooms</p>\r\n        </mat-tab>\r\n        <mat-tab label=\"Training Materials\">\r\n            <ol>\r\n                <li>Computers</li>\r\n                <li>Study Guide</li>\r\n                <li>Notes Provided</li>\r\n            </ol>\r\n        </mat-tab>\r\n    </mat-tab-group>  \r\n</div>\r\n</div>\r\n</section>\r\n";
     /***/
   },
 
@@ -261,7 +441,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<mat-toolbar>\n    <div fxHide.gt-xs>\n        <button mat-icon-button [matMenuTriggerFor]=\"aboveMenu\">\n            <mat-icon>menu</mat-icon> Courses List\n        </button>\n        <mat-menu #aboveMenu=\"matMenu\" yPosition=\"below\">\n            <span  *ngFor=\"let dept of departments\">\n                <button mat-menu-item [routerLink]=\"['/courses', dept.department]\">{{dept.department}}</button>\n            </span>          \n        </mat-menu>\n    </div>\n    <div fxFlex fxLayout  fxHide.xs>\n        <ul fxLayout fxLayoutGap=\"5px\" class=\"navigation-items\" style=\"list-style-type:none\">\n            <div class=\"row\">\n                <li *ngFor=\"let dept of departments\"  class=\"col-sm-3 col-md-3 col-lg-3\">\n                    <button  mat-raised-button style=\"margin: 4px;\" color=\"primary\" [routerLink]=\"['/courses', dept.department]\">{{dept.department}}</button>\n                </li>\n            </div>\n        </ul>\n        <hr>\n    </div>\n</mat-toolbar>";
+    __webpack_exports__["default"] = "<mat-toolbar>\n    <div fxHide.gt-xs>\n        <button mat-icon-button [matMenuTriggerFor]=\"aboveMenu\">\n            <mat-icon>menu</mat-icon><span style=\"font-size: 20px; margin-left: 10px;\"><b>Courses List</b></span>\n        </button>\n        <mat-menu #aboveMenu=\"matMenu\" yPosition=\"below\">\n            <span  *ngFor=\"let dept of departments\">\n                <button mat-menu-item [routerLink]=\"['/courses', dept.department]\">{{dept.department}}</button>\n            </span>          \n        </mat-menu>\n    </div>\n    <div fxFlex fxLayout  fxHide.xs>\n        <ul fxLayout fxLayoutGap=\"5px\" class=\"navigation-items\" style=\"list-style-type:none\">\n            <div class=\"row\">\n                <li *ngFor=\"let dept of departments\"  class=\"col-sm-3 col-md-3 col-lg-3\">\n                    <button  mat-raised-button style=\"margin: 4px;\" color=\"primary\" [routerLink]=\"['/courses', dept.department]\">{{dept.department}}</button>\n                </li>\n            </div>\n        </ul>\n        <hr>\n    </div>\n</mat-toolbar>";
     /***/
   },
 
@@ -281,7 +461,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"container\">\n    <h3>TASC - Courses</h3>\n  <hr>\n\n  <p>\n      The following are some of the courses we offer at TASC Business consulting. We have a wide spectrum \n      of co-operate courses that we offer. Please click on amy of the following links to see more on\n      each of the categories of courses we offer;\n  </p>\n  <h4>Our Facilitators</h4>\n  <p>TASC makes use of experts in the field of education, training and development to meet our client needs. At TASC we have well experienced facilitators in all fields with a strong mix of academic and practical expertise. We believe the education of the future workforce, entrepreneurs, and managers of South African to be a highly important task. \n\n  </p>\n  <h4>Our Accredited Courses</h4>\n  <br>\n      <h5>We are fully acredited in the following courses with <b>LG SETA</b></h5> \n  <br>               \n    <p>  \n        <b>\n            <ul>\n                <li>57823 - National Certificate: Ward Committee Governance</li>\n                <li>50081 - Further Education and Training Certificate: Leadership</li>\n                <li>49605 - National Certificate: Environmental Practice</li>\n                <li>49554 - National Diploma: Public Finance Management and Administration</li>\n                <li>48965 - Certificate: Municipal Financial Management</li>\n            </ul>\n        </b>\n    </p>\n  <h4>Our Non-Accredited Courses</h4>\n  <br>\n   <app-course-navigation></app-course-navigation> \n   <app-course-list [department]=department >{{department}}</app-course-list>\n</div>\n";
+    __webpack_exports__["default"] = "<div class=\"container\">\n    <h3>TASC - Courses</h3>\n  <hr>\n\n  <p>\n      The following are some of the courses we offer at TASC Business consulting. We have a wide spectrum \n      of co-operate courses that we offer. Please click on amy of the following links to see more on\n      each of the categories of courses we offer;\n  </p>\n  <h4>Our Qualification Programmes</h4>\n  <br>\n      <h5>We are fully acredited in the following courses with <b>LG SETA</b></h5> \n  <br>               \n    <p>  \n        <b>\n            <ul>\n                <li>57823 - National Certificate: Ward Committee Governance</li>\n                <li>50081 - Further Education and Training Certificate: Leadership</li>\n                <li>49605 - National Certificate: Environmental Practice</li>\n                <li>49554 - National Diploma: Public Finance Management and Administration</li>\n                <li>48965 - Certificate: Municipal Financial Management</li>\n            </ul>\n        </b>\n    </p>\n  <h4>Short Skills Programmes</h4>\n  <br>\n   <app-course-navigation></app-course-navigation> \n   <app-course-list [department]=department >{{department}}</app-course-list>\n</div>\n";
     /***/
   },
 
@@ -456,6 +636,795 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
+  "./src/app/Admin-customer/customer-profile/customer-profile-routing.module.ts":
+  /*!************************************************************************************!*\
+    !*** ./src/app/Admin-customer/customer-profile/customer-profile-routing.module.ts ***!
+    \************************************************************************************/
+
+  /*! exports provided: CustomerProfileRoutingModule */
+
+  /***/
+  function srcAppAdminCustomerCustomerProfileCustomerProfileRoutingModuleTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "CustomerProfileRoutingModule", function () {
+      return CustomerProfileRoutingModule;
+    });
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+    /* harmony import */
+
+
+    var _layout_customer_admin_layout_customer_main_layout_customer_main_layout_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ../layout/customer-admin-layout/customer-main-layout/customer-main-layout.component */
+    "./src/app/Admin-customer/layout/customer-admin-layout/customer-main-layout/customer-main-layout.component.ts");
+    /* harmony import */
+
+
+    var _customer_profile_customer_profile_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ./customer-profile/customer-profile.component */
+    "./src/app/Admin-customer/customer-profile/customer-profile/customer-profile.component.ts");
+    /* harmony import */
+
+
+    var src_app_auth_authGuard_auth_guard__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! src/app/auth/authGuard/auth.guard */
+    "./src/app/auth/authGuard/auth.guard.ts");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
+      var c = arguments.length,
+          r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
+          d;
+      if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) {
+        if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+      }
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+
+    var __importDefault = undefined && undefined.__importDefault || function (mod) {
+      return mod && mod.__esModule ? mod : {
+        "default": mod
+      };
+    };
+
+    var routes = [{
+      path: 'delegate',
+      component: _layout_customer_admin_layout_customer_main_layout_customer_main_layout_component__WEBPACK_IMPORTED_MODULE_1__["CustomerMainLayoutComponent"],
+      children: [{
+        path: '',
+        component: _customer_profile_customer_profile_component__WEBPACK_IMPORTED_MODULE_2__["CustomerProfileComponent"],
+        canActivate: [src_app_auth_authGuard_auth_guard__WEBPACK_IMPORTED_MODULE_3__["AuthGuard"]],
+        data: {
+          permittedRoles: ['Customer']
+        }
+      }, {
+        path: 'profile',
+        component: _customer_profile_customer_profile_component__WEBPACK_IMPORTED_MODULE_2__["CustomerProfileComponent"],
+        canActivate: [src_app_auth_authGuard_auth_guard__WEBPACK_IMPORTED_MODULE_3__["AuthGuard"]],
+        data: {
+          permittedRoles: ['Customer']
+        }
+      }]
+    }];
+
+    var CustomerProfileRoutingModule = function CustomerProfileRoutingModule() {
+      _classCallCheck(this, CustomerProfileRoutingModule);
+    };
+
+    CustomerProfileRoutingModule = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_4__["NgModule"])({
+      imports: [_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"].forChild(routes)],
+      exports: [_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]]
+    })], CustomerProfileRoutingModule);
+    /***/
+  },
+
+  /***/
+  "./src/app/Admin-customer/customer-profile/customer-profile.module.ts":
+  /*!****************************************************************************!*\
+    !*** ./src/app/Admin-customer/customer-profile/customer-profile.module.ts ***!
+    \****************************************************************************/
+
+  /*! exports provided: CustomerProfileModule */
+
+  /***/
+  function srcAppAdminCustomerCustomerProfileCustomerProfileModuleTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "CustomerProfileModule", function () {
+      return CustomerProfileModule;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/common */
+    "./node_modules/@angular/common/fesm2015/common.js");
+    /* harmony import */
+
+
+    var _customer_profile_customer_profile_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ./customer-profile/customer-profile.component */
+    "./src/app/Admin-customer/customer-profile/customer-profile/customer-profile.component.ts");
+    /* harmony import */
+
+
+    var _customer_profile_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ./customer-profile-routing.module */
+    "./src/app/Admin-customer/customer-profile/customer-profile-routing.module.ts");
+    /* harmony import */
+
+
+    var src_app_material_material_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! src/app/material/material.module */
+    "./src/app/material/material.module.ts");
+
+    var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
+      var c = arguments.length,
+          r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
+          d;
+      if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) {
+        if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+      }
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+
+    var __importDefault = undefined && undefined.__importDefault || function (mod) {
+      return mod && mod.__esModule ? mod : {
+        "default": mod
+      };
+    };
+
+    var CustomerProfileModule = function CustomerProfileModule() {
+      _classCallCheck(this, CustomerProfileModule);
+    };
+
+    CustomerProfileModule = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+      declarations: [_customer_profile_customer_profile_component__WEBPACK_IMPORTED_MODULE_2__["CustomerProfileComponent"]],
+      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _customer_profile_routing_module__WEBPACK_IMPORTED_MODULE_3__["CustomerProfileRoutingModule"], src_app_material_material_module__WEBPACK_IMPORTED_MODULE_4__["MaterialModule"]]
+    })], CustomerProfileModule);
+    /***/
+  },
+
+  /***/
+  "./src/app/Admin-customer/customer-profile/customer-profile/customer-profile.component.css":
+  /*!*************************************************************************************************!*\
+    !*** ./src/app/Admin-customer/customer-profile/customer-profile/customer-profile.component.css ***!
+    \*************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppAdminCustomerCustomerProfileCustomerProfileCustomerProfileComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL0FkbWluLWN1c3RvbWVyL2N1c3RvbWVyLXByb2ZpbGUvY3VzdG9tZXItcHJvZmlsZS9jdXN0b21lci1wcm9maWxlLmNvbXBvbmVudC5jc3MifQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/Admin-customer/customer-profile/customer-profile/customer-profile.component.ts":
+  /*!************************************************************************************************!*\
+    !*** ./src/app/Admin-customer/customer-profile/customer-profile/customer-profile.component.ts ***!
+    \************************************************************************************************/
+
+  /*! exports provided: CustomerProfileComponent */
+
+  /***/
+  function srcAppAdminCustomerCustomerProfileCustomerProfileCustomerProfileComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "CustomerProfileComponent", function () {
+      return CustomerProfileComponent;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
+      var c = arguments.length,
+          r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
+          d;
+      if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) {
+        if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+      }
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+
+    var __metadata = undefined && undefined.__metadata || function (k, v) {
+      if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+    };
+
+    var __importDefault = undefined && undefined.__importDefault || function (mod) {
+      return mod && mod.__esModule ? mod : {
+        "default": mod
+      };
+    };
+
+    var CustomerProfileComponent =
+    /*#__PURE__*/
+    function () {
+      function CustomerProfileComponent() {
+        _classCallCheck(this, CustomerProfileComponent);
+      }
+
+      _createClass(CustomerProfileComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return CustomerProfileComponent;
+    }();
+
+    CustomerProfileComponent = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+      selector: 'app-customer-profile',
+      template: __importDefault(__webpack_require__(
+      /*! raw-loader!./customer-profile.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/Admin-customer/customer-profile/customer-profile/customer-profile.component.html")).default,
+      styles: [__importDefault(__webpack_require__(
+      /*! ./customer-profile.component.css */
+      "./src/app/Admin-customer/customer-profile/customer-profile/customer-profile.component.css")).default]
+    }), __metadata("design:paramtypes", [])], CustomerProfileComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/Admin-customer/layout/customer-admin-layout/customer-admin-layout.module.ts":
+  /*!*********************************************************************************************!*\
+    !*** ./src/app/Admin-customer/layout/customer-admin-layout/customer-admin-layout.module.ts ***!
+    \*********************************************************************************************/
+
+  /*! exports provided: CustomerAdminLayoutModule */
+
+  /***/
+  function srcAppAdminCustomerLayoutCustomerAdminLayoutCustomerAdminLayoutModuleTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "CustomerAdminLayoutModule", function () {
+      return CustomerAdminLayoutModule;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/common */
+    "./node_modules/@angular/common/fesm2015/common.js");
+    /* harmony import */
+
+
+    var _customer_footer_customer_footer_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ./customer-footer/customer-footer.component */
+    "./src/app/Admin-customer/layout/customer-admin-layout/customer-footer/customer-footer.component.ts");
+    /* harmony import */
+
+
+    var _customer_header_customer_header_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ./customer-header/customer-header.component */
+    "./src/app/Admin-customer/layout/customer-admin-layout/customer-header/customer-header.component.ts");
+    /* harmony import */
+
+
+    var _customer_sidebar_customer_sidebar_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! ./customer-sidebar/customer-sidebar.component */
+    "./src/app/Admin-customer/layout/customer-admin-layout/customer-sidebar/customer-sidebar.component.ts");
+    /* harmony import */
+
+
+    var _customer_main_layout_customer_main_layout_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! ./customer-main-layout/customer-main-layout.component */
+    "./src/app/Admin-customer/layout/customer-admin-layout/customer-main-layout/customer-main-layout.component.ts");
+    /* harmony import */
+
+
+    var src_app_material_material_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    /*! src/app/material/material.module */
+    "./src/app/material/material.module.ts");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+
+    var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
+      var c = arguments.length,
+          r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
+          d;
+      if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) {
+        if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+      }
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+
+    var __importDefault = undefined && undefined.__importDefault || function (mod) {
+      return mod && mod.__esModule ? mod : {
+        "default": mod
+      };
+    };
+
+    var CustomerAdminLayoutModule = function CustomerAdminLayoutModule() {
+      _classCallCheck(this, CustomerAdminLayoutModule);
+    };
+
+    CustomerAdminLayoutModule = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+      declarations: [_customer_footer_customer_footer_component__WEBPACK_IMPORTED_MODULE_2__["CustomerFooterComponent"], _customer_header_customer_header_component__WEBPACK_IMPORTED_MODULE_3__["CustomerHeaderComponent"], _customer_sidebar_customer_sidebar_component__WEBPACK_IMPORTED_MODULE_4__["CustomerSidebarComponent"], _customer_main_layout_customer_main_layout_component__WEBPACK_IMPORTED_MODULE_5__["CustomerMainLayoutComponent"]],
+      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], src_app_material_material_module__WEBPACK_IMPORTED_MODULE_6__["MaterialModule"], _angular_router__WEBPACK_IMPORTED_MODULE_7__["RouterModule"].forChild([])]
+    })], CustomerAdminLayoutModule);
+    /***/
+  },
+
+  /***/
+  "./src/app/Admin-customer/layout/customer-admin-layout/customer-footer/customer-footer.component.css":
+  /*!***********************************************************************************************************!*\
+    !*** ./src/app/Admin-customer/layout/customer-admin-layout/customer-footer/customer-footer.component.css ***!
+    \***********************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppAdminCustomerLayoutCustomerAdminLayoutCustomerFooterCustomerFooterComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL0FkbWluLWN1c3RvbWVyL2xheW91dC9jdXN0b21lci1hZG1pbi1sYXlvdXQvY3VzdG9tZXItZm9vdGVyL2N1c3RvbWVyLWZvb3Rlci5jb21wb25lbnQuY3NzIn0= */";
+    /***/
+  },
+
+  /***/
+  "./src/app/Admin-customer/layout/customer-admin-layout/customer-footer/customer-footer.component.ts":
+  /*!**********************************************************************************************************!*\
+    !*** ./src/app/Admin-customer/layout/customer-admin-layout/customer-footer/customer-footer.component.ts ***!
+    \**********************************************************************************************************/
+
+  /*! exports provided: CustomerFooterComponent */
+
+  /***/
+  function srcAppAdminCustomerLayoutCustomerAdminLayoutCustomerFooterCustomerFooterComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "CustomerFooterComponent", function () {
+      return CustomerFooterComponent;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
+      var c = arguments.length,
+          r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
+          d;
+      if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) {
+        if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+      }
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+
+    var __metadata = undefined && undefined.__metadata || function (k, v) {
+      if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+    };
+
+    var __importDefault = undefined && undefined.__importDefault || function (mod) {
+      return mod && mod.__esModule ? mod : {
+        "default": mod
+      };
+    };
+
+    var CustomerFooterComponent =
+    /*#__PURE__*/
+    function () {
+      function CustomerFooterComponent() {
+        _classCallCheck(this, CustomerFooterComponent);
+      }
+
+      _createClass(CustomerFooterComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return CustomerFooterComponent;
+    }();
+
+    CustomerFooterComponent = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+      selector: 'app-customer-footer',
+      template: __importDefault(__webpack_require__(
+      /*! raw-loader!./customer-footer.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/Admin-customer/layout/customer-admin-layout/customer-footer/customer-footer.component.html")).default,
+      styles: [__importDefault(__webpack_require__(
+      /*! ./customer-footer.component.css */
+      "./src/app/Admin-customer/layout/customer-admin-layout/customer-footer/customer-footer.component.css")).default]
+    }), __metadata("design:paramtypes", [])], CustomerFooterComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/Admin-customer/layout/customer-admin-layout/customer-header/customer-header.component.css":
+  /*!***********************************************************************************************************!*\
+    !*** ./src/app/Admin-customer/layout/customer-admin-layout/customer-header/customer-header.component.css ***!
+    \***********************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppAdminCustomerLayoutCustomerAdminLayoutCustomerHeaderCustomerHeaderComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL0FkbWluLWN1c3RvbWVyL2xheW91dC9jdXN0b21lci1hZG1pbi1sYXlvdXQvY3VzdG9tZXItaGVhZGVyL2N1c3RvbWVyLWhlYWRlci5jb21wb25lbnQuY3NzIn0= */";
+    /***/
+  },
+
+  /***/
+  "./src/app/Admin-customer/layout/customer-admin-layout/customer-header/customer-header.component.ts":
+  /*!**********************************************************************************************************!*\
+    !*** ./src/app/Admin-customer/layout/customer-admin-layout/customer-header/customer-header.component.ts ***!
+    \**********************************************************************************************************/
+
+  /*! exports provided: CustomerHeaderComponent */
+
+  /***/
+  function srcAppAdminCustomerLayoutCustomerAdminLayoutCustomerHeaderCustomerHeaderComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "CustomerHeaderComponent", function () {
+      return CustomerHeaderComponent;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
+      var c = arguments.length,
+          r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
+          d;
+      if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) {
+        if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+      }
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+
+    var __metadata = undefined && undefined.__metadata || function (k, v) {
+      if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+    };
+
+    var __importDefault = undefined && undefined.__importDefault || function (mod) {
+      return mod && mod.__esModule ? mod : {
+        "default": mod
+      };
+    };
+
+    var CustomerHeaderComponent =
+    /*#__PURE__*/
+    function () {
+      function CustomerHeaderComponent() {
+        _classCallCheck(this, CustomerHeaderComponent);
+
+        this.firstName = "";
+        this.lastName = "";
+        this.initials = "";
+      }
+
+      _createClass(CustomerHeaderComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return CustomerHeaderComponent;
+    }();
+
+    __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(), __metadata("design:type", String)], CustomerHeaderComponent.prototype, "firstName", void 0);
+
+    __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(), __metadata("design:type", String)], CustomerHeaderComponent.prototype, "lastName", void 0);
+
+    __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(), __metadata("design:type", String)], CustomerHeaderComponent.prototype, "initials", void 0);
+
+    CustomerHeaderComponent = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+      selector: 'app-customer-header',
+      template: __importDefault(__webpack_require__(
+      /*! raw-loader!./customer-header.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/Admin-customer/layout/customer-admin-layout/customer-header/customer-header.component.html")).default,
+      styles: [__importDefault(__webpack_require__(
+      /*! ./customer-header.component.css */
+      "./src/app/Admin-customer/layout/customer-admin-layout/customer-header/customer-header.component.css")).default]
+    }), __metadata("design:paramtypes", [])], CustomerHeaderComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/Admin-customer/layout/customer-admin-layout/customer-main-layout/customer-main-layout.component.css":
+  /*!*********************************************************************************************************************!*\
+    !*** ./src/app/Admin-customer/layout/customer-admin-layout/customer-main-layout/customer-main-layout.component.css ***!
+    \*********************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppAdminCustomerLayoutCustomerAdminLayoutCustomerMainLayoutCustomerMainLayoutComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL0FkbWluLWN1c3RvbWVyL2xheW91dC9jdXN0b21lci1hZG1pbi1sYXlvdXQvY3VzdG9tZXItbWFpbi1sYXlvdXQvY3VzdG9tZXItbWFpbi1sYXlvdXQuY29tcG9uZW50LmNzcyJ9 */";
+    /***/
+  },
+
+  /***/
+  "./src/app/Admin-customer/layout/customer-admin-layout/customer-main-layout/customer-main-layout.component.ts":
+  /*!********************************************************************************************************************!*\
+    !*** ./src/app/Admin-customer/layout/customer-admin-layout/customer-main-layout/customer-main-layout.component.ts ***!
+    \********************************************************************************************************************/
+
+  /*! exports provided: CustomerMainLayoutComponent */
+
+  /***/
+  function srcAppAdminCustomerLayoutCustomerAdminLayoutCustomerMainLayoutCustomerMainLayoutComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "CustomerMainLayoutComponent", function () {
+      return CustomerMainLayoutComponent;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+    /* harmony import */
+
+
+    var src_app_shared_services_User_Service_user_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! src/app/shared/services/User-Service/user.service */
+    "./src/app/shared/services/User-Service/user.service.ts");
+
+    var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
+      var c = arguments.length,
+          r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
+          d;
+      if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) {
+        if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+      }
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+
+    var __metadata = undefined && undefined.__metadata || function (k, v) {
+      if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+    };
+
+    var __importDefault = undefined && undefined.__importDefault || function (mod) {
+      return mod && mod.__esModule ? mod : {
+        "default": mod
+      };
+    };
+
+    var CustomerMainLayoutComponent =
+    /*#__PURE__*/
+    function () {
+      function CustomerMainLayoutComponent(route, userService) {
+        _classCallCheck(this, CustomerMainLayoutComponent);
+
+        this.route = route;
+        this.userService = userService;
+      }
+
+      _createClass(CustomerMainLayoutComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {
+          this.getUserProfileDetails();
+        }
+      }, {
+        key: "getUserProfileDetails",
+        value: function getUserProfileDetails() {
+          var _this = this;
+
+          this.userService.getUserProfile().subscribe(function (res) {
+            _this.userDetails = res;
+            _this.firstName = _this.userDetails.firstName;
+            _this.lastName = _this.userDetails.lastName;
+            _this.initials = _this.userDetails.initials;
+          }, function (err) {
+            console.log(err);
+          });
+        }
+      }, {
+        key: "onLogout",
+        value: function onLogout() {
+          localStorage.removeItem('token');
+          this.route.navigate(['./login']);
+        }
+      }]);
+
+      return CustomerMainLayoutComponent;
+    }();
+
+    CustomerMainLayoutComponent.ctorParameters = function () {
+      return [{
+        type: _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]
+      }, {
+        type: src_app_shared_services_User_Service_user_service__WEBPACK_IMPORTED_MODULE_2__["UserService"]
+      }];
+    };
+
+    CustomerMainLayoutComponent = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+      selector: 'app-customer-main-layout',
+      template: __importDefault(__webpack_require__(
+      /*! raw-loader!./customer-main-layout.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/Admin-customer/layout/customer-admin-layout/customer-main-layout/customer-main-layout.component.html")).default,
+      styles: [__importDefault(__webpack_require__(
+      /*! ./customer-main-layout.component.css */
+      "./src/app/Admin-customer/layout/customer-admin-layout/customer-main-layout/customer-main-layout.component.css")).default]
+    }), __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"], src_app_shared_services_User_Service_user_service__WEBPACK_IMPORTED_MODULE_2__["UserService"]])], CustomerMainLayoutComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/Admin-customer/layout/customer-admin-layout/customer-sidebar/customer-sidebar.component.css":
+  /*!*************************************************************************************************************!*\
+    !*** ./src/app/Admin-customer/layout/customer-admin-layout/customer-sidebar/customer-sidebar.component.css ***!
+    \*************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppAdminCustomerLayoutCustomerAdminLayoutCustomerSidebarCustomerSidebarComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL0FkbWluLWN1c3RvbWVyL2xheW91dC9jdXN0b21lci1hZG1pbi1sYXlvdXQvY3VzdG9tZXItc2lkZWJhci9jdXN0b21lci1zaWRlYmFyLmNvbXBvbmVudC5jc3MifQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/Admin-customer/layout/customer-admin-layout/customer-sidebar/customer-sidebar.component.ts":
+  /*!************************************************************************************************************!*\
+    !*** ./src/app/Admin-customer/layout/customer-admin-layout/customer-sidebar/customer-sidebar.component.ts ***!
+    \************************************************************************************************************/
+
+  /*! exports provided: CustomerSidebarComponent */
+
+  /***/
+  function srcAppAdminCustomerLayoutCustomerAdminLayoutCustomerSidebarCustomerSidebarComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "CustomerSidebarComponent", function () {
+      return CustomerSidebarComponent;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
+      var c = arguments.length,
+          r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
+          d;
+      if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) {
+        if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+      }
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+
+    var __metadata = undefined && undefined.__metadata || function (k, v) {
+      if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+    };
+
+    var __importDefault = undefined && undefined.__importDefault || function (mod) {
+      return mod && mod.__esModule ? mod : {
+        "default": mod
+      };
+    };
+
+    var CustomerSidebarComponent =
+    /*#__PURE__*/
+    function () {
+      function CustomerSidebarComponent() {
+        _classCallCheck(this, CustomerSidebarComponent);
+      }
+
+      _createClass(CustomerSidebarComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return CustomerSidebarComponent;
+    }();
+
+    CustomerSidebarComponent = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+      selector: 'app-customer-sidebar',
+      template: __importDefault(__webpack_require__(
+      /*! raw-loader!./customer-sidebar.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/Admin-customer/layout/customer-admin-layout/customer-sidebar/customer-sidebar.component.html")).default,
+      styles: [__importDefault(__webpack_require__(
+      /*! ./customer-sidebar.component.css */
+      "./src/app/Admin-customer/layout/customer-admin-layout/customer-sidebar/customer-sidebar.component.css")).default]
+    }), __metadata("design:paramtypes", [])], CustomerSidebarComponent);
+    /***/
+  },
+
+  /***/
   "./src/app/aboutus/aboutus.component.css":
   /*!***********************************************!*\
     !*** ./src/app/aboutus/aboutus.component.css ***!
@@ -549,54 +1518,54 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
-  "./src/app/admin/administration/admin-routing.module.ts":
-  /*!**************************************************************!*\
-    !*** ./src/app/admin/administration/admin-routing.module.ts ***!
-    \**************************************************************/
+  "./src/app/admin/admin-home/admin-home.module.ts":
+  /*!*******************************************************!*\
+    !*** ./src/app/admin/admin-home/admin-home.module.ts ***!
+    \*******************************************************/
 
-  /*! exports provided: AdministrationRoutingModule */
+  /*! exports provided: AdminHomeModule */
 
   /***/
-  function srcAppAdminAdministrationAdminRoutingModuleTs(module, __webpack_exports__, __webpack_require__) {
+  function srcAppAdminAdminHomeAdminHomeModuleTs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony export (binding) */
 
 
-    __webpack_require__.d(__webpack_exports__, "AdministrationRoutingModule", function () {
-      return AdministrationRoutingModule;
+    __webpack_require__.d(__webpack_exports__, "AdminHomeModule", function () {
+      return AdminHomeModule;
     });
     /* harmony import */
 
 
-    var _angular_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! @angular/router */
-    "./node_modules/@angular/router/fesm2015/router.js");
-    /* harmony import */
-
-
-    var _layout_main_layout_main_layout_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! ../layout/main-layout/main-layout.component */
-    "./src/app/admin/layout/main-layout/main-layout.component.ts");
-    /* harmony import */
-
-
-    var _admin_admin_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-    /*! ./admin/admin.component */
-    "./src/app/admin/administration/admin/admin.component.ts");
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
     /* harmony import */
 
 
-    var src_app_auth_authGuard_auth_guard__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-    /*! src/app/auth/authGuard/auth.guard */
-    "./src/app/auth/authGuard/auth.guard.ts");
+    var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/common */
+    "./node_modules/@angular/common/fesm2015/common.js");
+    /* harmony import */
+
+
+    var _admin_home_admin_home_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ./admin-home/admin-home.component */
+    "./src/app/admin/admin-home/admin-home/admin-home.component.ts");
+    /* harmony import */
+
+
+    var src_app_material_material_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! src/app/material/material.module */
+    "./src/app/material/material.module.ts");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
 
     var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
       var c = arguments.length,
@@ -614,66 +1583,55 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       };
     };
 
-    var routes = [{
-      path: 'admin',
-      component: _layout_main_layout_main_layout_component__WEBPACK_IMPORTED_MODULE_1__["MainLayoutComponent"],
-      canActivate: [src_app_auth_authGuard_auth_guard__WEBPACK_IMPORTED_MODULE_4__["AuthGuard"]],
-      children: [{
-        path: 'home',
-        component: _admin_admin_component__WEBPACK_IMPORTED_MODULE_2__["AdminComponent"],
-        canActivate: [src_app_auth_authGuard_auth_guard__WEBPACK_IMPORTED_MODULE_4__["AuthGuard"]]
-      }]
-    }];
-
-    var AdministrationRoutingModule = function AdministrationRoutingModule() {
-      _classCallCheck(this, AdministrationRoutingModule);
+    var AdminHomeModule = function AdminHomeModule() {
+      _classCallCheck(this, AdminHomeModule);
     };
 
-    AdministrationRoutingModule = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
-      imports: [_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"].forChild(routes)],
-      exports: [_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]]
-    })], AdministrationRoutingModule);
+    AdminHomeModule = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+      declarations: [_admin_home_admin_home_component__WEBPACK_IMPORTED_MODULE_2__["AdminHomeComponent"]],
+      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], src_app_material_material_module__WEBPACK_IMPORTED_MODULE_3__["MaterialModule"], _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"].forChild([])]
+    })], AdminHomeModule);
     /***/
   },
 
   /***/
-  "./src/app/admin/administration/admin/admin.component.css":
-  /*!****************************************************************!*\
-    !*** ./src/app/admin/administration/admin/admin.component.css ***!
-    \****************************************************************/
+  "./src/app/admin/admin-home/admin-home/admin-home.component.css":
+  /*!**********************************************************************!*\
+    !*** ./src/app/admin/admin-home/admin-home/admin-home.component.css ***!
+    \**********************************************************************/
 
   /*! exports provided: default */
 
   /***/
-  function srcAppAdminAdministrationAdminAdminComponentCss(module, __webpack_exports__, __webpack_require__) {
+  function srcAppAdminAdminHomeAdminHomeAdminHomeComponentCss(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FkbWluL2FkbWluaXN0cmF0aW9uL2FkbWluL2FkbWluLmNvbXBvbmVudC5jc3MifQ== */";
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FkbWluL2FkbWluLWhvbWUvYWRtaW4taG9tZS9hZG1pbi1ob21lLmNvbXBvbmVudC5jc3MifQ== */";
     /***/
   },
 
   /***/
-  "./src/app/admin/administration/admin/admin.component.ts":
-  /*!***************************************************************!*\
-    !*** ./src/app/admin/administration/admin/admin.component.ts ***!
-    \***************************************************************/
+  "./src/app/admin/admin-home/admin-home/admin-home.component.ts":
+  /*!*********************************************************************!*\
+    !*** ./src/app/admin/admin-home/admin-home/admin-home.component.ts ***!
+    \*********************************************************************/
 
-  /*! exports provided: AdminComponent */
+  /*! exports provided: AdminHomeComponent */
 
   /***/
-  function srcAppAdminAdministrationAdminAdminComponentTs(module, __webpack_exports__, __webpack_require__) {
+  function srcAppAdminAdminHomeAdminHomeAdminHomeComponentTs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony export (binding) */
 
 
-    __webpack_require__.d(__webpack_exports__, "AdminComponent", function () {
-      return AdminComponent;
+    __webpack_require__.d(__webpack_exports__, "AdminHomeComponent", function () {
+      return AdminHomeComponent;
     });
     /* harmony import */
 
@@ -702,226 +1660,362 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       };
     };
 
-    var AdminComponent =
+    var AdminHomeComponent =
     /*#__PURE__*/
     function () {
-      function AdminComponent() {
-        _classCallCheck(this, AdminComponent);
+      function AdminHomeComponent() {
+        _classCallCheck(this, AdminHomeComponent);
       }
 
-      _createClass(AdminComponent, [{
+      _createClass(AdminHomeComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {}
       }]);
 
-      return AdminComponent;
+      return AdminHomeComponent;
     }();
 
-    AdminComponent = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-      selector: 'app-admin',
+    AdminHomeComponent = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+      selector: 'app-admin-home',
       template: __importDefault(__webpack_require__(
-      /*! raw-loader!./admin.component.html */
-      "./node_modules/raw-loader/dist/cjs.js!./src/app/admin/administration/admin/admin.component.html")).default,
+      /*! raw-loader!./admin-home.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/admin/admin-home/admin-home/admin-home.component.html")).default,
       styles: [__importDefault(__webpack_require__(
-      /*! ./admin.component.css */
-      "./src/app/admin/administration/admin/admin.component.css")).default]
-    }), __metadata("design:paramtypes", [])], AdminComponent);
+      /*! ./admin-home.component.css */
+      "./src/app/admin/admin-home/admin-home/admin-home.component.css")).default]
+    }), __metadata("design:paramtypes", [])], AdminHomeComponent);
     /***/
   },
 
   /***/
-  "./src/app/admin/administration/administration.module.ts":
-  /*!***************************************************************!*\
-    !*** ./src/app/admin/administration/administration.module.ts ***!
-    \***************************************************************/
-
-  /*! exports provided: AdministrationModule */
-
-  /***/
-  function srcAppAdminAdministrationAdministrationModuleTs(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */
-
-
-    __webpack_require__.d(__webpack_exports__, "AdministrationModule", function () {
-      return AdministrationModule;
-    });
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! @angular/core */
-    "./node_modules/@angular/core/fesm2015/core.js");
-    /* harmony import */
-
-
-    var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! @angular/common */
-    "./node_modules/@angular/common/fesm2015/common.js");
-    /* harmony import */
-
-
-    var _admin_admin_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-    /*! ./admin/admin.component */
-    "./src/app/admin/administration/admin/admin.component.ts");
-    /* harmony import */
-
-
-    var _admin_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-    /*! ./admin-routing.module */
-    "./src/app/admin/administration/admin-routing.module.ts");
-
-    var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
-      var c = arguments.length,
-          r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
-          d;
-      if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) {
-        if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-      }
-      return c > 3 && r && Object.defineProperty(target, key, r), r;
-    };
-
-    var __importDefault = undefined && undefined.__importDefault || function (mod) {
-      return mod && mod.__esModule ? mod : {
-        "default": mod
-      };
-    };
-
-    var AdministrationModule = function AdministrationModule() {
-      _classCallCheck(this, AdministrationModule);
-    };
-
-    AdministrationModule = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
-      declarations: [_admin_admin_component__WEBPACK_IMPORTED_MODULE_2__["AdminComponent"]],
-      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _admin_routing_module__WEBPACK_IMPORTED_MODULE_3__["AdministrationRoutingModule"]]
-    })], AdministrationModule);
-    /***/
-  },
-
-  /***/
-  "./src/app/admin/layout/layout.module.ts":
-  /*!***********************************************!*\
-    !*** ./src/app/admin/layout/layout.module.ts ***!
-    \***********************************************/
-
-  /*! exports provided: LayoutModule */
-
-  /***/
-  function srcAppAdminLayoutLayoutModuleTs(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */
-
-
-    __webpack_require__.d(__webpack_exports__, "LayoutModule", function () {
-      return LayoutModule;
-    });
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! @angular/core */
-    "./node_modules/@angular/core/fesm2015/core.js");
-    /* harmony import */
-
-
-    var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! @angular/common */
-    "./node_modules/@angular/common/fesm2015/common.js");
-    /* harmony import */
-
-
-    var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-    /*! @angular/forms */
-    "./node_modules/@angular/forms/fesm2015/forms.js");
-    /* harmony import */
-
-
-    var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-    /*! @angular/router */
-    "./node_modules/@angular/router/fesm2015/router.js");
-    /* harmony import */
-
-
-    var _main_layout_main_layout_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-    /*! ./main-layout/main-layout.component */
-    "./src/app/admin/layout/main-layout/main-layout.component.ts");
-    /* harmony import */
-
-
-    var src_app_material_material_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-    /*! src/app/material/material.module */
-    "./src/app/material/material.module.ts");
-
-    var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
-      var c = arguments.length,
-          r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
-          d;
-      if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) {
-        if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-      }
-      return c > 3 && r && Object.defineProperty(target, key, r), r;
-    };
-
-    var __importDefault = undefined && undefined.__importDefault || function (mod) {
-      return mod && mod.__esModule ? mod : {
-        "default": mod
-      };
-    };
-
-    var LayoutModule = function LayoutModule() {
-      _classCallCheck(this, LayoutModule);
-    };
-
-    LayoutModule = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
-      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"], src_app_material_material_module__WEBPACK_IMPORTED_MODULE_5__["MaterialModule"], _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forChild([])],
-      exports: [],
-      declarations: [_main_layout_main_layout_component__WEBPACK_IMPORTED_MODULE_4__["MainLayoutComponent"]]
-    })], LayoutModule);
-    /***/
-  },
-
-  /***/
-  "./src/app/admin/layout/main-layout/main-layout.component.css":
-  /*!********************************************************************!*\
-    !*** ./src/app/admin/layout/main-layout/main-layout.component.css ***!
-    \********************************************************************/
+  "./src/app/admin/layout/admin-footer/admin-footer.component.css":
+  /*!**********************************************************************!*\
+    !*** ./src/app/admin/layout/admin-footer/admin-footer.component.css ***!
+    \**********************************************************************/
 
   /*! exports provided: default */
 
   /***/
-  function srcAppAdminLayoutMainLayoutMainLayoutComponentCss(module, __webpack_exports__, __webpack_require__) {
+  function srcAppAdminLayoutAdminFooterAdminFooterComponentCss(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "mat-sidenav-container{\r\n    height: 100%\r\n}\r\n\r\nmat-sidenav, mat-sidenav-content{\r\n    padding: 16px;\r\n}\r\n\r\nmat-sidenav{\r\n    background-color: lightcoral;\r\n    width: 200px;\r\n}\r\n\r\n.MyMenuIcon{\r\n    border: 2px solid white;\r\n    padding: 2px;\r\n    align-self: auto;\r\n}\r\n\r\n.MylogoutIcon{\r\n    border: 2px solid white;\r\n    align-self: auto;\r\n    -webkit-box-pack: end;\r\n            justify-content: flex-end;\r\n    float:right;\r\n}\r\n\r\n.fill-space {\r\n    -webkit-box-flex: 1;\r\n            flex: 1 1 auto;\r\n  }\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWRtaW4vbGF5b3V0L21haW4tbGF5b3V0L21haW4tbGF5b3V0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSTtBQUNKOztBQUVBO0lBQ0ksYUFBYTtBQUNqQjs7QUFFQTtJQUNJLDRCQUE0QjtJQUM1QixZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksdUJBQXVCO0lBQ3ZCLFlBQVk7SUFDWixnQkFBZ0I7QUFDcEI7O0FBRUE7SUFDSSx1QkFBdUI7SUFDdkIsZ0JBQWdCO0lBQ2hCLHFCQUF5QjtZQUF6Qix5QkFBeUI7SUFDekIsV0FBVztBQUNmOztBQUVBO0lBQ0ksbUJBQWM7WUFBZCxjQUFjO0VBQ2hCIiwiZmlsZSI6InNyYy9hcHAvYWRtaW4vbGF5b3V0L21haW4tbGF5b3V0L21haW4tbGF5b3V0LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJtYXQtc2lkZW5hdi1jb250YWluZXJ7XHJcbiAgICBoZWlnaHQ6IDEwMCVcclxufVxyXG5cclxubWF0LXNpZGVuYXYsIG1hdC1zaWRlbmF2LWNvbnRlbnR7XHJcbiAgICBwYWRkaW5nOiAxNnB4O1xyXG59XHJcblxyXG5tYXQtc2lkZW5hdntcclxuICAgIGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Y29yYWw7XHJcbiAgICB3aWR0aDogMjAwcHg7XHJcbn1cclxuXHJcbi5NeU1lbnVJY29ue1xyXG4gICAgYm9yZGVyOiAycHggc29saWQgd2hpdGU7XHJcbiAgICBwYWRkaW5nOiAycHg7XHJcbiAgICBhbGlnbi1zZWxmOiBhdXRvO1xyXG59XHJcblxyXG4uTXlsb2dvdXRJY29ue1xyXG4gICAgYm9yZGVyOiAycHggc29saWQgd2hpdGU7XHJcbiAgICBhbGlnbi1zZWxmOiBhdXRvO1xyXG4gICAganVzdGlmeS1jb250ZW50OiBmbGV4LWVuZDtcclxuICAgIGZsb2F0OnJpZ2h0O1xyXG59XHJcblxyXG4uZmlsbC1zcGFjZSB7XHJcbiAgICBmbGV4OiAxIDEgYXV0bztcclxuICB9Il19 */";
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FkbWluL2xheW91dC9hZG1pbi1mb290ZXIvYWRtaW4tZm9vdGVyLmNvbXBvbmVudC5jc3MifQ== */";
     /***/
   },
 
   /***/
-  "./src/app/admin/layout/main-layout/main-layout.component.ts":
-  /*!*******************************************************************!*\
-    !*** ./src/app/admin/layout/main-layout/main-layout.component.ts ***!
-    \*******************************************************************/
+  "./src/app/admin/layout/admin-footer/admin-footer.component.ts":
+  /*!*********************************************************************!*\
+    !*** ./src/app/admin/layout/admin-footer/admin-footer.component.ts ***!
+    \*********************************************************************/
 
-  /*! exports provided: MainLayoutComponent */
+  /*! exports provided: AdminFooterComponent */
 
   /***/
-  function srcAppAdminLayoutMainLayoutMainLayoutComponentTs(module, __webpack_exports__, __webpack_require__) {
+  function srcAppAdminLayoutAdminFooterAdminFooterComponentTs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony export (binding) */
 
 
-    __webpack_require__.d(__webpack_exports__, "MainLayoutComponent", function () {
-      return MainLayoutComponent;
+    __webpack_require__.d(__webpack_exports__, "AdminFooterComponent", function () {
+      return AdminFooterComponent;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
+      var c = arguments.length,
+          r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
+          d;
+      if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) {
+        if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+      }
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+
+    var __metadata = undefined && undefined.__metadata || function (k, v) {
+      if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+    };
+
+    var __importDefault = undefined && undefined.__importDefault || function (mod) {
+      return mod && mod.__esModule ? mod : {
+        "default": mod
+      };
+    };
+
+    var AdminFooterComponent =
+    /*#__PURE__*/
+    function () {
+      function AdminFooterComponent() {
+        _classCallCheck(this, AdminFooterComponent);
+      }
+
+      _createClass(AdminFooterComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return AdminFooterComponent;
+    }();
+
+    AdminFooterComponent = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+      selector: 'app-admin-footer',
+      template: __importDefault(__webpack_require__(
+      /*! raw-loader!./admin-footer.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/admin/layout/admin-footer/admin-footer.component.html")).default,
+      styles: [__importDefault(__webpack_require__(
+      /*! ./admin-footer.component.css */
+      "./src/app/admin/layout/admin-footer/admin-footer.component.css")).default]
+    }), __metadata("design:paramtypes", [])], AdminFooterComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/admin/layout/admin-header/admin-header.component.css":
+  /*!**********************************************************************!*\
+    !*** ./src/app/admin/layout/admin-header/admin-header.component.css ***!
+    \**********************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppAdminLayoutAdminHeaderAdminHeaderComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FkbWluL2xheW91dC9hZG1pbi1oZWFkZXIvYWRtaW4taGVhZGVyLmNvbXBvbmVudC5jc3MifQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/admin/layout/admin-header/admin-header.component.ts":
+  /*!*********************************************************************!*\
+    !*** ./src/app/admin/layout/admin-header/admin-header.component.ts ***!
+    \*********************************************************************/
+
+  /*! exports provided: AdminHeaderComponent */
+
+  /***/
+  function srcAppAdminLayoutAdminHeaderAdminHeaderComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "AdminHeaderComponent", function () {
+      return AdminHeaderComponent;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
+      var c = arguments.length,
+          r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
+          d;
+      if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) {
+        if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+      }
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+
+    var __metadata = undefined && undefined.__metadata || function (k, v) {
+      if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+    };
+
+    var __importDefault = undefined && undefined.__importDefault || function (mod) {
+      return mod && mod.__esModule ? mod : {
+        "default": mod
+      };
+    };
+
+    var AdminHeaderComponent =
+    /*#__PURE__*/
+    function () {
+      function AdminHeaderComponent() {
+        _classCallCheck(this, AdminHeaderComponent);
+
+        this.firstName = "";
+        this.lastName = "";
+        this.initials = "";
+      }
+
+      _createClass(AdminHeaderComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return AdminHeaderComponent;
+    }();
+
+    __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(), __metadata("design:type", String)], AdminHeaderComponent.prototype, "firstName", void 0);
+
+    __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(), __metadata("design:type", String)], AdminHeaderComponent.prototype, "lastName", void 0);
+
+    __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(), __metadata("design:type", String)], AdminHeaderComponent.prototype, "initials", void 0);
+
+    AdminHeaderComponent = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+      selector: 'app-admin-header',
+      template: __importDefault(__webpack_require__(
+      /*! raw-loader!./admin-header.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/admin/layout/admin-header/admin-header.component.html")).default,
+      styles: [__importDefault(__webpack_require__(
+      /*! ./admin-header.component.css */
+      "./src/app/admin/layout/admin-header/admin-header.component.css")).default]
+    }), __metadata("design:paramtypes", [])], AdminHeaderComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/admin/layout/admin-layout.module.ts":
+  /*!*****************************************************!*\
+    !*** ./src/app/admin/layout/admin-layout.module.ts ***!
+    \*****************************************************/
+
+  /*! exports provided: AdminLayoutModule */
+
+  /***/
+  function srcAppAdminLayoutAdminLayoutModuleTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "AdminLayoutModule", function () {
+      return AdminLayoutModule;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/common */
+    "./node_modules/@angular/common/fesm2015/common.js");
+    /* harmony import */
+
+
+    var _admin_footer_admin_footer_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ./admin-footer/admin-footer.component */
+    "./src/app/admin/layout/admin-footer/admin-footer.component.ts");
+    /* harmony import */
+
+
+    var _admin_header_admin_header_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ./admin-header/admin-header.component */
+    "./src/app/admin/layout/admin-header/admin-header.component.ts");
+    /* harmony import */
+
+
+    var _admin_sidebar_admin_sidebar_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! ./admin-sidebar/admin-sidebar.component */
+    "./src/app/admin/layout/admin-sidebar/admin-sidebar.component.ts");
+    /* harmony import */
+
+
+    var _admin_mainlayout_admin_mainlayout_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! ./admin-mainlayout/admin-mainlayout.component */
+    "./src/app/admin/layout/admin-mainlayout/admin-mainlayout.component.ts");
+    /* harmony import */
+
+
+    var src_app_material_material_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    /*! src/app/material/material.module */
+    "./src/app/material/material.module.ts");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+
+    var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
+      var c = arguments.length,
+          r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
+          d;
+      if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) {
+        if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+      }
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+
+    var __importDefault = undefined && undefined.__importDefault || function (mod) {
+      return mod && mod.__esModule ? mod : {
+        "default": mod
+      };
+    };
+
+    var AdminLayoutModule = function AdminLayoutModule() {
+      _classCallCheck(this, AdminLayoutModule);
+    };
+
+    AdminLayoutModule = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+      declarations: [_admin_footer_admin_footer_component__WEBPACK_IMPORTED_MODULE_2__["AdminFooterComponent"], _admin_header_admin_header_component__WEBPACK_IMPORTED_MODULE_3__["AdminHeaderComponent"], _admin_sidebar_admin_sidebar_component__WEBPACK_IMPORTED_MODULE_4__["AdminSidebarComponent"], _admin_mainlayout_admin_mainlayout_component__WEBPACK_IMPORTED_MODULE_5__["AdminMainlayoutComponent"]],
+      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], src_app_material_material_module__WEBPACK_IMPORTED_MODULE_6__["MaterialModule"], _angular_router__WEBPACK_IMPORTED_MODULE_7__["RouterModule"].forChild([])]
+    })], AdminLayoutModule);
+    /***/
+  },
+
+  /***/
+  "./src/app/admin/layout/admin-mainlayout/admin-mainlayout.component.css":
+  /*!******************************************************************************!*\
+    !*** ./src/app/admin/layout/admin-mainlayout/admin-mainlayout.component.css ***!
+    \******************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppAdminLayoutAdminMainlayoutAdminMainlayoutComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FkbWluL2xheW91dC9hZG1pbi1tYWlubGF5b3V0L2FkbWluLW1haW5sYXlvdXQuY29tcG9uZW50LmNzcyJ9 */";
+    /***/
+  },
+
+  /***/
+  "./src/app/admin/layout/admin-mainlayout/admin-mainlayout.component.ts":
+  /*!*****************************************************************************!*\
+    !*** ./src/app/admin/layout/admin-mainlayout/admin-mainlayout.component.ts ***!
+    \*****************************************************************************/
+
+  /*! exports provided: AdminMainlayoutComponent */
+
+  /***/
+  function srcAppAdminLayoutAdminMainlayoutAdminMainlayoutComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "AdminMainlayoutComponent", function () {
+      return AdminMainlayoutComponent;
     });
     /* harmony import */
 
@@ -962,17 +2056,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       };
     };
 
-    var MainLayoutComponent =
+    var AdminMainlayoutComponent =
     /*#__PURE__*/
     function () {
-      function MainLayoutComponent(route, userService) {
-        _classCallCheck(this, MainLayoutComponent);
+      function AdminMainlayoutComponent(route, userService) {
+        _classCallCheck(this, AdminMainlayoutComponent);
 
         this.route = route;
         this.userService = userService;
       }
 
-      _createClass(MainLayoutComponent, [{
+      _createClass(AdminMainlayoutComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
           this.getUserProfileDetails();
@@ -980,13 +2074,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getUserProfileDetails",
         value: function getUserProfileDetails() {
-          var _this = this;
+          var _this2 = this;
 
           this.userService.getUserProfile().subscribe(function (res) {
-            _this.userDetails = res;
-            _this.firstName = _this.userDetails.firstName;
-            _this.lastName = _this.userDetails.lastName;
-            _this.initials = _this.userDetails.initials;
+            _this2.userDetails = res;
+            _this2.firstName = _this2.userDetails.firstName;
+            _this2.lastName = _this2.userDetails.lastName;
+            _this2.initials = _this2.userDetails.initials;
           }, function (err) {
             console.log(err);
           });
@@ -999,10 +2093,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }
       }]);
 
-      return MainLayoutComponent;
+      return AdminMainlayoutComponent;
     }();
 
-    MainLayoutComponent.ctorParameters = function () {
+    AdminMainlayoutComponent.ctorParameters = function () {
       return [{
         type: _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]
       }, {
@@ -1010,15 +2104,108 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }];
     };
 
-    MainLayoutComponent = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-      selector: 'app-main-layout',
+    AdminMainlayoutComponent = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+      selector: 'app-admin-mainlayout',
       template: __importDefault(__webpack_require__(
-      /*! raw-loader!./main-layout.component.html */
-      "./node_modules/raw-loader/dist/cjs.js!./src/app/admin/layout/main-layout/main-layout.component.html")).default,
+      /*! raw-loader!./admin-mainlayout.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/admin/layout/admin-mainlayout/admin-mainlayout.component.html")).default,
       styles: [__importDefault(__webpack_require__(
-      /*! ./main-layout.component.css */
-      "./src/app/admin/layout/main-layout/main-layout.component.css")).default]
-    }), __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"], src_app_shared_services_User_Service_user_service__WEBPACK_IMPORTED_MODULE_2__["UserService"]])], MainLayoutComponent);
+      /*! ./admin-mainlayout.component.css */
+      "./src/app/admin/layout/admin-mainlayout/admin-mainlayout.component.css")).default]
+    }), __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"], src_app_shared_services_User_Service_user_service__WEBPACK_IMPORTED_MODULE_2__["UserService"]])], AdminMainlayoutComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/admin/layout/admin-sidebar/admin-sidebar.component.css":
+  /*!************************************************************************!*\
+    !*** ./src/app/admin/layout/admin-sidebar/admin-sidebar.component.css ***!
+    \************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppAdminLayoutAdminSidebarAdminSidebarComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FkbWluL2xheW91dC9hZG1pbi1zaWRlYmFyL2FkbWluLXNpZGViYXIuY29tcG9uZW50LmNzcyJ9 */";
+    /***/
+  },
+
+  /***/
+  "./src/app/admin/layout/admin-sidebar/admin-sidebar.component.ts":
+  /*!***********************************************************************!*\
+    !*** ./src/app/admin/layout/admin-sidebar/admin-sidebar.component.ts ***!
+    \***********************************************************************/
+
+  /*! exports provided: AdminSidebarComponent */
+
+  /***/
+  function srcAppAdminLayoutAdminSidebarAdminSidebarComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "AdminSidebarComponent", function () {
+      return AdminSidebarComponent;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
+      var c = arguments.length,
+          r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
+          d;
+      if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) {
+        if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+      }
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+
+    var __metadata = undefined && undefined.__metadata || function (k, v) {
+      if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+    };
+
+    var __importDefault = undefined && undefined.__importDefault || function (mod) {
+      return mod && mod.__esModule ? mod : {
+        "default": mod
+      };
+    };
+
+    var AdminSidebarComponent =
+    /*#__PURE__*/
+    function () {
+      function AdminSidebarComponent() {
+        _classCallCheck(this, AdminSidebarComponent);
+      }
+
+      _createClass(AdminSidebarComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return AdminSidebarComponent;
+    }();
+
+    AdminSidebarComponent = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+      selector: 'app-admin-sidebar',
+      template: __importDefault(__webpack_require__(
+      /*! raw-loader!./admin-sidebar.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/admin/layout/admin-sidebar/admin-sidebar.component.html")).default,
+      styles: [__importDefault(__webpack_require__(
+      /*! ./admin-sidebar.component.css */
+      "./src/app/admin/layout/admin-sidebar/admin-sidebar.component.css")).default]
+    }), __metadata("design:paramtypes", [])], AdminSidebarComponent);
     /***/
   },
 
@@ -1446,57 +2633,75 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _admin_layout_layout_module__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
-    /*! ./admin/layout/layout.module */
-    "./src/app/admin/layout/layout.module.ts");
-    /* harmony import */
-
-
-    var _admin_administration_administration_module__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(
-    /*! ./admin/administration/administration.module */
-    "./src/app/admin/administration/administration.module.ts");
-    /* harmony import */
-
-
-    var _auth_Interceptor_auth_interceptor__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(
+    var _auth_Interceptor_auth_interceptor__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
     /*! ./auth/Interceptor/auth.interceptor */
     "./src/app/auth/Interceptor/auth.interceptor.ts");
     /* harmony import */
 
 
-    var _shared_services_course_service_course_service__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(
+    var _shared_services_course_service_course_service__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(
     /*! ./shared/services/course-service/course.service */
     "./src/app/shared/services/course-service/course.service.ts");
     /* harmony import */
 
 
-    var _tasc_courses_course_navigation_course_navigation_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(
+    var _tasc_courses_course_navigation_course_navigation_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(
     /*! ./tasc-courses/course-navigation/course-navigation.component */
     "./src/app/tasc-courses/course-navigation/course-navigation.component.ts");
     /* harmony import */
 
 
-    var _tasc_courses_course_list_course_list_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(
+    var _tasc_courses_course_list_course_list_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(
     /*! ./tasc-courses/course-list/course-list.component */
     "./src/app/tasc-courses/course-list/course-list.component.ts");
     /* harmony import */
 
 
-    var _tasc_images_image_list_image_list_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(
+    var _tasc_images_image_list_image_list_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(
     /*! ./tasc-images/image-list/image-list.component */
     "./src/app/tasc-images/image-list/image-list.component.ts");
     /* harmony import */
 
 
-    var _tasc_images_image_navigation_image_navigation_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(
+    var _tasc_images_image_navigation_image_navigation_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(
     /*! ./tasc-images/image-navigation/image-navigation.component */
     "./src/app/tasc-images/image-navigation/image-navigation.component.ts");
     /* harmony import */
 
 
-    var _shared_services_image_service_image_service__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(
+    var _shared_services_image_service_image_service__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(
     /*! ./shared/services/image-service/image.service */
     "./src/app/shared/services/image-service/image.service.ts");
+    /* harmony import */
+
+
+    var _forbiden_forbiden_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(
+    /*! ./forbiden/forbiden.component */
+    "./src/app/forbiden/forbiden.component.ts");
+    /* harmony import */
+
+
+    var _admin_admin_home_admin_home_module__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(
+    /*! ./admin/admin-home/admin-home.module */
+    "./src/app/admin/admin-home/admin-home.module.ts");
+    /* harmony import */
+
+
+    var _Admin_customer_layout_customer_admin_layout_customer_admin_layout_module__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(
+    /*! ./Admin-customer/layout/customer-admin-layout/customer-admin-layout.module */
+    "./src/app/Admin-customer/layout/customer-admin-layout/customer-admin-layout.module.ts");
+    /* harmony import */
+
+
+    var _Admin_customer_customer_profile_customer_profile_module__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(
+    /*! ./Admin-customer/customer-profile/customer-profile.module */
+    "./src/app/Admin-customer/customer-profile/customer-profile.module.ts");
+    /* harmony import */
+
+
+    var _admin_layout_admin_layout_module__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(
+    /*! ./admin/layout/admin-layout.module */
+    "./src/app/admin/layout/admin-layout.module.ts");
 
     var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
       var c = arguments.length,
@@ -1519,15 +2724,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     };
 
     AppModule = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"], _layout_layout_component__WEBPACK_IMPORTED_MODULE_7__["LayoutComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_8__["FooterComponent"], _contactus_contactus_component__WEBPACK_IMPORTED_MODULE_9__["ContactusComponent"], _banner_banner_component__WEBPACK_IMPORTED_MODULE_10__["BannerComponent"], _navigation_header_header_component__WEBPACK_IMPORTED_MODULE_11__["HeaderComponent"], _navigation_sidenav_list_sidenav_list_component__WEBPACK_IMPORTED_MODULE_12__["SidenavListComponent"], _user_sign_in_sign_in_component__WEBPACK_IMPORTED_MODULE_16__["SignInComponent"], _user_user_component__WEBPACK_IMPORTED_MODULE_17__["UserComponent"], _user_sign_up_sign_up_component__WEBPACK_IMPORTED_MODULE_18__["SignUpComponent"], _aboutus_aboutus_component__WEBPACK_IMPORTED_MODULE_21__["AboutusComponent"], _tasc_images_gallery_gallery_component__WEBPACK_IMPORTED_MODULE_22__["GalleryComponent"], _tasc_courses_courses_courses_component__WEBPACK_IMPORTED_MODULE_23__["CoursesComponent"], _team_team_component__WEBPACK_IMPORTED_MODULE_24__["TeamComponent"], _tasc_courses_course_navigation_course_navigation_component__WEBPACK_IMPORTED_MODULE_29__["CourseNavigationComponent"], _tasc_courses_course_list_course_list_component__WEBPACK_IMPORTED_MODULE_30__["CourseListComponent"], _tasc_images_image_list_image_list_component__WEBPACK_IMPORTED_MODULE_31__["ImageListComponent"], _tasc_images_image_navigation_image_navigation_component__WEBPACK_IMPORTED_MODULE_32__["ImageNavigationComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"], _layout_layout_component__WEBPACK_IMPORTED_MODULE_7__["LayoutComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_8__["FooterComponent"], _contactus_contactus_component__WEBPACK_IMPORTED_MODULE_9__["ContactusComponent"], _banner_banner_component__WEBPACK_IMPORTED_MODULE_10__["BannerComponent"], _navigation_header_header_component__WEBPACK_IMPORTED_MODULE_11__["HeaderComponent"], _navigation_sidenav_list_sidenav_list_component__WEBPACK_IMPORTED_MODULE_12__["SidenavListComponent"], _user_sign_in_sign_in_component__WEBPACK_IMPORTED_MODULE_16__["SignInComponent"], _user_user_component__WEBPACK_IMPORTED_MODULE_17__["UserComponent"], _user_sign_up_sign_up_component__WEBPACK_IMPORTED_MODULE_18__["SignUpComponent"], _aboutus_aboutus_component__WEBPACK_IMPORTED_MODULE_21__["AboutusComponent"], _tasc_images_gallery_gallery_component__WEBPACK_IMPORTED_MODULE_22__["GalleryComponent"], _tasc_courses_courses_courses_component__WEBPACK_IMPORTED_MODULE_23__["CoursesComponent"], _team_team_component__WEBPACK_IMPORTED_MODULE_24__["TeamComponent"], _tasc_courses_course_navigation_course_navigation_component__WEBPACK_IMPORTED_MODULE_27__["CourseNavigationComponent"], _tasc_courses_course_list_course_list_component__WEBPACK_IMPORTED_MODULE_28__["CourseListComponent"], _tasc_images_image_list_image_list_component__WEBPACK_IMPORTED_MODULE_29__["ImageListComponent"], _tasc_images_image_navigation_image_navigation_component__WEBPACK_IMPORTED_MODULE_30__["ImageNavigationComponent"], _forbiden_forbiden_component__WEBPACK_IMPORTED_MODULE_32__["ForbidenComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"].withServerTransition({
         appId: 'ng-cli-universal'
-      }), _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"], _material_material_module__WEBPACK_IMPORTED_MODULE_15__["MaterialModule"], _admin_layout_layout_module__WEBPACK_IMPORTED_MODULE_25__["LayoutModule"], _admin_administration_administration_module__WEBPACK_IMPORTED_MODULE_26__["AdministrationModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_13__["AppRoutingModule"], _angular_flex_layout__WEBPACK_IMPORTED_MODULE_14__["FlexLayoutModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_6__["BrowserAnimationsModule"], ngx_toastr__WEBPACK_IMPORTED_MODULE_19__["ToastrModule"].forRoot({
+      }), _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"], _material_material_module__WEBPACK_IMPORTED_MODULE_15__["MaterialModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_13__["AppRoutingModule"], _angular_flex_layout__WEBPACK_IMPORTED_MODULE_14__["FlexLayoutModule"], _admin_layout_admin_layout_module__WEBPACK_IMPORTED_MODULE_36__["AdminLayoutModule"], _admin_admin_home_admin_home_module__WEBPACK_IMPORTED_MODULE_33__["AdminHomeModule"], _Admin_customer_layout_customer_admin_layout_customer_admin_layout_module__WEBPACK_IMPORTED_MODULE_34__["CustomerAdminLayoutModule"], _Admin_customer_customer_profile_customer_profile_module__WEBPACK_IMPORTED_MODULE_35__["CustomerProfileModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_6__["BrowserAnimationsModule"], ngx_toastr__WEBPACK_IMPORTED_MODULE_19__["ToastrModule"].forRoot({
         progressBar: true
       })],
-      providers: [_shared_services_image_service_image_service__WEBPACK_IMPORTED_MODULE_33__["ImageService"], _shared_services_course_service_course_service__WEBPACK_IMPORTED_MODULE_28__["CourseService"], _shared_services_User_Service_user_service__WEBPACK_IMPORTED_MODULE_20__["UserService"], {
+      providers: [_shared_services_image_service_image_service__WEBPACK_IMPORTED_MODULE_31__["ImageService"], _shared_services_course_service_course_service__WEBPACK_IMPORTED_MODULE_26__["CourseService"], _shared_services_User_Service_user_service__WEBPACK_IMPORTED_MODULE_20__["UserService"], {
         provide: _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HTTP_INTERCEPTORS"],
-        useClass: _auth_Interceptor_auth_interceptor__WEBPACK_IMPORTED_MODULE_27__["AuthInterceptor"],
+        useClass: _auth_Interceptor_auth_interceptor__WEBPACK_IMPORTED_MODULE_25__["AuthInterceptor"],
         multi: true
       }],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
@@ -1605,7 +2810,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(AuthInterceptor, [{
         key: "intercept",
         value: function intercept(req, next) {
-          var _this2 = this;
+          var _this3 = this;
 
           if (localStorage.getItem('token') != null) {
             var clonedReq = req.clone({
@@ -1615,8 +2820,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               if (err.status == 401) {
                 localStorage.removeItem('token');
 
-                _this2.router.navigateByUrl('./login');
-              }
+                _this3.router.navigateByUrl('/user/login');
+              } else if (err.status == 403) _this3.router.navigateByUrl('/forbidden');
             }));
           } else return next.handle(req.clone());
         }
@@ -1666,6 +2871,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/router */
     "./node_modules/@angular/router/fesm2015/router.js");
+    /* harmony import */
+
+
+    var src_app_shared_services_User_Service_user_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! src/app/shared/services/User-Service/user.service */
+    "./src/app/shared/services/User-Service/user.service.ts");
 
     var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
       var c = arguments.length,
@@ -1693,19 +2904,29 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       /**
        *
        */
-      function AuthGuard(router) {
+      function AuthGuard(router, service) {
         _classCallCheck(this, AuthGuard);
 
         this.router = router;
+        this.service = service;
       }
 
       _createClass(AuthGuard, [{
         key: "canActivate",
         value: function canActivate(next, state) {
           if (localStorage.getItem('token') != null) {
+            var roles = next.data['permittedRoles'];
+
+            if (roles) {
+              if (this.service.roleMatch(roles)) return true;else {
+                this.router.navigate(['/forbidden']);
+                return false;
+              }
+            }
+
             return true;
           } else {
-            this.router.navigate(['./login']);
+            this.router.navigate(['/login']);
             return false;
           }
         }
@@ -1717,12 +2938,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     AuthGuard.ctorParameters = function () {
       return [{
         type: _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]
+      }, {
+        type: src_app_shared_services_User_Service_user_service__WEBPACK_IMPORTED_MODULE_2__["UserService"]
       }];
     };
 
     AuthGuard = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
       providedIn: 'root'
-    }), __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]])], AuthGuard);
+    }), __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"], src_app_shared_services_User_Service_user_service__WEBPACK_IMPORTED_MODULE_2__["UserService"]])], AuthGuard);
     /***/
   },
 
@@ -1907,7 +3130,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /*#__PURE__*/
     function () {
       function ContactusComponent(toastr, fb, emailService) {
-        var _this3 = this;
+        var _this4 = this;
 
         _classCallCheck(this, ContactusComponent);
 
@@ -1949,14 +3172,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         };
 
         this.hasError = function (controlName, errorName) {
-          return _this3.ContactForm.controls[controlName].hasError(errorName);
+          return _this4.ContactForm.controls[controlName].hasError(errorName);
         };
       }
 
       _createClass(ContactusComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this4 = this;
+          var _this5 = this;
 
           this.ContactForm = this.fb.group({
             fullName: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]('', [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].minLength(5), _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].maxLength(60)]),
@@ -1965,31 +3188,31 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             message: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]('', [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].maxLength(200)])
           });
           this.ContactForm.valueChanges.subscribe(function (data) {
-            _this4.logValidationErrors(_this4.ContactForm);
+            _this5.logValidationErrors(_this5.ContactForm);
           });
         }
       }, {
         key: "logValidationErrors",
         value: function logValidationErrors() {
-          var _this5 = this;
+          var _this6 = this;
 
           var group = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.ContactForm;
           Object.keys(group.controls).forEach(function (key) {
             var abstractControl = group.get(key);
-            _this5.formErrors[key] = '';
+            _this6.formErrors[key] = '';
 
             if (abstractControl && !abstractControl.valid && (abstractControl.touched || abstractControl.dirty)) {
-              var messages = _this5.validationMessages[key];
+              var messages = _this6.validationMessages[key];
 
               for (var errorKey in abstractControl.errors) {
                 if (errorKey) {
-                  _this5.formErrors[key] += messages[errorKey] + ' ';
+                  _this6.formErrors[key] += messages[errorKey] + ' ';
                 }
               }
             }
 
             if (abstractControl instanceof _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroup"]) {
-              _this5.logValidationErrors(abstractControl);
+              _this6.logValidationErrors(abstractControl);
             }
           });
         }
@@ -2147,6 +3370,99 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       /*! ./footer.component.css */
       "./src/app/footer/footer.component.css")).default]
     }), __metadata("design:paramtypes", [])], FooterComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/forbiden/forbiden.component.css":
+  /*!*************************************************!*\
+    !*** ./src/app/forbiden/forbiden.component.css ***!
+    \*************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppForbidenForbidenComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "::ng-deep .mat-card-header{\r\n    background-color: red !important;\r\n  }\r\n  \r\n  ::ng-deep .mat-card-title{\r\n    color: white;\r\n    padding-top: 10px;\r\n  }\r\n  \r\n  ::ng-deep .mat-card-content{\r\n    padding:5px !important;\r\n  }\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZm9yYmlkZW4vZm9yYmlkZW4uY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGdDQUFnQztFQUNsQzs7RUFFQTtJQUNFLFlBQVk7SUFDWixpQkFBaUI7RUFDbkI7O0VBRUE7SUFDRSxzQkFBc0I7RUFDeEIiLCJmaWxlIjoic3JjL2FwcC9mb3JiaWRlbi9mb3JiaWRlbi5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiOjpuZy1kZWVwIC5tYXQtY2FyZC1oZWFkZXJ7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZWQgIWltcG9ydGFudDtcclxuICB9XHJcbiAgXHJcbiAgOjpuZy1kZWVwIC5tYXQtY2FyZC10aXRsZXtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgIHBhZGRpbmctdG9wOiAxMHB4O1xyXG4gIH1cclxuICBcclxuICA6Om5nLWRlZXAgLm1hdC1jYXJkLWNvbnRlbnR7XHJcbiAgICBwYWRkaW5nOjVweCAhaW1wb3J0YW50O1xyXG4gIH0iXX0= */";
+    /***/
+  },
+
+  /***/
+  "./src/app/forbiden/forbiden.component.ts":
+  /*!************************************************!*\
+    !*** ./src/app/forbiden/forbiden.component.ts ***!
+    \************************************************/
+
+  /*! exports provided: ForbidenComponent */
+
+  /***/
+  function srcAppForbidenForbidenComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ForbidenComponent", function () {
+      return ForbidenComponent;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
+      var c = arguments.length,
+          r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
+          d;
+      if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) {
+        if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+      }
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+
+    var __metadata = undefined && undefined.__metadata || function (k, v) {
+      if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+    };
+
+    var __importDefault = undefined && undefined.__importDefault || function (mod) {
+      return mod && mod.__esModule ? mod : {
+        "default": mod
+      };
+    };
+
+    var ForbidenComponent =
+    /*#__PURE__*/
+    function () {
+      function ForbidenComponent() {
+        _classCallCheck(this, ForbidenComponent);
+      }
+
+      _createClass(ForbidenComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return ForbidenComponent;
+    }();
+
+    ForbidenComponent = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+      selector: 'app-forbiden',
+      template: __importDefault(__webpack_require__(
+      /*! raw-loader!./forbiden.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/forbiden/forbiden.component.html")).default,
+      styles: [__importDefault(__webpack_require__(
+      /*! ./forbiden.component.css */
+      "./src/app/forbiden/forbiden.component.css")).default]
+    }), __metadata("design:paramtypes", [])], ForbidenComponent);
     /***/
   },
 
@@ -2483,14 +3799,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /*#__PURE__*/
     function () {
       function HeaderComponent() {
-        var _this6 = this;
+        var _this7 = this;
 
         _classCallCheck(this, HeaderComponent);
 
         this.sidenavToggle = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
 
         this.onToggleSidenav = function () {
-          _this6.sidenavToggle.emit();
+          _this7.sidenavToggle.emit();
         };
       }
 
@@ -2586,14 +3902,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /*#__PURE__*/
     function () {
       function SidenavListComponent() {
-        var _this7 = this;
+        var _this8 = this;
 
         _classCallCheck(this, SidenavListComponent);
 
         this.sidenavClose = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
 
         this.onSidenavClose = function () {
-          _this7.sidenavClose.emit();
+          _this8.sidenavClose.emit();
         };
       }
 
@@ -2731,6 +4047,20 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             headers: tokenHeader
           });
         }
+      }, {
+        key: "roleMatch",
+        value: function roleMatch(allowedRoles) {
+          var isMatch = false;
+          var payLoad = JSON.parse(window.atob(localStorage.getItem('token').split('.')[1]));
+          var userRole = payLoad.role;
+          allowedRoles.forEach(function (element) {
+            if (userRole == element) {
+              isMatch = true;
+              return false;
+            }
+          });
+          return isMatch;
+        }
       }]);
 
       return UserService;
@@ -2848,13 +4178,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getCoursesForDepartment",
         value: function getCoursesForDepartment() {
-          var _this8 = this;
+          var _this9 = this;
 
           var coursesForDepartment = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Subject"]();
           this.getDepartments().then(function (depts) {
             var departmentSet = new Set(depts);
             departmentSet.forEach(function (dept) {
-              _this8.getCourses().toPromise().then(function (courses) {
+              _this9.getCourses().toPromise().then(function (courses) {
                 return courses.filter(function (course) {
                   return course.Category === dept;
                 });
@@ -3071,13 +4401,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getImagesForCategory",
         value: function getImagesForCategory() {
-          var _this9 = this;
+          var _this10 = this;
 
           var imagesForCategory = new rxjs__WEBPACK_IMPORTED_MODULE_2__["Subject"]();
           this.getCategories().then(function (depts) {
             var departmentSet = new Set(depts);
             departmentSet.forEach(function (categ) {
-              _this9.getAllImages().toPromise().then(function (images) {
+              _this10.getAllImages().toPromise().then(function (images) {
                 return images.filter(function (image) {
                   return image.Category === categ;
                 });
@@ -3323,10 +4653,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(CourseListComponent, [{
         key: "getCoursesPerDepartment",
         value: function getCoursesPerDepartment() {
-          var _this10 = this;
+          var _this11 = this;
 
           return this.courseService.getCourseForDepartment(this.department).then(function (courses) {
-            _this10.CourseList = courses;
+            _this11.CourseList = courses;
           });
         }
       }, {
@@ -3448,10 +4778,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(CourseNavigationComponent, [{
         key: "getDepartments",
         value: function getDepartments() {
-          var _this11 = this;
+          var _this12 = this;
 
           return this.service.getCoursesForDepartment().subscribe(function (response) {
-            return _this11.departments.push(response);
+            return _this12.departments.push(response);
           });
         }
       }, {
@@ -3580,19 +4910,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(CoursesComponent, [{
         key: "getCourses",
         value: function getCourses() {
-          var _this12 = this;
+          var _this13 = this;
 
           this.courseService.getCourses().subscribe(function (response) {
-            _this12.CourseList = response;
+            _this13.CourseList = response;
           });
         }
       }, {
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this13 = this;
+          var _this14 = this;
 
           this.route.params.subscribe(function (p) {
-            return _this13.department = p['department'];
+            return _this14.department = p['department'];
           });
         }
       }]);
@@ -3714,20 +5044,20 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(GalleryComponent, [{
         key: "getImages",
         value: function getImages() {
-          var _this14 = this;
+          var _this15 = this;
 
           this.imageService.getAllImages().subscribe(function (response) {
-            _this14.ImageList = response;
+            _this15.ImageList = response;
           });
         }
       }, {
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this15 = this;
+          var _this16 = this;
 
           this.router.navigateByUrl('/images/all');
           this.route.params.subscribe(function (p) {
-            return _this15.category = p['category'];
+            return _this16.category = p['category'];
           });
         }
       }]);
@@ -3843,10 +5173,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(ImageListComponent, [{
         key: "getImagesPerCategory",
         value: function getImagesPerCategory() {
-          var _this16 = this;
+          var _this17 = this;
 
           return this.imageService.getImagesByCategory(this.category).then(function (images) {
-            _this16.ImageList = images;
+            _this17.ImageList = images;
           });
         }
       }, {
@@ -3967,10 +5297,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(ImageNavigationComponent, [{
         key: "getImageCategories",
         value: function getImageCategories() {
-          var _this17 = this;
+          var _this18 = this;
 
           return this.imageService.getImagesForCategory().subscribe(function (response) {
-            return _this17.imageCategories.push(response);
+            return _this18.imageCategories.push(response);
           });
         }
       }, {
@@ -4238,10 +5568,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(SignInComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this18 = this;
+          var _this19 = this;
 
           if (localStorage.getItem('token') != null) {
-            this.router.navigateByUrl('/admin/home');
+            var localStorageData = localStorage.getItem('token');
+            this.navigateUserBasedOnRole(localStorageData);
           }
 
           this.TascLoginForm = this.fb.group({
@@ -4249,26 +5580,26 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             password: new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]('', [_angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].minLength(5), _angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].maxLength(60)])
           });
           this.TascLoginForm.valueChanges.subscribe(function (data) {
-            _this18.logValidationErrors(_this18.TascLoginForm);
+            _this19.logValidationErrors(_this19.TascLoginForm);
           });
         } // Logs validation error messages
 
       }, {
         key: "logValidationErrors",
         value: function logValidationErrors() {
-          var _this19 = this;
+          var _this20 = this;
 
           var group = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.TascLoginForm;
           Object.keys(group.controls).forEach(function (key) {
             var abstractControl = group.get(key);
-            _this19.formErrors[key] = '';
+            _this20.formErrors[key] = '';
 
             if (abstractControl && !abstractControl.valid && (abstractControl.touched || abstractControl.dirty)) {
-              var messages = _this19.validationMessages[key];
+              var messages = _this20.validationMessages[key];
 
               for (var errorKey in abstractControl.errors) {
                 if (errorKey) {
-                  _this19.formErrors[key] += messages[errorKey] + ' ';
+                  _this20.formErrors[key] += messages[errorKey] + ' ';
                 }
               }
             }
@@ -4277,19 +5608,20 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "OnSubmit",
         value: function OnSubmit(form) {
-          var _this20 = this;
+          var _this21 = this;
 
           var formData = form.value;
           this.userService.userAuthentication(formData).subscribe(function (data) {
             form.reset();
             localStorage.setItem('token', data.token);
+            var localStorageData = localStorage.getItem('token');
 
-            _this20.router.navigate(['/admin/home']);
+            _this21.navigateUserBasedOnRole(localStorageData);
           }, function (err) {
-            _this20.isLoginError = true;
+            _this21.isLoginError = true;
 
             if (err.status == 400) {
-              _this20.toastr.error('Username or password is incorrect.', 'Authentication failed.');
+              _this21.toastr.error('Username or password is incorrect.', 'Authentication failed.');
             } else {
               console.log("DATA" + formData);
               form.reset();
@@ -4297,29 +5629,28 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           });
         }
       }, {
-        key: "getUserInformation",
-        value: function getUserInformation(formData) {
-          return {
-            UserName: formData.emailAddress,
-            Password: formData.passwordGroup.password,
-            Email: formData.emailAddress,
-            FirstName: formData.firstName,
-            LastName: formData.lastName
-          };
-        }
-      }, {
         key: "resetForm",
         value: function resetForm(form) {
           if (form != null) {
             form.reset();
-          } // this.user = {
-          //   UserName: '',
-          //   Password: '',
-          //   Email: '',
-          //   FirstName: '',
-          //   LastName: ''
-          // }
+          }
+        }
+      }, {
+        key: "navigateUserBasedOnRole",
+        value: function navigateUserBasedOnRole(localStorage) {
+          var jwtData = localStorage.split('.')[1];
+          var decodedJwtJsonData = window.atob(jwtData);
+          var jwtUserRole = JSON.parse(decodedJwtJsonData).role;
 
+          if (jwtUserRole === 'Customer') {
+            this.router.navigateByUrl('/delegate/profile');
+          } else if (jwtUserRole === 'Admin' || jwtUserRole === 'SuperAdmin') {
+            this.router.navigateByUrl('/admin/tasc-admin');
+          } else {
+            //localStorage.removeItem('token');
+            // this.router.navigate(['./login'])
+            console.log("Can not find this role " + jwtUserRole);
+          }
         }
       }]);
 
@@ -4438,7 +5769,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /*#__PURE__*/
     function () {
       function SignUpComponent(userService, toastr, fb) {
-        var _this21 = this;
+        var _this22 = this;
 
         _classCallCheck(this, SignUpComponent);
 
@@ -4491,14 +5822,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         };
 
         this.hasError = function (controlName, errorName) {
-          return _this21.TascRegForm.controls[controlName].hasError(errorName);
+          return _this22.TascRegForm.controls[controlName].hasError(errorName);
         };
       }
 
       _createClass(SignUpComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this22 = this;
+          var _this23 = this;
 
           this.TascRegForm = this.fb.group({
             firstName: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]('', [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].minLength(2), _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].maxLength(60)]),
@@ -4513,57 +5844,57 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             })
           });
           this.TascRegForm.valueChanges.subscribe(function (data) {
-            _this22.logValidationErrors(_this22.TascRegForm);
+            _this23.logValidationErrors(_this23.TascRegForm);
           });
         } // Logs validation error messages
 
       }, {
         key: "logValidationErrors",
         value: function logValidationErrors() {
-          var _this23 = this;
+          var _this24 = this;
 
           var group = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.TascRegForm;
           Object.keys(group.controls).forEach(function (key) {
             var abstractControl = group.get(key);
-            _this23.formErrors[key] = '';
+            _this24.formErrors[key] = '';
 
             if (abstractControl && !abstractControl.valid && (abstractControl.touched || abstractControl.dirty)) {
-              var messages = _this23.validationMessages[key];
+              var messages = _this24.validationMessages[key];
 
               for (var errorKey in abstractControl.errors) {
                 if (errorKey) {
-                  _this23.formErrors[key] += messages[errorKey] + ' ';
+                  _this24.formErrors[key] += messages[errorKey] + ' ';
                 }
               }
             }
 
             if (abstractControl instanceof _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroup"]) {
-              _this23.logValidationErrors(abstractControl);
+              _this24.logValidationErrors(abstractControl);
             }
           });
         }
       }, {
         key: "OnSubmit",
         value: function OnSubmit(form) {
-          var _this24 = this;
+          var _this25 = this;
 
           var formData = form.value;
           var userData = this.getUserInformation(formData);
           this.userService.registerUser(userData).subscribe(function (data) {
             if (data.succeeded == true) {
-              _this24.resetForm(form);
+              _this25.resetForm(form);
 
-              _this24.toastr.success('User registration successful', "Success!");
+              _this25.toastr.success('User registration successful', "Success!");
             } else {
               data.errors.forEach(function (element) {
                 switch (element.code) {
                   case 'DuplicateUserName':
-                    _this24.toastr.error('Username is already taken', 'Registration failed.');
+                    _this25.toastr.error('Username is already taken', 'Registration failed.');
 
                     break;
 
                   default:
-                    _this24.toastr.error(element.description, 'Registration failed.');
+                    _this25.toastr.error(element.description, 'Registration failed.');
 
                     break;
                 }
@@ -4869,7 +6200,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! D:\Dev\PracticeDev\Vabereki\CoursesWebSite\TascConsulting_DotNet_Core\TascConsulting_DotNet_Core\ClientApp\src\main.ts */
+    /*! D:\Dev\PracticeDev\Vabereki\MrTau\CoursesWebSite\TascConsulting_DotNet_Core\TascConsulting_DotNet_Core\ClientApp\src\main.ts */
     "./src/main.ts");
     /***/
   }
