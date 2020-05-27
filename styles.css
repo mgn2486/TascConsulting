@@ -1814,3 +1814,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 ::ng-deep .mat-card-content{
   padding:5px !important;
 }
+
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
+  background: #5f0310;
+  height: 8px;
+} 
