@@ -96,15 +96,6 @@
         "Description":"description 2",
         "Place":"place 2" ,
         "Category":"Conferences" ,
-        "Src":"assets/images/gallery/gallery_12.jpg",
-        "DateInserted":"02/01/2020"
-    },
-    {
-        "ImageId":"5",
-        "Name":"imageName 2",
-        "Description":"description 2",
-        "Place":"place 2" ,
-        "Category":"Conferences" ,
         "Src":"assets/images/gallery/gallery_13.jpg",
         "DateInserted":"02/01/2020"
     },

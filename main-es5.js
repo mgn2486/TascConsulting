@@ -341,7 +341,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<section fxLayout=\"column\" fxFlexAlign=\"stretch\">\r\n <div fxFlexAlign=\"center\">\r\n   <h3>Welcome to TASC - Consulting</h3>\r\n </div>\r\n <app-banner></app-banner>\r\n <div class=\"row\">\r\n        <div class=\"col-sm\">\r\n            <mat-card>\r\n                <mat-card-header>\r\n                    <div mat-card-avatar class=\"example-header-image\"></div>\r\n                    <mat-card-title>Programmes</mat-card-title>\r\n                </mat-card-header>\r\n                <img mat-card-image src=\"assets/images/home/home_2.jpg\" alt=\"Photo of a Shiba Inu\">\r\n                <mat-card-content>\r\n                    <p>\r\n                        TASC training programmes assist our clients to enable and empower employees to become competitive differentiators \r\n                        for their company. WE positively impact the society and equip employees with relevant skills for their personal \r\n                        development which will translate to high productivity in the organization\r\n                    </p>\r\n                </mat-card-content>\r\n                <mat-card-actions>\r\n                    <button mat-button>LIKE</button>\r\n                    <button mat-button>SHARE</button>\r\n                </mat-card-actions>\r\n            </mat-card>\r\n        </div>\r\n\r\n        <div class=\"col-sm\" class=\"col-md\">\r\n            <mat-card>\r\n                <mat-card-header >\r\n                    <div mat-card-avatar class=\"example-header-image\"></div>\r\n                    <mat-card-title>Courses</mat-card-title>\r\n                </mat-card-header>\r\n                <img mat-card-image src=\"assets/images/home/home_3.jpg\" alt=\"Photo of a Shiba Inu\">\r\n                <mat-card-content>\r\n                    <p>\r\n                    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.\r\n                    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally\r\n                    bred for hunting.\r\n                    </p>\r\n                </mat-card-content>\r\n                <mat-card-actions>\r\n                    <button mat-button>LIKE</button>\r\n                    <button mat-button>SHARE</button>\r\n                </mat-card-actions>\r\n            </mat-card>\r\n        </div>\r\n        <div class=\"col-sm\">\r\n            <mat-card>\r\n                <mat-card-header>\r\n                    <mat-card-title>Business Consulting</mat-card-title>\r\n                </mat-card-header>\r\n                <img mat-card-image src=\"assets/images/home/home_1.jpg\" alt=\"Photo of a Shiba Inu\">\r\n                <mat-card-content>\r\n                    <p>\r\n                        Our strategic offerings are simple, integrated and complete in every aspect, catering for a fast \r\n                        changing dynamic workplace. Our main consulting services are but not limited to;\r\n                        \r\n\r\n                    </p>\r\n                    <b>\r\n                        <ul>\r\n                            <li>Performance management system</li>\r\n                            <li>BEE verification</li>\r\n                            <li>Material Development </li>\r\n                        </ul>\r\n                    </b>\r\n                </mat-card-content>\r\n                <mat-card-actions>\r\n                    <button mat-button>LIKE</button>\r\n                    <button mat-button>SHARE</button>\r\n                </mat-card-actions>\r\n            </mat-card>\r\n        </div>\r\n     </div>\r\n<br><br><div class=\"row\">\r\n    \r\n    <div class=\"col-md\">  \r\n    <mat-tab-group mat-stretch-tabs (selectedTabChange)=\"executeSelectedChange($event)\">\r\n        <mat-tab bg-color=\"primary\" label=\"Tasc Consulting courses\"> \r\n            <p>We offer various training courses that can guide you into building a success business structure</p> \r\n        </mat-tab>\r\n        <mat-tab label=\"On site Training\">\r\n            <p>Our trainers will come to your premises and set up training rooms</p>\r\n        </mat-tab>\r\n        <mat-tab label=\"Training Materials\">\r\n            <ol>\r\n                <li>Computers</li>\r\n                <li>Study Guide</li>\r\n                <li>Notes Provided</li>\r\n            </ol>\r\n        </mat-tab>\r\n    </mat-tab-group>  \r\n</div>\r\n</div>\r\n</section>\r\n";
+    __webpack_exports__["default"] = "<section fxLayout=\"column\" fxFlexAlign=\"stretch\">\r\n <div fxFlexAlign=\"center\">\r\n   <h3>Welcome to TASC - Consulting</h3>\r\n </div>\r\n <app-banner></app-banner>\r\n <div class=\"row\">\r\n        <div class=\"col-sm\">\r\n            <mat-card>\r\n                <mat-card-header>\r\n                    <div mat-card-avatar class=\"example-header-image\"></div>\r\n                    <mat-card-title>Programmes</mat-card-title>\r\n                </mat-card-header>\r\n                <img mat-card-image src=\"assets/images/home/home_2.jpg\" alt=\"Photo of a Shiba Inu\">\r\n                <mat-card-content>\r\n                    <p>\r\n                        TASC training programmes assist our clients to enable and empower employees to become competitive differentiators \r\n                        for their company. WE positively impact the society and equip employees with relevant skills for their personal \r\n                        development which will translate to high productivity in the organization\r\n                    </p>\r\n                </mat-card-content>\r\n                <mat-card-actions>\r\n                    <button mat-button>LIKE</button>\r\n                    <button mat-button>SHARE</button>\r\n                </mat-card-actions>\r\n            </mat-card>\r\n        </div>\r\n\r\n        <div class=\"col-sm\" class=\"col-md\">\r\n            <mat-card>\r\n                <mat-card-header >\r\n                    <div mat-card-avatar class=\"example-header-image\"></div>\r\n                    <mat-card-title>Courses</mat-card-title>\r\n                </mat-card-header>\r\n                <img mat-card-image src=\"assets/images/home/home_3.jpg\" alt=\"Photo of a Shiba Inu\">\r\n                <mat-card-content>\r\n                    <p>\r\n                        We offer a wide range of courses across all SETAs, from one week to one year courses. We are\r\n                        accredited with over 20 qualifications and over 200 short courses. All our courses are part-time\r\n                        based, offered either face to face or online. For more information on other range of courses not\r\n                        listed above please kindly contact our offices.\r\n                    </p>\r\n                </mat-card-content>\r\n                <mat-card-actions>\r\n                    <button mat-button>LIKE</button>\r\n                    <button mat-button>SHARE</button>\r\n                </mat-card-actions>\r\n            </mat-card>\r\n        </div>\r\n        <div class=\"col-sm\">\r\n            <mat-card>\r\n                <mat-card-header>\r\n                    <mat-card-title>Business Consulting</mat-card-title>\r\n                </mat-card-header>\r\n                <img mat-card-image src=\"assets/images/home/home_1.jpg\" alt=\"Photo of a Shiba Inu\">\r\n                <mat-card-content>\r\n                    <p>\r\n                        Our strategic offerings are simple, integrated and complete in every aspect, catering for a fast \r\n                        changing dynamic workplace. Our main consulting services are but not limited to;\r\n                        \r\n\r\n                    </p>\r\n                    <ul>\r\n                        <li>Performance management system</li>\r\n                        <li>BEE verification</li>\r\n                        <li>Material Development </li>\r\n                    </ul>\r\n                </mat-card-content>\r\n                <mat-card-actions>\r\n                    <button mat-button>LIKE</button>\r\n                    <button mat-button>SHARE</button>\r\n                </mat-card-actions>\r\n            </mat-card>\r\n        </div>\r\n     </div>\r\n<br><br><div class=\"row\">\r\n    \r\n    <div class=\"col-md\">  \r\n    <mat-tab-group mat-stretch-tabs (selectedTabChange)=\"executeSelectedChange($event)\">\r\n        <mat-tab bg-color=\"primary\" label=\"Tasc Consulting courses\"> \r\n            <p>We offer various training courses that can guide you into building a success business structure</p> \r\n        </mat-tab>\r\n        <mat-tab label=\"On site Training\">\r\n            <p>Our trainers will come to your premises and set up training rooms</p>\r\n        </mat-tab>\r\n        <mat-tab label=\"Training Materials\">\r\n            <ol>\r\n                <li>Computers</li>\r\n                <li>Study Guide</li>\r\n                <li>Notes Provided</li>\r\n            </ol>\r\n        </mat-tab>\r\n    </mat-tab-group>  \r\n</div>\r\n</div>\r\n</section>\r\n";
     /***/
   },
 
@@ -421,7 +421,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"row\">\r\n    <br>\r\n    <mat-card *ngFor='let course of CourseList' class=\"col-lg-3 col-md-3 col-sm-12\" style=\"margin: 10px;\">\r\n        <mat-card-header>\r\n            <div mat-card-avatar class=\"example-header-image\"></div>\r\n            <mat-card-title><p style=\"text-align: left;\">{{course.name}}</p></mat-card-title>\r\n        </mat-card-header>\r\n        <mat-card-content style=\"text-align: justify;\">\r\n            \r\n                {{course.description  | slice: 0: 100 }}....<a href=\"\" (click)=\"MoreCourseInfo()\">..Read More</a>\r\n            \r\n        </mat-card-content>\r\n        <mat-card-actions>\r\n            <button mat-button>LIKE</button>\r\n            <button mat-button>SHARE</button>\r\n        </mat-card-actions>\r\n    </mat-card>\r\n</div>\r\n";
+    __webpack_exports__["default"] = "<div class=\"row\">\r\n    <br>\r\n    <mat-card *ngFor='let course of CourseList; let i = index' class=\"col-lg-3 col-md-3 col-sm-12\" style=\"margin: 10px;\">\r\n        <mat-card-header>\r\n            <div mat-card-avatar class=\"example-header-image\"></div>\r\n            <mat-card-title><p style=\"text-align: left;\">{{course.name}}</p></mat-card-title>\r\n        </mat-card-header>\r\n        <mat-card-content style=\"text-align: justify;\">\r\n            \r\n                {{course.description[0]  | slice: 0: 100 }}....<a href=\"\" (click)=\"MoreCourseInfo()\">..Read More</a>\r\n            \r\n        </mat-card-content>\r\n        <mat-card-actions>\r\n            <button mat-button>LIKE</button>\r\n            <button mat-button>SHARE</button>\r\n        </mat-card-actions>\r\n    </mat-card>\r\n</div>\r\n";
     /***/
   },
 
@@ -461,7 +461,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"container\">\n    <h3>TASC - Courses</h3>\n  <hr>\n\n  <p>\n      The following are some of the courses we offer at TASC Business consulting. We have a wide spectrum \n      of co-operate courses that we offer. Please click on amy of the following links to see more on\n      each of the categories of courses we offer;\n  </p>\n  <h4>Our Qualification Programmes</h4>\n  <br>\n      <h5>We are fully acredited in the following courses with <b>LG SETA</b></h5> \n  <br>               \n    <p>  \n        <b>\n            <ul>\n                <li>57823 - National Certificate: Ward Committee Governance</li>\n                <li>50081 - Further Education and Training Certificate: Leadership</li>\n                <li>49605 - National Certificate: Environmental Practice</li>\n                <li>49554 - National Diploma: Public Finance Management and Administration</li>\n                <li>48965 - Certificate: Municipal Financial Management</li>\n            </ul>\n        </b>\n    </p>\n  <h4>Short Skills Programmes</h4>\n  <br>\n   <app-course-navigation></app-course-navigation> \n   <app-course-list [department]=department >{{department}}</app-course-list>\n</div>\n";
+    __webpack_exports__["default"] = "<div class=\"container\">\n    <h3>TASC - Courses</h3>\n  <hr>\n\n  <p>\n      The following are some of the courses we offer at TASC Business consulting. We have a wide spectrum \n      of co-operate courses that we offer. Please click on amy of the following links to see more on\n      each of the categories of courses we offer;\n  </p>\n  <h4>Our Qualification Programmes</h4>\n  <br>\n      <h5>We are fully acredited in the following courses with <b>LG SETA</b></h5> \n  <br>               \n    <p>  \n        <b>\n            <ul>\n                <li>57823 - National Certificate: Ward Committee Governance</li>\n                <li>50081 - Further Education and Training Certificate: Leadership</li>\n                <li>49605 - National Certificate: Environmental Practice</li>\n                <li>49554 - National Diploma: Public Finance Management and Administration</li>\n                <li>48965 - Certificate: Municipal Financial Management</li>\n            </ul>\n        </b>\n    </p>\n  <h4>Short Skills Programmes</h4>\n  <br>\n  <p>We are accredited with over 20 qualifications across all SETAS and over 200 short courses. Below are some of our accredited qualifications. \n    On other qualifications please kindly contact our office. <br><br>\n    Please click on any of the following links to see more on each of the categories of courses we offer</p>\n   <app-course-navigation></app-course-navigation> \n   <app-course-list [department]=department >{{department}}</app-course-list>\n</div>\n";
     /***/
   },
 
@@ -4515,40 +4515,40 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function GetTeamMembers() {
           return [{
             'Title': 'Mr',
-            'Fname': 'Taurai',
+            'Fname': 'Taurayi',
             'Lname': 'Sihamba',
-            'CoPosition': 'Director',
+            'CoPosition': 'Managing Director ',
             'Qualification': 'PhD in Economics',
             'ProfilPicture': 'assets/images/profile_pics/male_user.png',
             'Profile': 'Mr Sihamba is a qualified Economist, with vast experience in economic development ',
             'ImagePath': 'assets/images/users/user-male-icon.png'
           }, {
-            'Title': 'Miss',
-            'Fname': 'Sharon',
-            'Lname': 'Mandizha',
-            'CoPosition': 'Director',
+            'Title': 'Mr',
+            'Fname': 'Joseph',
+            'Lname': 'Maveneka',
+            'CoPosition': 'Business Development Manager',
             'Qualification': 'National Foundation Certificate: C.O.P (HEXCO Zimbabwe) \
             National Diploma in Management (D.U.T) \
             Bachelor of Technology in Management (D.U.T)',
             'ProfilPicture': 'assets/images/profile_pics/female_user.png',
-            'Profile': 'Ms. Mandizha is management professional. She is employed in the apacity of an Accounts Coordinator at TASC. She committed and delivered impressive\
-             results during her experiential learning –the reason she has been brought on board on\
-             a full time basis. Sharon is responsible for the coordination of training assignments, \
+            'Profile': 'Mr. Maveneka is our Business Development Manager. He is employed in the apacity of an Accounts Coordinator at TASC. He has committed and delivered impressive\
+             results during his experiential learning –the reason he was been brought on board on\
+             a full time basis. Mr Maveneka is responsible for the coordination of training assignments, \
              organization development activities, SMME support as well as small enterprise mentorship. \
-             She has passion in the areas of finance, human resources, administration, strategic \
-             management and research. She cut her teeth in student leadership during her under-graduate \
-             and post-graduate studies; she was part of the Events Committee of International Students \
+             He has passion in the areas of finance, human resources, administration, strategic \
+             management and research. He cut his teeth in student leadership during his under-graduate \
+             and post-graduate studies; he was part of the Events Committee of International Students \
              Organization as the Projects Officer and currently holds a position of Vice President in the \
              same organization ',
-            'ImagePath': 'assets/images/users/user-female-icon.png'
+            'ImagePath': 'assets/images/users/user-male-icon.png'
           }, {
-            'Title': 'Miss',
-            'Fname': 'Phumelele',
-            'Lname': 'Gasa',
-            'CoPosition': 'Senior Adminstrator',
+            'Title': 'Ms.',
+            'Fname': 'Ayanda',
+            'Lname': 'Malimela',
+            'CoPosition': 'Marketing and Public Relations Manager',
             'Qualification': 'Durban University of Technology (National Diploma in Marketing)',
             'ProfilPicture': 'assets/images/profile_pics/female_user.png',
-            'Profile': 'Phumelele is a the Administrative officer at TASC. She has two years’ experience \
+            'Profile': 'Ms. Malimela is a the Marketing and Public Relations Manager at TASC. She has two years’ experience \
             in client services and marketing. Her expertise is in small business consulting, tax affairs \
             and bookkeeping of small businesses. Phumelele has worked for Intergated Data Expertz as a \
             Sales Adminitrator for 2 years. She has interest in marketing, business management and helping \
@@ -4648,6 +4648,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.courseService = courseService;
         this.department = '';
         this.CourseList = [];
+        this.CourseDescription = [];
       }
 
       _createClass(CourseListComponent, [{
