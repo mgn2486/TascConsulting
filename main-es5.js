@@ -4521,7 +4521,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             'Qualification': 'PhD in Economics',
             'ProfilPicture': 'assets/images/profile_pics/male_user.png',
             'Profile': 'Mr Sihamba is a qualified Economist, with vast experience in economic development ',
-            'ImagePath': 'assets/images/users/Mr_Tau2.jpg'
+            'ImagePath': 'assets/images/users/Mr_Tau_2.jpg'
           }, {
             'Title': 'Mr',
             'Fname': 'Joseph',
