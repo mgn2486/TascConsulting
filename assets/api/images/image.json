@@ -1,31 +1,4 @@
 [
-	{
-        "ImageId":"1",
-        "Name":"imageName 1",
-        "Description":"description 1",
-        "Place":"place 1" ,
-        "Category":"Sports" ,
-        "Src":"assets/images/gallery/gallery_1.jpg",
-        "DateInserted":"01/01/2020"
-    },
-    {
-        "ImageId":"2",
-        "Name":"imageName 2",
-        "Description":"description 2",
-        "Place":"place 2" ,
-        "Category":"Sports" ,
-        "Src":"assets/images/gallery/gallery_2.jpg",
-        "DateInserted":"02/01/2020"
-    },
-    {
-        "ImageId":"3",
-        "Name":"imageName 2",
-        "Description":"description 2",
-        "Place":"place 2" ,
-        "Category":"Sports" ,
-        "Src":"assets/images/gallery/gallery_3.jpg",
-        "DateInserted":"02/01/2020"
-    },
     {
         "ImageId":"4",
         "Name":"imageName 2",
