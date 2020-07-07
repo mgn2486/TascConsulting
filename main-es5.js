@@ -281,7 +281,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"container\">\r\n  <h4>CONTACT US</h4>  \r\n<hr class=\"section-hr-line\">\r\n<p>Please use any of the following options</p>\r\n\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col-12 col-md-8\">\r\n      <mat-card style=\"margin-bottom: 15px;\"  color=\"primary\">\r\n          <mat-card-header  color=\"primary\">\r\n             <mat-card-title> <h4 class=\"site-text\">Send Us a Message</h4></mat-card-title>\r\n             <hr>\r\n         </mat-card-header>\r\n         <!-- <img mat-card-image src=\"assets/images/home/home_2.jpg\" alt=\"Photo of a Shiba Inu\"> -->\r\n         <mat-card-content>\r\n          <form [formGroup]=\"ContactForm\" autocomplete=\"off\" class=\"col-12 white\" (ngSubmit)=\"OnSubmit(ContactForm)\" (blur)=\"logValidationErrors()\">\r\n                <div class=\"input-field-class\">\r\n        \r\n                  <div class=\"row\">\r\n                    <mat-form-field  class=\"col-12\">\r\n                      <mat-label>Full Name</mat-label>\r\n                      <input matInput placeholder=\"Full Name\" #fullName ngModel formControlName=\"fullName\" (blur)=\"logValidationErrors()\">\r\n                      <mat-icon matPrefix>person_outline</mat-icon>\r\n                      <mat-error *ngIf=\"formErrors.fullName\"><b>{{formErrors.fullName}}</b></mat-error>\r\n                    </mat-form-field>\r\n                  </div>\r\n        \r\n                  <div class=\"row\">\r\n                    <mat-form-field  class=\"col\">\r\n                      <mat-label>Email Address</mat-label>    \r\n                      <input matInput placeholder=\"Email Address\" #emailAddress ngModel formControlName=\"emailAddress\" (blur)=\"logValidationErrors()\">\r\n                      <mat-icon matPrefix>mail</mat-icon>\r\n                      <mat-error *ngIf=\"formErrors.emailAddress\"><b>{{formErrors.emailAddress}}</b></mat-error>\r\n                    </mat-form-field>\r\n                  </div>\r\n        \r\n                  <div class=\"row\">\r\n                    <mat-form-field class=\"col\">\r\n                      <mat-label>Subject</mat-label>      \r\n                      <input matInput (keyup)=\"applyFilter($event.target.value)\"  placeholder=\"Subject\" #subject ngModel formControlName=\"subject\" (blur)=\"logValidationErrors()\">\r\n                      <mat-icon matPrefix>mail</mat-icon>\r\n                      <mat-error *ngIf=\"formErrors.subject\"><b>{{formErrors.subject}}</b></mat-error>\r\n                    </mat-form-field>\r\n                  </div>\r\n        \r\n                  <div class=\"row\">\r\n                      <mat-form-field class=\"col stretch-height\" >\r\n                          <mat-label>Message</mat-label>\r\n                          <textarea matInput rows=\"10\" (keyup)=\"applyFilter($event.target.value)\"  placeholder=\"Message\" formControlName=\"message\" (blur)=\"logValidationErrors()\"></textarea>\r\n                          <mat-error *ngIf=\"formErrors.message\"><b>{{formErrors.message}}</b></mat-error>\r\n                        </mat-form-field>\r\n                  </div>\r\n        \r\n                  <div class=\"row s12\">\r\n                    <button color=\"primary\" [disabled]=\"!ContactForm.valid\" mat-raised-button>Sign - UP</button>\r\n                  </div>\r\n                </div>\r\n             </form>\r\n         </mat-card-content>\r\n        </mat-card> \r\n    </div>\r\n    <div class=\"col-12 col-md-4\">\r\n      <h4>Call Us</h4>\r\n    <hr>\r\n    <p>\r\n      <b>Landline : </b> +27 (0)31 261 1907 <br>\r\n      <b>Mobile : </b>+27 (0)78 253 9442  <br>\r\n      <b>Email  : </b> info@tascconsulting.co.za <br>       \r\n  \r\n      <br>\r\n      tau@tascconsulting.co.za\r\n      <br>\r\n      info@tascconsulting.co.za\r\n      <br>       \r\n    </p>\r\n    <br>\r\n    <h4>Physical Address : </h4>\r\n    <hr>\r\n    <p> \r\n      1 Helston Road <br>Manor Gardens <br>Durban,<br> 4001     \r\n    </p>\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n        <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3460.154426062503!2d30.979720315110836!3d-29.859819981949762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7aa035588fdc3%3A0xbbf19900bf754834!2s1+Helston+Rd%2C+Westridge%2C+Berea%2C+4091!5e0!3m2!1sen!2sza!4v1544405290074\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:1 px solid grey\" allowfullscreen></iframe>\r\n    </div>\r\n  </div>\r\n</div>\r\n</div>\r\n\r\n\r\n\r\n\r\n  <!-- <div class=\"col-lg-8 col-md-8 col-sm-12 col-xs-12\">\r\n    <h4>Send Us a Message</h4>\r\n    <hr>      \r\n    <form [formGroup]=\"ContactForm\" novalidate>\r\n      \r\n        <div class=\"form-group\">\r\n            <label>Full Name:</label>\r\n            <input class=\"form-control\" formControlName=\"FullName\" type=\"text\">\r\n        </div>        \r\n        <div *ngIf=\"ContactForm.controls['FullName'].invalid && (ContactForm.controls['FullName'].dirty || ContactForm.controls['FullName'].touched)\" class=\"alert alert-danger\">\r\n           <div *ngIf=\"ContactForm.controls['FullName'].errors.required\">\r\n              Your full name is required.\r\n           </div>\r\n        </div>\r\n\r\n        <div class=\"form-group\">\r\n            <label>Your Email:</label>\r\n            <input class=\"form-control\" formControlName=\"EmailFrom\" type=\"text\">\r\n        </div>        \r\n        <div *ngIf=\"ContactForm.controls['EmailFrom'].invalid && (ContactForm.controls['EmailFrom'].dirty || ContactForm.controls['EmailFrom'].touched)\" class=\"alert alert-danger\">\r\n           <div *ngIf=\"ContactForm.controls['EmailFrom'].errors.required\">\r\n              Your email is required.\r\n           </div>\r\n        </div>\r\n\r\n        <div class=\"form-group\">\r\n            <label>Subject To:</label>\r\n            <input class=\"form-control\" formControlName=\"Subject\" type=\"text\">\r\n        </div>\r\n        <div *ngIf=\"ContactForm.controls['Subject'].invalid && (ContactForm.controls['Subject'].dirty || ContactForm.controls['Subject'].touched)\" class=\"alert alert-danger\">\r\n            <div *ngIf=\"ContactForm.controls['Subject'].errors.required\">\r\n              Subject is required.\r\n            </div>\r\n        </div>\r\n  \r\n        <div class=\"form-group\">\r\n            <label>Message :</label>\r\n            <textarea class=\"form-control\" formControlName=\"Message\" type=\"textarea\" rows=\"10\"></textarea>\r\n        </div>\r\n        <div *ngIf=\"ContactForm.controls['Message'].invalid && (ContactForm.controls['Message'].dirty || ContactForm.controls['Message'].touched)\" class=\"alert alert-danger\">\r\n            <div *ngIf=\"ContactForm.controls['Message'].errors.required\">\r\n              Message is required.\r\n            </div>\r\n        </div>\r\n  \r\n        <button type=\"submit\"\r\n            [disabled]=\"ContactForm.pristine || ContactForm.invalid\" class=\"btn btn-success\" (click)= 'SendMail()'>\r\n            Send Mail\r\n        </button>\r\n        <div class=\"form-group message\">\r\n            <p style=\" text-align: center; font-weight: bold;\" [style.color]=\"hasErrors ? 'red': 'green'\">\r\n              {{ responseSent }}\r\n            </p>\r\n        </div>\r\n         <div *ngIf=\"isLoading\" class=\"relative\">\r\n            <app-spinner></app-spinner>\r\n        </div>          \r\n    </form>\r\n    <br />\r\n    \r\n     <p>Form value: {{ emailUsForm.value | json }}</p>\r\n    <p>Form status: {{ emailUsForm.status | json }}</p>\r\n\r\n  </div>\r\n\r\n  <div class=\"col-lg-4 col-md-4 col-sm-12 col-xs-12\">\r\n    <h4>Call Us</h4>\r\n    <hr>\r\n    <p>\r\n      <b>Landline : </b> +27 (0) 31 261 1907 <br> <b>Or     : </b> +27 (0) 31 829 9130 <br>\r\n      <b>Mobile : </b>+27 (0) 78 253 9442  <br>\r\n      <b>Or     : </b>+27 (0) 65 822 3164  <br><br>\r\n      <b>Email  : </b>tau@tascconsulting.co.za / info@tascconsulting.co.za  <br>       \r\n    </p>\r\n    <br>\r\n    <h4>Physical Address : </h4>\r\n    <hr>\r\n    <p>\r\n      1 Helston Road,<br> Westridge,<br> Berea,<br>Durban, <br> 4091      \r\n    </p>\r\n  </div>\r\n  \r\n</div>\r\n\r\n<div class=\"row\">\r\n  <h4>Find Us</h4>\r\n  <hr>\r\n  <br>\r\n  <div class=\"col-lg-12 col-md-12 col-sm-12 col-xs-12\">\r\n    <p>\r\n      <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3460.154426062503!2d30.979720315110836!3d-29.859819981949762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7aa035588fdc3%3A0xbbf19900bf754834!2s1+Helston+Rd%2C+Westridge%2C+Berea%2C+4091!5e0!3m2!1sen!2sza!4v1544405290074\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:1 px solid grey\" allowfullscreen></iframe>\r\n  </p>\r\n  </div>\r\n  \r\n\r\n</div> -->\r\n\r\n";
+    __webpack_exports__["default"] = "<div class=\"container\">\r\n  <h4>CONTACT US</h4>  \r\n<hr class=\"section-hr-line\">\r\n<p>Please use any of the following options</p>\r\n\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col-12 col-md-8\">\r\n      <mat-card style=\"margin-bottom: 15px;\"  color=\"primary\">\r\n          <mat-card-header  color=\"primary\">\r\n             <mat-card-title> <h4 class=\"site-text\">Send Us a Message</h4></mat-card-title>\r\n             <hr>\r\n         </mat-card-header>\r\n         <!-- <img mat-card-image src=\"assets/images/home/home_2.jpg\" alt=\"Photo of a Shiba Inu\"> -->\r\n         <mat-card-content>\r\n          <form [formGroup]=\"ContactForm\" autocomplete=\"off\" class=\"col-12 white\" (ngSubmit)=\"OnSubmit(ContactForm)\" (blur)=\"logValidationErrors()\">\r\n                <div class=\"input-field-class\">\r\n        \r\n                  <div class=\"row\">\r\n                    <mat-form-field  class=\"col-12\">\r\n                      <mat-label>Full Name</mat-label>\r\n                      <input matInput placeholder=\"Full Name\" #fullName ngModel formControlName=\"fullName\" (blur)=\"logValidationErrors()\">\r\n                      <mat-icon matPrefix>person_outline</mat-icon>\r\n                      <mat-error *ngIf=\"formErrors.fullName\"><b>{{formErrors.fullName}}</b></mat-error>\r\n                    </mat-form-field>\r\n                  </div>\r\n        \r\n                  <div class=\"row\">\r\n                    <mat-form-field  class=\"col\">\r\n                      <mat-label>Email Address</mat-label>    \r\n                      <input matInput placeholder=\"Email Address\" #emailAddress ngModel formControlName=\"emailAddress\" (blur)=\"logValidationErrors()\">\r\n                      <mat-icon matPrefix>mail</mat-icon>\r\n                      <mat-error *ngIf=\"formErrors.emailAddress\"><b>{{formErrors.emailAddress}}</b></mat-error>\r\n                    </mat-form-field>\r\n                  </div>\r\n        \r\n                  <div class=\"row\">\r\n                    <mat-form-field class=\"col\">\r\n                      <mat-label>Subject</mat-label>      \r\n                      <input matInput (keyup)=\"applyFilter($event.target.value)\"  placeholder=\"Subject\" #subject ngModel formControlName=\"subject\" (blur)=\"logValidationErrors()\">\r\n                      <mat-icon matPrefix>mail</mat-icon>\r\n                      <mat-error *ngIf=\"formErrors.subject\"><b>{{formErrors.subject}}</b></mat-error>\r\n                    </mat-form-field>\r\n                  </div>\r\n        \r\n                  <div class=\"row\">\r\n                      <mat-form-field class=\"col stretch-height\" >\r\n                          <mat-label>Message</mat-label>\r\n                          <textarea matInput rows=\"10\" (keyup)=\"applyFilter($event.target.value)\"  placeholder=\"Message\" formControlName=\"message\" (blur)=\"logValidationErrors()\"></textarea>\r\n                          <mat-error *ngIf=\"formErrors.message\"><b>{{formErrors.message}}</b></mat-error>\r\n                        </mat-form-field>\r\n                  </div>\r\n        \r\n                  <div class=\"row s12\">\r\n                    <button color=\"primary\" [disabled]=\"!ContactForm.valid\" mat-raised-button>Send - Message</button>\r\n                    <mat-progress-spinner *ngIf=\"isLoading\" mode=\"indeterminate\" diameter='20' strokeWidth='50'></mat-progress-spinner>\r\n                  </div>\r\n                </div>\r\n             </form>\r\n         </mat-card-content>\r\n        </mat-card> \r\n    </div>\r\n    <div class=\"col-12 col-md-4\">\r\n      <h4>Call Us</h4>\r\n    <hr>\r\n    <p>\r\n      <b>Landline : </b> +27 (0)31 261 1907 <br>\r\n      <b>Mobile : </b>+27 (0)78 253 9442  <br>\r\n      <b>Email  : </b> info@tascconsulting.co.za <br>       \r\n  \r\n      <br>\r\n      tau@tascconsulting.co.za\r\n      <br>\r\n      info@tascconsulting.co.za\r\n      <br>       \r\n    </p>\r\n    <br>\r\n    <h4>Physical Address : </h4>\r\n    <hr>\r\n    <p> \r\n      1 Helston Road <br>Manor Gardens <br>Durban,<br> 4001     \r\n    </p>\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n        <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3460.154426062503!2d30.979720315110836!3d-29.859819981949762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7aa035588fdc3%3A0xbbf19900bf754834!2s1+Helston+Rd%2C+Westridge%2C+Berea%2C+4091!5e0!3m2!1sen!2sza!4v1544405290074\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:1 px solid grey\" allowfullscreen></iframe>\r\n    </div>\r\n  </div>\r\n</div>\r\n</div>\r\n\r\n\r\n\r\n\r\n  <!-- <div class=\"col-lg-8 col-md-8 col-sm-12 col-xs-12\">\r\n    <h4>Send Us a Message</h4>\r\n    <hr>      \r\n    <form [formGroup]=\"ContactForm\" novalidate>\r\n      \r\n        <div class=\"form-group\">\r\n            <label>Full Name:</label>\r\n            <input class=\"form-control\" formControlName=\"FullName\" type=\"text\">\r\n        </div>        \r\n        <div *ngIf=\"ContactForm.controls['FullName'].invalid && (ContactForm.controls['FullName'].dirty || ContactForm.controls['FullName'].touched)\" class=\"alert alert-danger\">\r\n           <div *ngIf=\"ContactForm.controls['FullName'].errors.required\">\r\n              Your full name is required.\r\n           </div>\r\n        </div>\r\n\r\n        <div class=\"form-group\">\r\n            <label>Your Email:</label>\r\n            <input class=\"form-control\" formControlName=\"EmailFrom\" type=\"text\">\r\n        </div>        \r\n        <div *ngIf=\"ContactForm.controls['EmailFrom'].invalid && (ContactForm.controls['EmailFrom'].dirty || ContactForm.controls['EmailFrom'].touched)\" class=\"alert alert-danger\">\r\n           <div *ngIf=\"ContactForm.controls['EmailFrom'].errors.required\">\r\n              Your email is required.\r\n           </div>\r\n        </div>\r\n\r\n        <div class=\"form-group\">\r\n            <label>Subject To:</label>\r\n            <input class=\"form-control\" formControlName=\"Subject\" type=\"text\">\r\n        </div>\r\n        <div *ngIf=\"ContactForm.controls['Subject'].invalid && (ContactForm.controls['Subject'].dirty || ContactForm.controls['Subject'].touched)\" class=\"alert alert-danger\">\r\n            <div *ngIf=\"ContactForm.controls['Subject'].errors.required\">\r\n              Subject is required.\r\n            </div>\r\n        </div>\r\n  \r\n        <div class=\"form-group\">\r\n            <label>Message :</label>\r\n            <textarea class=\"form-control\" formControlName=\"Message\" type=\"textarea\" rows=\"10\"></textarea>\r\n        </div>\r\n        <div *ngIf=\"ContactForm.controls['Message'].invalid && (ContactForm.controls['Message'].dirty || ContactForm.controls['Message'].touched)\" class=\"alert alert-danger\">\r\n            <div *ngIf=\"ContactForm.controls['Message'].errors.required\">\r\n              Message is required.\r\n            </div>\r\n        </div>\r\n  \r\n        <button type=\"submit\"\r\n            [disabled]=\"ContactForm.pristine || ContactForm.invalid\" class=\"btn btn-success\" (click)= 'SendMail()'>\r\n            Send Mail\r\n        </button>\r\n        <div class=\"form-group message\">\r\n            <p style=\" text-align: center; font-weight: bold;\" [style.color]=\"hasErrors ? 'red': 'green'\">\r\n              {{ responseSent }}\r\n            </p>\r\n        </div>\r\n         <div *ngIf=\"isLoading\" class=\"relative\">\r\n            <app-spinner></app-spinner>\r\n        </div>          \r\n    </form>\r\n    <br />\r\n    \r\n     <p>Form value: {{ emailUsForm.value | json }}</p>\r\n    <p>Form status: {{ emailUsForm.status | json }}</p>\r\n\r\n  </div>\r\n\r\n  <div class=\"col-lg-4 col-md-4 col-sm-12 col-xs-12\">\r\n    <h4>Call Us</h4>\r\n    <hr>\r\n    <p>\r\n      <b>Landline : </b> +27 (0) 31 261 1907 <br> <b>Or     : </b> +27 (0) 31 829 9130 <br>\r\n      <b>Mobile : </b>+27 (0) 78 253 9442  <br>\r\n      <b>Or     : </b>+27 (0) 65 822 3164  <br><br>\r\n      <b>Email  : </b>tau@tascconsulting.co.za / info@tascconsulting.co.za  <br>       \r\n    </p>\r\n    <br>\r\n    <h4>Physical Address : </h4>\r\n    <hr>\r\n    <p>\r\n      1 Helston Road,<br> Westridge,<br> Berea,<br>Durban, <br> 4091      \r\n    </p>\r\n  </div>\r\n  \r\n</div>\r\n\r\n<div class=\"row\">\r\n  <h4>Find Us</h4>\r\n  <hr>\r\n  <br>\r\n  <div class=\"col-lg-12 col-md-12 col-sm-12 col-xs-12\">\r\n    <p>\r\n      <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3460.154426062503!2d30.979720315110836!3d-29.859819981949762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7aa035588fdc3%3A0xbbf19900bf754834!2s1+Helston+Rd%2C+Westridge%2C+Berea%2C+4091!5e0!3m2!1sen!2sza!4v1544405290074\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:1 px solid grey\" allowfullscreen></iframe>\r\n  </p>\r\n  </div>\r\n  \r\n\r\n</div> -->\r\n\r\n";
     /***/
   },
 
@@ -3136,6 +3136,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         this.toastr = toastr;
         this.fb = fb;
+        this.emailService = emailService;
         this.emailPattern = "^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"; // This object will hold the messages to be displayed to the user
         // Notice, each key in this object has the same name as the
         // corresponding form control
@@ -3170,6 +3171,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             'maxlength': 'Message must be less than 150 characters.'
           }
         };
+        this.isLoading = false;
 
         this.hasError = function (controlName, errorName) {
           return _this4.ContactForm.controls[controlName].hasError(errorName);
@@ -3185,7 +3187,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             fullName: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]('', [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].minLength(5), _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].maxLength(60)]),
             emailAddress: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]('', [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].minLength(11), _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].maxLength(150)]),
             subject: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]('', [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].minLength(2), _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].maxLength(60)]),
-            message: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]('', [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].maxLength(200)])
+            message: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]('', [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].maxLength(200)]),
+            mailToAddress: "info@tascconsulting.co.za"
           });
           this.ContactForm.valueChanges.subscribe(function (data) {
             _this5.logValidationErrors(_this5.ContactForm);
@@ -3218,17 +3221,24 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       }, {
         key: "OnSubmit",
-        value: function OnSubmit(form) {// var formData = form.value;
-          // const userData: User = this.getUserInformation(formData)
-          // this.userService.registerUser(userData)
-          //   .subscribe((data: any) => {
-          //     if (data.succeeded == true) {
-          //       this.resetForm(form);
-          //       this.toastr.success('User registration successful', "Success!");
-          //     }
-          //     else
-          //       this.toastr.error(data.errors[0].description);
-          //   });
+        value: function OnSubmit(form) {
+          var _this7 = this;
+
+          var formData = form.value;
+          this.isLoading = true;
+          this.emailService.SendMail(formData).subscribe(function (response) {
+            if (response == 200) {
+              _this7.isLoading = false;
+
+              _this7.resetForm(form);
+
+              _this7.toastr.success('Email Successfully Sent !!!', "Success!");
+            } else {
+              _this7.isLoading = false;
+
+              _this7.toastr.error('Sorry Error in sending mail...', 'Sending failed.');
+            }
+          });
         }
       }, {
         key: "getUserInformation",
@@ -3716,7 +3726,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     };
 
-    var materialComponents = [_angular_material__WEBPACK_IMPORTED_MODULE_3__["MatButtonModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatButtonToggleModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatToolbarModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatSidenavModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatListModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatIconModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatTabsModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatMenuModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatListModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatButtonModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatIconModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatToolbarModule"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatSidenavModule"], angular_bootstrap_md__WEBPACK_IMPORTED_MODULE_2__["CarouselModule"], angular_bootstrap_md__WEBPACK_IMPORTED_MODULE_2__["WavesModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatCardModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatFormFieldModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatSelectModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatInputModule"]];
+    var materialComponents = [_angular_material__WEBPACK_IMPORTED_MODULE_3__["MatButtonModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatButtonToggleModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatToolbarModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatSidenavModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatListModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatIconModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatTabsModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatMenuModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatListModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatButtonModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatIconModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatToolbarModule"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatSidenavModule"], angular_bootstrap_md__WEBPACK_IMPORTED_MODULE_2__["CarouselModule"], angular_bootstrap_md__WEBPACK_IMPORTED_MODULE_2__["WavesModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatCardModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatFormFieldModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatSelectModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatInputModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatProgressSpinnerModule"]];
 
     var MaterialModule = function MaterialModule() {
       _classCallCheck(this, MaterialModule);
@@ -3799,14 +3809,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*#__PURE__*/
     function () {
       function HeaderComponent() {
-        var _this7 = this;
+        var _this8 = this;
 
         _classCallCheck(this, HeaderComponent);
 
         this.sidenavToggle = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
 
         this.onToggleSidenav = function () {
-          _this7.sidenavToggle.emit();
+          _this8.sidenavToggle.emit();
         };
       }
 
@@ -3902,14 +3912,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*#__PURE__*/
     function () {
       function SidenavListComponent() {
-        var _this8 = this;
+        var _this9 = this;
 
         _classCallCheck(this, SidenavListComponent);
 
         this.sidenavClose = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
 
         this.onSidenavClose = function () {
-          _this8.sidenavClose.emit();
+          _this9.sidenavClose.emit();
         };
       }
 
@@ -4178,13 +4188,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "getCoursesForDepartment",
         value: function getCoursesForDepartment() {
-          var _this9 = this;
+          var _this10 = this;
 
           var coursesForDepartment = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Subject"]();
           this.getDepartments().then(function (depts) {
             var departmentSet = new Set(depts);
             departmentSet.forEach(function (dept) {
-              _this9.getCourses().toPromise().then(function (courses) {
+              _this10.getCourses().toPromise().then(function (courses) {
                 return courses.filter(function (course) {
                   return course.Category === dept;
                 });
@@ -4257,6 +4267,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/common/http */
+    "./node_modules/@angular/common/fesm2015/http.js");
 
     var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
       var c = arguments.length,
@@ -4278,13 +4294,47 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     };
 
-    var EmailService = function EmailService() {
-      _classCallCheck(this, EmailService);
+    var EmailService =
+    /*#__PURE__*/
+    function () {
+      function EmailService(http) {
+        _classCallCheck(this, EmailService);
+
+        this.http = http;
+        this.rootUrl = 'https://localhost:44394/';
+      }
+
+      _createClass(EmailService, [{
+        key: "SendMail",
+        value: function SendMail(mailData) {
+          var body = {
+            FullName: mailData.fullName,
+            ContactEmailAddress: mailData.emailAddress,
+            Subject: mailData.subject,
+            Message: mailData.message,
+            MailToAddress: mailData.mailToAddress
+          };
+          var reqHeader = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({
+            'No-Auth': 'True'
+          });
+          return this.http.post(this.rootUrl + 'api/Email/sendMail', body, {
+            headers: reqHeader
+          });
+        }
+      }]);
+
+      return EmailService;
+    }();
+
+    EmailService.ctorParameters = function () {
+      return [{
+        type: _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]
+      }];
     };
 
     EmailService = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
       providedIn: 'root'
-    }), __metadata("design:paramtypes", [])], EmailService);
+    }), __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]])], EmailService);
     /***/
   },
 
@@ -4401,13 +4451,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "getImagesForCategory",
         value: function getImagesForCategory() {
-          var _this10 = this;
+          var _this11 = this;
 
           var imagesForCategory = new rxjs__WEBPACK_IMPORTED_MODULE_2__["Subject"]();
           this.getCategories().then(function (depts) {
             var departmentSet = new Set(depts);
             departmentSet.forEach(function (categ) {
-              _this10.getAllImages().toPromise().then(function (images) {
+              _this11.getAllImages().toPromise().then(function (images) {
                 return images.filter(function (image) {
                   return image.Category === categ;
                 });
@@ -4654,10 +4704,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(CourseListComponent, [{
         key: "getCoursesPerDepartment",
         value: function getCoursesPerDepartment() {
-          var _this11 = this;
+          var _this12 = this;
 
           return this.courseService.getCourseForDepartment(this.department).then(function (courses) {
-            _this11.CourseList = courses;
+            _this12.CourseList = courses;
           });
         }
       }, {
@@ -4779,10 +4829,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(CourseNavigationComponent, [{
         key: "getDepartments",
         value: function getDepartments() {
-          var _this12 = this;
+          var _this13 = this;
 
           return this.service.getCoursesForDepartment().subscribe(function (response) {
-            return _this12.departments.push(response);
+            return _this13.departments.push(response);
           });
         }
       }, {
@@ -4911,19 +4961,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(CoursesComponent, [{
         key: "getCourses",
         value: function getCourses() {
-          var _this13 = this;
+          var _this14 = this;
 
           this.courseService.getCourses().subscribe(function (response) {
-            _this13.CourseList = response;
+            _this14.CourseList = response;
           });
         }
       }, {
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this14 = this;
+          var _this15 = this;
 
           this.route.params.subscribe(function (p) {
-            return _this14.department = p['department'];
+            return _this15.department = p['department'];
           });
         }
       }]);
@@ -5045,20 +5095,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(GalleryComponent, [{
         key: "getImages",
         value: function getImages() {
-          var _this15 = this;
+          var _this16 = this;
 
           this.imageService.getAllImages().subscribe(function (response) {
-            _this15.ImageList = response;
+            _this16.ImageList = response;
           });
         }
       }, {
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this16 = this;
+          var _this17 = this;
 
           this.router.navigateByUrl('/images/all');
           this.route.params.subscribe(function (p) {
-            return _this16.category = p['category'];
+            return _this17.category = p['category'];
           });
         }
       }]);
@@ -5174,10 +5224,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(ImageListComponent, [{
         key: "getImagesPerCategory",
         value: function getImagesPerCategory() {
-          var _this17 = this;
+          var _this18 = this;
 
           return this.imageService.getImagesByCategory(this.category).then(function (images) {
-            _this17.ImageList = images;
+            _this18.ImageList = images;
           });
         }
       }, {
@@ -5298,10 +5348,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(ImageNavigationComponent, [{
         key: "getImageCategories",
         value: function getImageCategories() {
-          var _this18 = this;
+          var _this19 = this;
 
           return this.imageService.getImagesForCategory().subscribe(function (response) {
-            return _this18.imageCategories.push(response);
+            return _this19.imageCategories.push(response);
           });
         }
       }, {
@@ -5569,7 +5619,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(SignInComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this19 = this;
+          var _this20 = this;
 
           if (localStorage.getItem('token') != null) {
             var localStorageData = localStorage.getItem('token');
@@ -5581,26 +5631,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             password: new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]('', [_angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].minLength(5), _angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].maxLength(60)])
           });
           this.TascLoginForm.valueChanges.subscribe(function (data) {
-            _this19.logValidationErrors(_this19.TascLoginForm);
+            _this20.logValidationErrors(_this20.TascLoginForm);
           });
         } // Logs validation error messages
 
       }, {
         key: "logValidationErrors",
         value: function logValidationErrors() {
-          var _this20 = this;
+          var _this21 = this;
 
           var group = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.TascLoginForm;
           Object.keys(group.controls).forEach(function (key) {
             var abstractControl = group.get(key);
-            _this20.formErrors[key] = '';
+            _this21.formErrors[key] = '';
 
             if (abstractControl && !abstractControl.valid && (abstractControl.touched || abstractControl.dirty)) {
-              var messages = _this20.validationMessages[key];
+              var messages = _this21.validationMessages[key];
 
               for (var errorKey in abstractControl.errors) {
                 if (errorKey) {
-                  _this20.formErrors[key] += messages[errorKey] + ' ';
+                  _this21.formErrors[key] += messages[errorKey] + ' ';
                 }
               }
             }
@@ -5609,7 +5659,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "OnSubmit",
         value: function OnSubmit(form) {
-          var _this21 = this;
+          var _this22 = this;
 
           var formData = form.value;
           this.userService.userAuthentication(formData).subscribe(function (data) {
@@ -5617,12 +5667,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             localStorage.setItem('token', data.token);
             var localStorageData = localStorage.getItem('token');
 
-            _this21.navigateUserBasedOnRole(localStorageData);
+            _this22.navigateUserBasedOnRole(localStorageData);
           }, function (err) {
-            _this21.isLoginError = true;
+            _this22.isLoginError = true;
 
             if (err.status == 400) {
-              _this21.toastr.error('Username or password is incorrect.', 'Authentication failed.');
+              _this22.toastr.error('Username or password is incorrect.', 'Authentication failed.');
             } else {
               console.log("DATA" + formData);
               form.reset();
@@ -5770,7 +5820,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*#__PURE__*/
     function () {
       function SignUpComponent(userService, toastr, fb) {
-        var _this22 = this;
+        var _this23 = this;
 
         _classCallCheck(this, SignUpComponent);
 
@@ -5823,14 +5873,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         };
 
         this.hasError = function (controlName, errorName) {
-          return _this22.TascRegForm.controls[controlName].hasError(errorName);
+          return _this23.TascRegForm.controls[controlName].hasError(errorName);
         };
       }
 
       _createClass(SignUpComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this23 = this;
+          var _this24 = this;
 
           this.TascRegForm = this.fb.group({
             firstName: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]('', [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].minLength(2), _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].maxLength(60)]),
@@ -5845,57 +5895,57 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             })
           });
           this.TascRegForm.valueChanges.subscribe(function (data) {
-            _this23.logValidationErrors(_this23.TascRegForm);
+            _this24.logValidationErrors(_this24.TascRegForm);
           });
         } // Logs validation error messages
 
       }, {
         key: "logValidationErrors",
         value: function logValidationErrors() {
-          var _this24 = this;
+          var _this25 = this;
 
           var group = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.TascRegForm;
           Object.keys(group.controls).forEach(function (key) {
             var abstractControl = group.get(key);
-            _this24.formErrors[key] = '';
+            _this25.formErrors[key] = '';
 
             if (abstractControl && !abstractControl.valid && (abstractControl.touched || abstractControl.dirty)) {
-              var messages = _this24.validationMessages[key];
+              var messages = _this25.validationMessages[key];
 
               for (var errorKey in abstractControl.errors) {
                 if (errorKey) {
-                  _this24.formErrors[key] += messages[errorKey] + ' ';
+                  _this25.formErrors[key] += messages[errorKey] + ' ';
                 }
               }
             }
 
             if (abstractControl instanceof _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroup"]) {
-              _this24.logValidationErrors(abstractControl);
+              _this25.logValidationErrors(abstractControl);
             }
           });
         }
       }, {
         key: "OnSubmit",
         value: function OnSubmit(form) {
-          var _this25 = this;
+          var _this26 = this;
 
           var formData = form.value;
           var userData = this.getUserInformation(formData);
           this.userService.registerUser(userData).subscribe(function (data) {
             if (data.succeeded == true) {
-              _this25.resetForm(form);
+              _this26.resetForm(form);
 
-              _this25.toastr.success('User registration successful', "Success!");
+              _this26.toastr.success('User registration successful', "Success!");
             } else {
               data.errors.forEach(function (element) {
                 switch (element.code) {
                   case 'DuplicateUserName':
-                    _this25.toastr.error('Username is already taken', 'Registration failed.');
+                    _this26.toastr.error('Username is already taken', 'Registration failed.');
 
                     break;
 
                   default:
-                    _this25.toastr.error(element.description, 'Registration failed.');
+                    _this26.toastr.error(element.description, 'Registration failed.');
 
                     break;
                 }
