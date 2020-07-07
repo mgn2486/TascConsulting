@@ -2715,6 +2715,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _tasc_tutorials_tutorials_tutorials_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(
     /*! ./tasc-tutorials/tutorials/tutorials.component */
     "./src/app/tasc-tutorials/tutorials/tutorials.component.ts");
+    /* harmony import */
+
+
+    var _angular_common__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(
+    /*! @angular/common */
+    "./node_modules/@angular/common/fesm2015/common.js");
 
     var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
       var c = arguments.length,
@@ -2747,6 +2753,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         provide: _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HTTP_INTERCEPTORS"],
         useClass: _auth_Interceptor_auth_interceptor__WEBPACK_IMPORTED_MODULE_25__["AuthInterceptor"],
         multi: true
+      }, {
+        provide: _angular_common__WEBPACK_IMPORTED_MODULE_38__["LocationStrategy"],
+        useClass: _angular_common__WEBPACK_IMPORTED_MODULE_38__["HashLocationStrategy"]
       }],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
     })], AppModule);

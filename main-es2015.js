@@ -1536,6 +1536,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Admin_customer_customer_profile_customer_profile_module__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./Admin-customer/customer-profile/customer-profile.module */ "./src/app/Admin-customer/customer-profile/customer-profile.module.ts");
 /* harmony import */ var _admin_layout_admin_layout_module__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./admin/layout/admin-layout.module */ "./src/app/admin/layout/admin-layout.module.ts");
 /* harmony import */ var _tasc_tutorials_tutorials_tutorials_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./tasc-tutorials/tutorials/tutorials.component */ "./src/app/tasc-tutorials/tutorials/tutorials.component.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1545,6 +1546,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
   return (mod && mod.__esModule) ? mod : { "default": mod };
 };
+
 
 
 
@@ -1622,7 +1624,8 @@ AppModule = __decorate([
                 provide: _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HTTP_INTERCEPTORS"],
                 useClass: _auth_Interceptor_auth_interceptor__WEBPACK_IMPORTED_MODULE_25__["AuthInterceptor"],
                 multi: true
-            }
+            },
+            { provide: _angular_common__WEBPACK_IMPORTED_MODULE_38__["LocationStrategy"], useClass: _angular_common__WEBPACK_IMPORTED_MODULE_38__["HashLocationStrategy"] }
         ],
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
     })
