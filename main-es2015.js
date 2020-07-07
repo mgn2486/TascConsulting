@@ -2613,7 +2613,7 @@ var __importDefault = (undefined && undefined.__importDefault) || function (mod)
 let EmailService = class EmailService {
     constructor(http) {
         this.http = http;
-        this.rootUrl = 'http://161.35.154.180:5000/';
+        this.rootUrl = 'https://161.35.154.180:5000/';
     }
     SendMail(mailData) {
         const body = {

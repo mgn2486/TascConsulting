@@ -4288,7 +4288,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, EmailService);
 
         this.http = http;
-        this.rootUrl = 'http://161.35.154.180:5000/';
+        this.rootUrl = 'https://161.35.154.180:5000/';
       }
 
       _createClass(EmailService, [{
