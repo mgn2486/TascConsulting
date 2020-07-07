@@ -381,7 +381,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<mat-toolbar color=\"primary\">\n    <div fxHide.gt-xs>\n        <button mat-icon-button (click)=\"onToggleSidenav()\">\n            <mat-icon>menu</mat-icon>\n        </button>\n    </div>\n    <div>\n        <a routerLink=\"/home\">Tasc-Consulting</a>\n    </div>\n    <div fxFlex fxLayout fxLayoutAlign=\"end\" fxHide.xs>\n        <ul fxLayout fxLayoutGap=\"15px\" class=\"navigation-items\">\n            <li>\n                <a routerLink=\"/aboutus\">About-Us</a>\n            </li>\n            <li>\n                <mat-list-item [matMenuTriggerFor]=\"menu\">\n                    <mat-icon>unfold_more</mat-icon>\n                    <a matline>Tasc-Services</a>\n                  </mat-list-item>\n                  <mat-menu #menu=\"matMenu\">\n                    <button mat-menu-item routerLink=\"/courses\" (click)=\"onSidenavClose()\">Courses</button>\n                    <button mat-menu-item routerLink=\"/courses\" (click)=\"onSidenavClose()\">Tutorials</button>\n                  </mat-menu>\n            </li>\n            <li>\n                <a routerLink=\"/images\">Tasc-Gallery</a>\n            </li>\n            <li>\n                <a routerLink=\"/tascusers\">Members-Area</a>\n            </li>\n            <li>\n                <a routerLink=\"/team\">Management</a>\n            </li>\n            <li>\n                <a routerLink=\"/contactus\">Contact-Us</a>\n            </li>\n        </ul>\n    </div>\n  </mat-toolbar>";
+    __webpack_exports__["default"] = "<mat-toolbar color=\"primary\">\n    <div fxHide.gt-xs>\n        <button mat-icon-button (click)=\"onToggleSidenav()\">\n            <mat-icon>menu</mat-icon>\n        </button>\n    </div>\n    <div>\n        <a routerLink=\"/home\">Tasc-Consulting</a>\n    </div>\n    <div fxFlex fxLayout fxLayoutAlign=\"end\" fxHide.xs>\n        <ul fxLayout fxLayoutGap=\"15px\" class=\"navigation-items\">\n            <li>\n                <a routerLink=\"/aboutus\">About-Us</a>\n            </li>\n            <li>\n                <mat-list-item [matMenuTriggerFor]=\"menu\">\n                    <mat-icon>unfold_more</mat-icon>\n                    <a matline>Tasc-Services</a>\n                  </mat-list-item>\n                  <mat-menu #menu=\"matMenu\">\n                    <button mat-menu-item routerLink=\"/courses\" (click)=\"onSidenavClose()\">Courses</button>\n                    <button mat-menu-item routerLink=\"/tutorials\" (click)=\"onSidenavClose()\">Tutorials</button>\n                  </mat-menu>\n            </li>\n            <li>\n                <a routerLink=\"/images\">Tasc-Gallery</a>\n            </li>\n            <li>\n                <a routerLink=\"/tascusers\">Members-Area</a>\n            </li>\n            <li>\n                <a routerLink=\"/team\">Management</a>\n            </li>\n            <li>\n                <a routerLink=\"/contactus\">Contact-Us</a>\n            </li>\n        </ul>\n    </div>\n  </mat-toolbar>";
     /***/
   },
 
@@ -401,7 +401,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<mat-nav-list>\n  <a mat-list-item routerLink=\"/home\" (click)=\"onSidenavClose()\">\n    <mat-icon>home</mat-icon> <span class=\"nav-caption\">Home</span>\n  </a>\n  <a mat-list-item routerLink=\"/aboutus\" (click)=\"onSidenavClose()\">\n    <mat-icon>account_balance</mat-icon><span class=\"nav-caption\">About-Us</span>\n  </a>\n\n  <mat-list-item [matMenuTriggerFor]=\"menu\">\n    <mat-icon>unfold_more</mat-icon>\n    <a matline>Tasc-Services</a>\n  </mat-list-item>\n  <mat-menu #menu=\"matMenu\">\n    <button mat-menu-item routerLink=\"/courses\" (click)=\"onSidenavClose()\">Courses</button>\n    <button mat-menu-item routerLink=\"/courses\" (click)=\"onSidenavClose()\">Tutorials</button>\n  </mat-menu>\n\n\n  <a mat-list-item routerLink=\"/images\" (click)=\"onSidenavClose()\">\n    <mat-icon>add_photo_alternate</mat-icon><span class=\"nav-caption\">Tasc-Gallery</span>\n  </a>\n  <a mat-list-item routerLink=\"/tascusers\" (click)=\"onSidenavClose()\">\n    <mat-icon>group</mat-icon><span class=\"nav-caption\">Members-Area</span>\n  </a>\n  <a mat-list-item routerLink=\"/team\" (click)=\"onSidenavClose()\">\n    <mat-icon>add_photo_alternate</mat-icon><span class=\"nav-caption\">Management</span>\n  </a>\n  <a mat-list-item routerLink=\"/contactus\" (click)=\"onSidenavClose()\">\n    <mat-icon>local_post_office</mat-icon><span class=\"nav-caption\">Contact-Us</span>\n  </a>  \n</mat-nav-list>";
+    __webpack_exports__["default"] = "<mat-nav-list>\n  <a mat-list-item routerLink=\"/home\" (click)=\"onSidenavClose()\">\n    <mat-icon>home</mat-icon> <span class=\"nav-caption\">Home</span>\n  </a>\n  <a mat-list-item routerLink=\"/aboutus\" (click)=\"onSidenavClose()\">\n    <mat-icon>account_balance</mat-icon><span class=\"nav-caption\">About-Us</span>\n  </a>\n\n  <mat-list-item [matMenuTriggerFor]=\"menu\">\n    <mat-icon>unfold_more</mat-icon>\n    <a matline>Tasc-Services</a>\n  </mat-list-item>\n  <mat-menu #menu=\"matMenu\">\n    <button mat-menu-item routerLink=\"/courses\" (click)=\"onSidenavClose()\">Courses</button>\n    <button mat-menu-item routerLink=\"/tutorials\" (click)=\"onSidenavClose()\">Tutorials</button>\n  </mat-menu>\n\n\n  <a mat-list-item routerLink=\"/images\" (click)=\"onSidenavClose()\">\n    <mat-icon>add_photo_alternate</mat-icon><span class=\"nav-caption\">Tasc-Gallery</span>\n  </a>\n  <a mat-list-item routerLink=\"/tascusers\" (click)=\"onSidenavClose()\">\n    <mat-icon>group</mat-icon><span class=\"nav-caption\">Members-Area</span>\n  </a>\n  <a mat-list-item routerLink=\"/team\" (click)=\"onSidenavClose()\">\n    <mat-icon>add_photo_alternate</mat-icon><span class=\"nav-caption\">Management</span>\n  </a>\n  <a mat-list-item routerLink=\"/contactus\" (click)=\"onSidenavClose()\">\n    <mat-icon>local_post_office</mat-icon><span class=\"nav-caption\">Contact-Us</span>\n  </a>  \n</mat-nav-list>";
     /***/
   },
 
@@ -522,6 +522,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
     __webpack_exports__["default"] = "<mat-toolbar style=\"padding-top: 10px;\">\n    <div fxHide.gt-xs>\n        <button mat-icon-button [matMenuTriggerFor]=\"aboveMenu\">\n            <mat-icon>menu</mat-icon> Images List\n        </button>\n        <mat-menu #aboveMenu=\"matMenu\" yPosition=\"below\">\n            <span  *ngFor=\"let categ of imageCategories\">\n                <button mat-menu-item [routerLink]=\"['/courses', categ.Category]\">{{categ.category}}</button>\n            </span>          \n        </mat-menu>\n    </div>\n    <div fxFlex fxLayout  fxHide.xs>\n        <ul fxLayout fxLayoutGap=\"5px\" class=\"navigation-items\" style=\"list-style-type:none\">\n            <div class=\"row\">\n                <li style=\"margin: 10px;\"  class=\"col-sm-3 col-md-3 col-lg-3\">\n                    <button  mat-raised-button style=\"margin: 4px;\" color=\"primary\" [routerLink]=\"['/images', 'all']\">All</button>\n                </li>\n                <li *ngFor=\"let categ of imageCategories\" style=\"margin: 10px;\"  class=\"col-sm-3 col-md-3 col-lg-3\">\n                    <button  mat-raised-button style=\"margin: 4px;\" color=\"primary\" [routerLink]=\"['/images', categ.category]\">{{categ.category}}</button>\n                </li>\n            </div>\n        </ul>\n        <hr>\n    </div>\n</mat-toolbar>";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/tasc-tutorials/tutorials/tutorials.component.html":
+  /*!*********************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/tasc-tutorials/tutorials/tutorials.component.html ***!
+    \*********************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppTascTutorialsTutorialsTutorialsComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<div class=\"container\">\n  <h3>TASC - Tutorials</h3>\n  <hr class=\"section-hr-line\">\n\n  <h5>There Is Just No Need To Fail!!</h5>\n    \n  <p>\n      Tasc Business Consulting and Training would like to interest you with the superb services, to elevate you even further with your studies especially during this COVID 19 period. \n        We specialise in helping distance learning and part-time student. We have 100% success rate in helping students pass their exams and complete their degrees.\n        In your own convenient time you may drop me an email or call us about your tutorials needs and we will be able to quickly match the services that we offer to your needs.\n        We have experienced tutors most are lecturers in top distance learning colleges in Durban. We know your needs.\n        Our tutorials package focus more on the subjects below; Economics, Accounting, management,Statistics / Quantitative methods, Managerial finance and many more\n        Contact Us (Insert a whats app button)\n        Tutorials are charged at R300.00 per head per hour and a group of 2-5 people is R250.00 per hour, and 5 or more is R200 per hour. \n        Kindly call me after 09-am weekdays, or send an email at your convenient time to discuss just how effective I can make your studying to be.\n    </p>\n</div>";
     /***/
   },
 
@@ -2278,6 +2298,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _auth_authGuard_auth_guard__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
     /*! ./auth/authGuard/auth.guard */
     "./src/app/auth/authGuard/auth.guard.ts");
+    /* harmony import */
+
+
+    var _tasc_tutorials_tutorials_tutorials_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+    /*! ./tasc-tutorials/tutorials/tutorials.component */
+    "./src/app/tasc-tutorials/tutorials/tutorials.component.ts");
 
     var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
       var c = arguments.length,
@@ -2316,6 +2342,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }, {
       path: 'courses/:department',
       component: _tasc_courses_courses_courses_component__WEBPACK_IMPORTED_MODULE_9__["CoursesComponent"]
+    }, {
+      path: 'tutorials',
+      component: _tasc_tutorials_tutorials_tutorials_component__WEBPACK_IMPORTED_MODULE_12__["TutorialsComponent"]
     }, {
       path: 'team',
       component: _team_team_component__WEBPACK_IMPORTED_MODULE_10__["TeamComponent"]
@@ -2680,6 +2709,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _admin_layout_admin_layout_module__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(
     /*! ./admin/layout/admin-layout.module */
     "./src/app/admin/layout/admin-layout.module.ts");
+    /* harmony import */
+
+
+    var _tasc_tutorials_tutorials_tutorials_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(
+    /*! ./tasc-tutorials/tutorials/tutorials.component */
+    "./src/app/tasc-tutorials/tutorials/tutorials.component.ts");
 
     var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
       var c = arguments.length,
@@ -2702,7 +2737,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     };
 
     AppModule = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"], _layout_layout_component__WEBPACK_IMPORTED_MODULE_7__["LayoutComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_8__["FooterComponent"], _contactus_contactus_component__WEBPACK_IMPORTED_MODULE_9__["ContactusComponent"], _banner_banner_component__WEBPACK_IMPORTED_MODULE_10__["BannerComponent"], _navigation_header_header_component__WEBPACK_IMPORTED_MODULE_11__["HeaderComponent"], _navigation_sidenav_list_sidenav_list_component__WEBPACK_IMPORTED_MODULE_12__["SidenavListComponent"], _user_sign_in_sign_in_component__WEBPACK_IMPORTED_MODULE_16__["SignInComponent"], _user_user_component__WEBPACK_IMPORTED_MODULE_17__["UserComponent"], _user_sign_up_sign_up_component__WEBPACK_IMPORTED_MODULE_18__["SignUpComponent"], _aboutus_aboutus_component__WEBPACK_IMPORTED_MODULE_21__["AboutusComponent"], _tasc_images_gallery_gallery_component__WEBPACK_IMPORTED_MODULE_22__["GalleryComponent"], _tasc_courses_courses_courses_component__WEBPACK_IMPORTED_MODULE_23__["CoursesComponent"], _team_team_component__WEBPACK_IMPORTED_MODULE_24__["TeamComponent"], _tasc_courses_course_navigation_course_navigation_component__WEBPACK_IMPORTED_MODULE_27__["CourseNavigationComponent"], _tasc_courses_course_list_course_list_component__WEBPACK_IMPORTED_MODULE_28__["CourseListComponent"], _tasc_images_image_list_image_list_component__WEBPACK_IMPORTED_MODULE_29__["ImageListComponent"], _tasc_images_image_navigation_image_navigation_component__WEBPACK_IMPORTED_MODULE_30__["ImageNavigationComponent"], _forbiden_forbiden_component__WEBPACK_IMPORTED_MODULE_32__["ForbidenComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"], _layout_layout_component__WEBPACK_IMPORTED_MODULE_7__["LayoutComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_8__["FooterComponent"], _contactus_contactus_component__WEBPACK_IMPORTED_MODULE_9__["ContactusComponent"], _banner_banner_component__WEBPACK_IMPORTED_MODULE_10__["BannerComponent"], _navigation_header_header_component__WEBPACK_IMPORTED_MODULE_11__["HeaderComponent"], _navigation_sidenav_list_sidenav_list_component__WEBPACK_IMPORTED_MODULE_12__["SidenavListComponent"], _user_sign_in_sign_in_component__WEBPACK_IMPORTED_MODULE_16__["SignInComponent"], _user_user_component__WEBPACK_IMPORTED_MODULE_17__["UserComponent"], _user_sign_up_sign_up_component__WEBPACK_IMPORTED_MODULE_18__["SignUpComponent"], _aboutus_aboutus_component__WEBPACK_IMPORTED_MODULE_21__["AboutusComponent"], _tasc_images_gallery_gallery_component__WEBPACK_IMPORTED_MODULE_22__["GalleryComponent"], _tasc_courses_courses_courses_component__WEBPACK_IMPORTED_MODULE_23__["CoursesComponent"], _team_team_component__WEBPACK_IMPORTED_MODULE_24__["TeamComponent"], _tasc_courses_course_navigation_course_navigation_component__WEBPACK_IMPORTED_MODULE_27__["CourseNavigationComponent"], _tasc_courses_course_list_course_list_component__WEBPACK_IMPORTED_MODULE_28__["CourseListComponent"], _tasc_images_image_list_image_list_component__WEBPACK_IMPORTED_MODULE_29__["ImageListComponent"], _tasc_images_image_navigation_image_navigation_component__WEBPACK_IMPORTED_MODULE_30__["ImageNavigationComponent"], _forbiden_forbiden_component__WEBPACK_IMPORTED_MODULE_32__["ForbidenComponent"], _tasc_tutorials_tutorials_tutorials_component__WEBPACK_IMPORTED_MODULE_37__["TutorialsComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"].withServerTransition({
         appId: 'ng-cli-universal'
       }), _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"], _material_material_module__WEBPACK_IMPORTED_MODULE_15__["MaterialModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_13__["AppRoutingModule"], _angular_flex_layout__WEBPACK_IMPORTED_MODULE_14__["FlexLayoutModule"], _admin_layout_admin_layout_module__WEBPACK_IMPORTED_MODULE_36__["AdminLayoutModule"], _admin_admin_home_admin_home_module__WEBPACK_IMPORTED_MODULE_33__["AdminHomeModule"], _Admin_customer_layout_customer_admin_layout_customer_admin_layout_module__WEBPACK_IMPORTED_MODULE_34__["CustomerAdminLayoutModule"], _Admin_customer_customer_profile_customer_profile_module__WEBPACK_IMPORTED_MODULE_35__["CustomerProfileModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_6__["BrowserAnimationsModule"], ngx_toastr__WEBPACK_IMPORTED_MODULE_19__["ToastrModule"].forRoot({
@@ -5315,6 +5350,97 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /*! ./image-navigation.component.css */
       "./src/app/tasc-images/image-navigation/image-navigation.component.css"))["default"]]
     }), __metadata("design:paramtypes", [src_app_shared_services_image_service_image_service__WEBPACK_IMPORTED_MODULE_1__["ImageService"]])], ImageNavigationComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/tasc-tutorials/tutorials/tutorials.component.css":
+  /*!******************************************************************!*\
+    !*** ./src/app/tasc-tutorials/tutorials/tutorials.component.css ***!
+    \******************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppTascTutorialsTutorialsTutorialsComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Rhc2MtdHV0b3JpYWxzL3R1dG9yaWFscy90dXRvcmlhbHMuY29tcG9uZW50LmNzcyJ9 */";
+    /***/
+  },
+
+  /***/
+  "./src/app/tasc-tutorials/tutorials/tutorials.component.ts":
+  /*!*****************************************************************!*\
+    !*** ./src/app/tasc-tutorials/tutorials/tutorials.component.ts ***!
+    \*****************************************************************/
+
+  /*! exports provided: TutorialsComponent */
+
+  /***/
+  function srcAppTascTutorialsTutorialsTutorialsComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "TutorialsComponent", function () {
+      return TutorialsComponent;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
+      var c = arguments.length,
+          r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
+          d;
+      if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) {
+        if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+      }
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+
+    var __metadata = undefined && undefined.__metadata || function (k, v) {
+      if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+    };
+
+    var __importDefault = undefined && undefined.__importDefault || function (mod) {
+      return mod && mod.__esModule ? mod : {
+        "default": mod
+      };
+    };
+
+    var TutorialsComponent = /*#__PURE__*/function () {
+      function TutorialsComponent() {
+        _classCallCheck(this, TutorialsComponent);
+      }
+
+      _createClass(TutorialsComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return TutorialsComponent;
+    }();
+
+    TutorialsComponent = __decorate([Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+      selector: 'app-tutorials',
+      template: __importDefault(__webpack_require__(
+      /*! raw-loader!./tutorials.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/tasc-tutorials/tutorials/tutorials.component.html"))["default"],
+      styles: [__importDefault(__webpack_require__(
+      /*! ./tutorials.component.css */
+      "./src/app/tasc-tutorials/tutorials/tutorials.component.css"))["default"]]
+    }), __metadata("design:paramtypes", [])], TutorialsComponent);
     /***/
   },
 
